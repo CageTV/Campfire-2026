@@ -15,6 +15,8 @@ if os.path.exists(DEST):
     shutil.rmtree(DEST)
 os.makedirs(os.path.join(DEST, "SKSE", "Plugins"))
 os.makedirs(os.path.join(DEST, "scripts", "source"))
+os.makedirs(os.path.join(DEST, "Interface", "campfire"))
+shutil.copyfile(os.path.join(HERE, "assets", "campfire_logo.png"), os.path.join(DEST, "Interface", "campfire", "campfire_logo.png"))
 
 shutil.copyfile(os.path.join(HERE, "plugin", "build", "release", "Campfire.dll"), os.path.join(DEST, "SKSE", "Plugins", "Campfire.dll"))
 shutil.copyfile(os.path.join(HERE, "build", "scripts", "_camp_skyuiconfigpanelscript.pex"), os.path.join(DEST, "scripts", "_camp_skyuiconfigpanelscript.pex"))
