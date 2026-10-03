@@ -26,8 +26,9 @@ Campfire.esm as a light plugin, so Campfire takes no regular plugin slot. All 15
 [list]
 [*][url=https://www.nexusmods.com/skyrimspecialedition/mods/667]Campfire - Complete Camping System[/url] 1.12.1 SE/VR, [b]kept installed[/b]: it supplies Campfire.bsa, the meshes, textures and sounds
 [*][url=https://www.nexusmods.com/skyrimspecialedition/mods/120352]SKSE Menu Framework 3[/url]: without it the settings pages do not exist
-[*]SKSE64, SkyUI, PapyrusUtil SE (profiles are saved with it, as the original does)
-[*]Skyrim AE 1.6.1170 and up
+[*]SKSE64 and [url=https://www.nexusmods.com/skyrimspecialedition/mods/32444]Address Library for SKSE Plugins[/url] [b]for your game version[/b] (Skyrim 1.7.104 needs Address Library v13 or newer)
+[*]SkyUI, PapyrusUtil SE (profiles are saved with it, as the original does)
+[*]Skyrim AE 1.6.1170 and up, including 1.7.x as long as SKSE and the Address Library support it
 [/list]
 
 [size=5][b]Installation[/b][/size]
@@ -56,6 +57,9 @@ Campfire.esm as a light plugin, so Campfire takes no regular plugin slot. All 15
 [*]Use Those Blankets
 [/list]
 Pick only the patches for mods you have. The plugins are the original authors' work, included with their open permissions; the ESL copies differ only in their Campfire references being renumbered (checked record by record).
+
+[size=5][b]Troubleshooting[/b][/size]
+"Campfire.dll: failed to open address library file" at startup: the Address Library for SKSE Plugins is missing or is for an older game version. Install the current one for your game version (any mod manager; it has nothing to do with load order).
 
 [size=5][b]Known differences from the SkyUI menu[/b][/size]
 [list]

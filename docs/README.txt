@@ -22,6 +22,8 @@ rebuilt (its settings pages are gone and three helper functions were added for t
 REQUIRES
 --------
 - The original Campfire 1.12.1 SE/VR (Nexus 667): this adds to it and replaces none of its files except one script.
+- SKSE64 and Address Library for SKSE Plugins (Nexus 32444). The Address Library must be the version for YOUR game: 'failed to open address library
+  file' when the game starts means it is missing or too old (Skyrim 1.7.104 needs Address Library v13 or newer).
 - SKSE Menu Framework 3 (Nexus 120352): without it the settings pages do not exist.
 - PapyrusUtil SE (profiles are saved with it, as the original Campfire does) and SkyUI.
 

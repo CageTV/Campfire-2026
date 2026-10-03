@@ -20,7 +20,7 @@ REQUIRES
 --------
 - Campfire 2026 (the settings layer, with Campfire.dll) and the original Campfire 1.12.1 SE/VR (Nexus 667), still installed: the original
   supplies Campfire.bsa, the meshes, the textures and the sounds.
-- SKSE Menu Framework 3, PapyrusUtil SE and SkyUI, as Campfire 2026 does.
+- SKSE64 and Address Library for SKSE Plugins (the version for your game), SKSE Menu Framework 3, PapyrusUtil SE and SkyUI, as Campfire 2026 does.
 
 USE
 ---
