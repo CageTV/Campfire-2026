@@ -24,7 +24,9 @@ REQUIRES
 
 USE
 ---
-Install after (below) the original Campfire and Campfire 2026 in MO2's left pane so Campfire.esm and the scripts here win. If you also use
+Install order: Campfire (original), Campfire 2026, then Frostfall 2026, then Last Seed 2026 (each below the one before in MO2's left pane).
+This goes after (below) the original Campfire so Campfire.esm and the scripts here win. Frostfall 2026 is meant to override CampCampfire.pex
+with its own copy (the same script plus the Make Camp offer); that is intended. If you also use
 "Campfire - Script Optimization", put this above it as well so the rebuilt scripts win.
 Do NOT also use "CAMPFIRE ESL UPDATED" or "Campfire ESL - Script Fixes": this replaces both.
 This is a new-game change: an existing save made with the original (regular) Campfire.esm refers to its records by the old ids.

@@ -27,6 +27,7 @@ REQUIRES
 
 USE
 ---
+Install order: Campfire (original), Campfire 2026, then Frostfall 2026, then Last Seed 2026 (each below the one before in MO2's left pane).
 Install after (below) the original Campfire in MO2's left pane. It works with an existing save: the menu script's version is raised, and
 the SkyUI menu rebuilds its page list the next time you load.
 
