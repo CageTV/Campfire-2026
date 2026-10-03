@@ -82,6 +82,8 @@ open(os.path.join(DEST, "fomod", "info.xml"), "w", encoding="utf-8", newline="\n
 main_readme = open(os.path.join(HERE, "docs", "README.txt"), encoding="utf-8").read()
 esl_readme = open(os.path.join(HERE, "docs", "README-esl.txt"), encoding="utf-8").read()
 esl_part = esl_readme.split("\n", 2)[2] if esl_readme.startswith("Campfire 2026") else esl_readme
+esl_part = esl_part.replace("- Campfire 2026 (the settings layer, with Campfire.dll) and the original", "- The original")
+esl_part = esl_part.replace("Install after (below) the original Campfire and Campfire 2026 in MO2's left pane", "Install after (below) the original Campfire in MO2's left pane")
 open(os.path.join(DEST, "README.txt"), "w", encoding="utf-8", newline="\n").write(
     main_readme.rstrip() + f"\n\n\n=== ESL BUILD (choose \"ESL\" in the installer) ===\n\n" + esl_part.lstrip())
 lic_main = open(os.path.join(HERE, "docs", "LICENSE-main.txt"), encoding="utf-8").read()
