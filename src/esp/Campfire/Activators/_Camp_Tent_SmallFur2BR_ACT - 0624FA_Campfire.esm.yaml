@@ -1,0 +1,126 @@
+FormKey: 0624FA:Campfire.esm
+EditorID: _Camp_Tent_SmallFur2BR_ACT
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampTentEx
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_AnimalLayDownMarker
+      Object: 039AEF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_ClutterStatic1
+      Object: 0624F7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Follower1_Bed
+      Object: 0624E9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Follower1_Shield
+      Object: 0624D9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Follower1_WeaponBow
+      Object: 0624EE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Follower1_WeaponMainHand
+      Object: 0624E1:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Follower1_WeaponOffHand
+      Object: 0624E2:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Follower1_WeaponTwoHand
+      Object: 0624DE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_FrontExitMarker
+      Object: 0624DF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Lantern1
+      Object: 0624D8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ArmorBoots
+      Object: 0624DD:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ArmorCuirass
+      Object: 0250DF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ArmorGauntlets
+      Object: 0624EB:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ArmorHelm
+      Object: 0624EA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_Backpack
+      Object: 0624E0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_Shield
+      Object: 0624E3:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ShieldInterior
+      Object: 0624F9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_WeaponBow
+      Object: 0624ED:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_WeaponMainHand
+      Object: 0624DB:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_WeaponOffHand
+      Object: 0624DA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_WeaponTwoHand
+      Object: 0624DC:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Shelter
+      Object: 0624F8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Ward
+      Object: 0624E8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_InventoryItem
+      Object: 0624FB:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RequiredPositionRef_PlayerBed
+      Object: 0624E6:Campfire.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: Setting_BedRollScale
+      Data: 0.8
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Setting_Flammable
+      Data: True
+    - MutagenObjectType: ScriptFloatProperty
+      Name: Setting_PlayerSitAngle
+      Data: -24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TentAsset_ClutterStatic1
+      Object: 036B3E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TentAsset_LargeTentTriggerVolume
+      Object: 0536E9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TentAsset_ShelterDestructionCollider
+      Object: 02B52C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TentAsset_ShelterModel
+      Object: 036594:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TentAsset_ShelterModelExterior
+      Object: 052A99:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TentAsset_ShelterModelMaterialAsh
+      Object: 04DEFF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TentAsset_ShelterModelMaterialSnow
+      Object: 03D43D:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Your Bed Roll
+Model:
+  File: Furniture\Bedroll\Bedroll01.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 02AFC9:Campfire.esm
+- 03AB3B:Campfire.esm
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Use
+Flags:
+- IgnoredBySandbox

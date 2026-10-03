@@ -1,0 +1,22 @@
+FormKey: 038CBE:Campfire.esm
+EditorID: _Camp_Tent_LeatherLarge3BR_MISC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlaceableMiscItem
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_placement_indicator
+      Object: 0397C0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_this_item
+      Object: 038CBE:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: ' Large Leather Tent, 3x Bed Roll'
+Model:
+  File: campfire\_camp_largeleathertentmiscobject_3br.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 03AB3C:Campfire.esm
+Value: 110
+Weight: 22

@@ -1,0 +1,31 @@
+FormKey: 066561:Campfire.esm
+EditorID: _Camp_PaperRollConvertItem
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_BookToPaperScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PaperRoll
+      Object: 033761:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RuinedBook
+      Object: 0CE70B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RuinedBook02
+      Object: 0E4897:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 066561:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Roll of Paper (4)
+Model:
+  File: Clutter\Quest\TGParchment01.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914E9:Skyrim.esm
+Value: 4
+Weight: 1

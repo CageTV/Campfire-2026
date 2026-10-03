@@ -1,0 +1,20 @@
+FormKey: 0328BE:Campfire.esm
+EditorID: _Camp_FireRecipe_Crackling2
+Items:
+- Item:
+    Item: 06F993:Skyrim.esm
+    Count: 4
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0D:Update.esm
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0C:Update.esm
+  ComparisonValue: 2
+CreatedObject: 033391:Campfire.esm
+WorkbenchKeyword: 031DB0:Campfire.esm
+CreatedObjectCount: 1

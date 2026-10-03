@@ -1,0 +1,24 @@
+FormKey: 0510F1:Campfire.esm
+EditorID: _Camp_Campfire_Skill_Endurance
+Description:
+  TargetLanguage: English
+  Value: >-
+    ENDURANCE
+
+
+    The art of withstanding the elements. Survive longer in cold and wet conditions and make better use of worn equipment. 
+
+
+    Spend time in the rain or in cold climates to earn perks. Each new perk requires spending a little longer.
+
+
+    Perks to increase: %.0f
+
+    Next perk progress: %.0f%%
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Back

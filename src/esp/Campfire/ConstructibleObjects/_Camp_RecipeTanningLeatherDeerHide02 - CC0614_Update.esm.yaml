@@ -1,0 +1,23 @@
+FormKey: CC0614:Update.esm
+EditorID: _Camp_RecipeTanningLeatherDeerHide02
+Items:
+- Item:
+    Item: 0D284D:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 0D284D:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: DA0BF1:Update.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 2

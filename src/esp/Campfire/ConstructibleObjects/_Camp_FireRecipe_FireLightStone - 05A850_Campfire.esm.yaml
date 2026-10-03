@@ -1,0 +1,20 @@
+FormKey: 05A850:Campfire.esm
+EditorID: _Camp_FireRecipe_FireLightStone
+Items:
+- Item:
+    Item: 0468D3:Campfire.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0C:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0D:Update.esm
+  ComparisonValue: 4
+CreatedObject: 05A853:Campfire.esm
+WorkbenchKeyword: 031DB0:Campfire.esm
+CreatedObjectCount: 1

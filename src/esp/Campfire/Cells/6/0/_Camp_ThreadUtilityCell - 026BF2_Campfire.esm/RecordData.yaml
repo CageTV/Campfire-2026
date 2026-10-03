@@ -1,0 +1,80 @@
+FormKey: 026BF2:Campfire.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: _Camp_ThreadUtilityCell
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Thread System Utility Cell
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00202621'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00172116'
+  FogFar: 4500
+  DirectionalFade: 1
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#00232622'
+    DirectionalXMinus: '#001C261F'
+    DirectionalYPlus: '#00202721'
+    DirectionalYMinus: '#00202421'
+    DirectionalZPlus: '#000F120E'
+    DirectionalZMinus: '#00303933'
+    Specular: '#00172116'
+    Scale: 1
+  FogFarColor: '#00172116'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+WaterHeight: -2.1474836E+09
+ImageSpace: 013B32:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 026EAE:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_ObjectPlacementFutureAnchor
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 00003B:Skyrim.esm
+  Placement: {}
+- MutagenObjectType: PlacedObject
+  FormKey: 0294AE:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_IndicatorFutureRefA
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 0294AD:Campfire.esm
+  Placement:
+    Position: 0, 0, 192
+- MutagenObjectType: PlacedObject
+  FormKey: 0294AF:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_IndicatorFutureRefB
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 0294AD:Campfire.esm
+  Placement:
+    Position: 64, 0, 192
+- MutagenObjectType: PlacedObject
+  FormKey: 0294B0:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_IndicatorFutureRefC
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 0294AD:Campfire.esm
+  Placement:
+    Position: 128, 0, 192
+MajorFlags:
+- 0x40000

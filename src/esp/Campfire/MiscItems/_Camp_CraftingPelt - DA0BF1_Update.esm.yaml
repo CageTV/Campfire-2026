@@ -1,0 +1,19 @@
+FormKey: DA0BF1:Update.esm
+EditorID: _Camp_CraftingPelt
+ObjectBounds:
+  First: -6, -24, 0
+  Second: 7, 24, 12
+Name:
+  TargetLanguage: English
+  Value: Fur Plate
+Model:
+  File: Actors\Horse\HorseHide.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 03E633:Skyrim.esm
+PutDownSound: 03E62C:Skyrim.esm
+Keywords:
+- 06BBDD:Skyrim.esm
+- 0914EA:Skyrim.esm
+- 0914EB:Skyrim.esm
+Value: 10
+Weight: 1.5

@@ -1,0 +1,24 @@
+FormKey: 036B46:Campfire.esm
+MajorRecordFlagsRaw: 131072
+EditorID: _Camp_LanternLight
+SkyrimMajorRecordFlags:
+- Dangerous_OffLimits_InteriorCell
+ObjectBounds:
+  First: -38, -40, -74
+  Second: 38, 40, 48
+Time: -1
+Radius: 256
+Color: '#00ECDFAA'
+Flags:
+- Dynamic
+- Pulse
+- PortalStrict
+FalloffExponent: 1
+FOV: 90
+NearClip: 2.7052
+FlickerPeriod: 0.33333334
+FlickerIntensityAmplitude: 0.2
+FlickerMovementAmplitude: 1
+FadeValue: 1
+MajorFlags:
+- PortalStrict

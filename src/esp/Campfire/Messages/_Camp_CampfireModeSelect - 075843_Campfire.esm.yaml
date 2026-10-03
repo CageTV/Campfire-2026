@@ -1,0 +1,25 @@
+FormKey: 075843:Campfire.esm
+EditorID: _Camp_CampfireModeSelect
+Description:
+  TargetLanguage: English
+  Value: >-
+    How do you want to build campfires?
+
+
+    Quick: 4 firewood or deadwood is needed. The fire is lit in a single step.
+
+
+    Realistic: You must use tinder, starting fuel, and lighting the campfire takes skill and time. The campfire is lit using multiple steps that affect the outcome.
+
+
+    (You can change this setting at any time by using the Options: Campfire power, or the MCM.)
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Quick
+- Text:
+    TargetLanguage: English
+    Value: Realistic

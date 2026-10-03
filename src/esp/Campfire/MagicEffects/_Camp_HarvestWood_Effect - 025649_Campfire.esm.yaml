@@ -1,0 +1,103 @@
+FormKey: 025649:Campfire.esm
+EditorID: _Camp_HarvestWood_Effect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_woodharvestscriptEFFECT
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Black
+      Object: 018D67:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_BranchHarvestSuccess
+      Object: 025650:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ChopWoodSM
+      Object: 02DBBD:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_DeadwoodBranch
+      Object: 02564C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_DeadwoodHarvestSuccess
+      Object: 01D448:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_DeadwoodLog
+      Object: 02E68E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_FadeDown
+      Object: 018D68:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_FadeUp
+      Object: 018D66:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ForceBlackVFX
+      Object: 053168:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_GatherBranchesSM
+      Object: 04844F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HarvestWoodEnabled
+      Object: 05980D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_Resourceful
+      Object: 043816:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_StoneWarAxe
+      Object: 04103D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Trees
+      Object: 01D441:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_WoodHarvest_Stone
+      Object: 044142:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_WoodHarvestConfirmMsg
+      Object: 036F7A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_WoodHarvestErrorCombat
+      Object: 01AE3A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_WoodHarvestErrorNoTrees
+      Object: 01D443:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_WoodHarvestErrorTooCold
+      Object: 04671C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Compatibility
+      Object: 022033:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Conditions
+      Object: 022033:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameHour
+      Object: 000038:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TimeScale
+      Object: 00003A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: woodChoppingAxes
+      Object: 10ACCC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WoodChoppingFailureMessage
+      Object: 07022D:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Harvest Wood
+MenuDisplayObject: 104F70:Skyrim.esm
+Flags:
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Mood
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

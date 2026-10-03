@@ -1,0 +1,19 @@
+FormKey: 0359A8:Campfire.esm
+EditorID: _Camp_legacyconfig_troubleshooting
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Config > Troubleshooting
+
+
+    Select the problem you are experiencing.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Always "Already Placing Object"
+- Text:
+    TargetLanguage: English
+    Value: Back

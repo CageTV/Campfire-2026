@@ -1,0 +1,29 @@
+FormKey: 0468E3:Campfire.esm
+EditorID: _Camp_FireMiscRecipe_BW_TinderOil
+Items:
+- Item:
+    Item: 0F11C0:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: CC0E0B:Update.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0C:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0D:Update.esm
+  ComparisonValue: 3
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 075842:Campfire.esm
+  ComparisonValue: 1
+CreatedObject: 0468D8:Campfire.esm
+WorkbenchKeyword: 031DB0:Campfire.esm
+CreatedObjectCount: 1

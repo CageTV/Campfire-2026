@@ -1,0 +1,7 @@
+FormKey: 01D443:Campfire.esm
+EditorID: _Camp_WoodHarvestErrorNoTrees
+Description:
+  TargetLanguage: English
+  Value: There are no trees nearby to harvest from.
+INAM: 0x00000000
+DisplayTime: 2

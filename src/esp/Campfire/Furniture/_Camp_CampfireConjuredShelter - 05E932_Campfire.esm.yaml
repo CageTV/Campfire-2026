@@ -1,0 +1,266 @@
+FormKey: 05E932:Campfire.esm
+MajorRecordFlagsRaw: 268435456
+EditorID: _Camp_CampfireConjuredShelter
+SkyrimMajorRecordFlags:
+- 0x10000000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampCampfire
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_BlankItem
+      Object: 0468D3:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Ashes
+      Object: 041B49:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Embers
+      Object: 041B48:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Light_4
+      Object: 025BBC:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_LightFail
+      Object: 0468C5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_LitError
+      Object: 0510F5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Menu
+      Object: 032329:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_MenuNoTime
+      Object: 05B32E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_RefundFuelMsg
+      Object: 04844D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_RefundFuelMsgSpent
+      Object: 04844E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_SitError
+      Object: 03232A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Skill_Camping
+      Object: 0510F0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Skill_Endurance
+      Object: 0510F1:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Skill_Fishing
+      Object: 0510F3:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Skill_Provisioning
+      Object: 0510F2:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Steam
+      Object: 0415D6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireCookPotSnapMarker
+      Object: 032328:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireItem_DestructionSkill
+      Object: 065520:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireItem_GoodWeather
+      Object: CC0E0B:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireNoFuelMsg
+      Object: 075844:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CookingPot
+      Object: 041B50:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CookingPot_MISC
+      Object: 019849:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_DeadwoodBranch
+      Object: 02564C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_DeadwoodLog
+      Object: 02E68E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Crackling_DeadwoodLit
+      Object: 040013:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Crackling_DeadwoodUnlit
+      Object: 040014:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Crackling_FirewoodLit
+      Object: 0328B9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Crackling_FirewoodUnlit
+      Object: 0328BA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Kindling
+      Object: 02E68F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastSelectedSkill
+      Object: 0510F4:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireSize
+      Object: CC0E0C:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireStage
+      Object: CC0E0D:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkAdvancement
+      Object: 0510FB:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkEarned
+      Object: 0510FA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkNavControllerAct
+      Object: 045332:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkNodeController_Camping
+      Object: 0468C0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkNodeControllerCount
+      Object: 06655C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_Firecraft
+      Object: 0473E5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_Resourceful
+      Object: 043816:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkSystemEnterExplosion01
+      Object: 04844B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_CampfireMode
+      Object: 075842:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_EnableTutorials
+      Object: 066551:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_ManualFireLighting
+      Object: 01C3E8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_TalkMenu
+      Object: 0536E8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_TinderQualityTimeRate
+      Object: 06702A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding_1
+      Object: 066547:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding_2
+      Object: 066548:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding_3
+      Object: 066549:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding_4
+      Object: 06654A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding_5
+      Object: 06654B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding1_Displayed
+      Object: 06654D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding2_Displayed
+      Object: 06654C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding3_Displayed
+      Object: 06654E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding4_Displayed
+      Object: 06654F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding5_Displayed
+      Object: 066550:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_SkillSystem_1
+      Object: 066556:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_SkillSystem_2
+      Object: 066557:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_SkillSystem_3
+      Object: 066558:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_SkillSystem1_Displayed
+      Object: 066559:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_SkillSystem2_Displayed
+      Object: 06655A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_SkillSystem3_Displayed
+      Object: 06655B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_UISkillsPerkEnter
+      Object: 04844C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_WasFirstPersonBeforeUse
+      Object: 05980C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampfireCanCookFood
+      Object: CC0D01:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampingPerkPointProgress
+      Object: 0510F9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampingPerkPoints
+      Object: 0510F6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampingPerkPointsEarned
+      Object: 0510F7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampingPerkPointsTotal
+      Object: 0510F8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FireAsset_UpliftedTriggerVolume
+      Object: 066562:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Firewood01
+      Object: 06F993:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FXFireOut
+      Object: 1080CD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAGFlames01ImpactSet
+      Object: 026113:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RequiredPositionRef_CampfireBase
+      Object: 03231B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RuinedBook
+      Object: 0CE70B:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Setting_DisableAgeOut
+      Data: True
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Setting_IsConjured
+      Data: True
+Name:
+  TargetLanguage: English
+  Value: Fireplace
+Model:
+  File: campfire\_Camp_ConjuredCampfireBase.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 06E9C7:Skyrim.esm
+- 031DB0:Campfire.esm
+- CCA003:Update.esm
+- 0E8E4F:Skyrim.esm
+PNAM: 0x00000000
+Flags:
+- IgnoredBySandbox
+- MustExitToTalk
+InteractionKeyword: 013794:Skyrim.esm
+WorkbenchData:
+  BenchType: CreateObject
+  UsesSkill: 255
+Markers:
+- Enabled: True
+- Enabled: True
+- Enabled: True
+- Enabled: True
+MajorFlags:
+- MustExitToTalk

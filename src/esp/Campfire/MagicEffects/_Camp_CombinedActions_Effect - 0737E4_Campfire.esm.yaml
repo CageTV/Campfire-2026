@@ -1,0 +1,40 @@
+FormKey: 0737E4:Campfire.esm
+EditorID: _Camp_CombinedActions_Effect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_CombinedActionsScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireSpell
+      Object: 025BD5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CombinedActionsMenu
+      Object: 0737E7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CreateItemSpell
+      Object: 02306B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HarvestWoodSpell
+      Object: 025647:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Resourcefulness
+MenuDisplayObject: 104F70:Skyrim.esm
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Mood
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

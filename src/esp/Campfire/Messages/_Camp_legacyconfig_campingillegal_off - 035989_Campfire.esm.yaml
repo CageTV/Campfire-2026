@@ -1,0 +1,25 @@
+FormKey: 035989:Campfire.esm
+EditorID: _Camp_legacyconfig_campingillegal_off
+Description:
+  TargetLanguage: English
+  Value: >-
+    Camping Illegal in Settled Areas
+
+
+    If enabled (default), camping near settled areas or inside houses and owned buildings may result in nearby guards charging you with trespassing. You will be notified if camping in a particular area is illegal before you place the object.
+
+
+    If disabled, you can camp anywhere without penalty.
+
+
+    Current Setting: Disabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Enable
+- Text:
+    TargetLanguage: English
+    Value: Back

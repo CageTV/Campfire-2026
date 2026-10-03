@@ -1,0 +1,582 @@
+FormKey: 029469:Campfire.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: _Camp_CampfirePlaceableObjectCell
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Campfire Object Staging Cell
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00202621'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00172116'
+  FogFar: 4500
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#00232622'
+    DirectionalXMinus: '#001C261F'
+    DirectionalYPlus: '#00202721'
+    DirectionalYMinus: '#00202421'
+    DirectionalZPlus: '#000F120E'
+    DirectionalZMinus: '#00303933'
+    Specular: '#00172116'
+    Scale: 1
+  FogFarColor: '#00172116'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+WaterHeight: -2.1474836E+09
+ImageSpace: 013B32:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 0294A7:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: CampCookingPot
+      Flags: InheritedAndRemoved
+  Base: 041B50:Campfire.esm
+  Placement:
+    Position: -1344, 256, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 0294A8:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_CookingPotSteamPosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 04261D:Campfire.esm
+  Placement:
+    Position: -1344, 256, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 03231B:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_CampfireBaseMarkerRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 03231A:Campfire.esm
+  Placement:
+    Position: -1088, 320, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 032326:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_CampfireCookStandMarkerRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 108B4E:Skyrim.esm
+  Placement:
+    Position: -991.8915, 409.23642, 7424
+    Rotation: 0, -0, 3.926991
+- MutagenObjectType: PlacedObject
+  FormKey: 03E6EF:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PosRef_EnchantingBase
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: CampPlaceableObjectEx
+      Flags: InheritedAndRemoved
+  Base: 038678:Campfire.esm
+  Placement:
+    Position: -1600, 0, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 03E6F4:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PosRef_EnchantingLight
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 0B9BE7:Skyrim.esm
+  Placement:
+    Position: -1599.7235, 60.516006, 7521.59
+- MutagenObjectType: PlacedObject
+  FormKey: 03F721:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_CraftingObjectREF
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 019830:Campfire.esm
+  Placement:
+    Position: -1368.6139, 544.27045, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 041D1A:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_CampfireBaseMarkerRef001
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 03231A:Campfire.esm
+  Placement:
+    Position: -576, 576, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 0427E9:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PNCamping_Resourceful_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 043811:Campfire.esm
+  Placement:
+    Position: -595.6017, 515.7681, 7489.72
+- MutagenObjectType: PlacedObject
+  FormKey: 043820:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PerkController_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 00003B:Skyrim.esm
+  Placement:
+    Position: -576, 576, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 043821:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PNCamping_Trailblazer_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 043811:Campfire.esm
+  Placement:
+    Position: -587.4429, 515.7681, 7526.161
+- MutagenObjectType: PlacedObject
+  FormKey: 043822:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PNCamping_HighSpirits_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 043811:Campfire.esm
+  Placement:
+    Position: -546.9268, 515.7681, 7581.2217
+- MutagenObjectType: PlacedObject
+  FormKey: 043823:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PNCamping_Firecraft_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 043811:Campfire.esm
+  Placement:
+    Position: -578.0275, 515.7681, 7567.1875
+- MutagenObjectType: PlacedObject
+  FormKey: 043824:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PNCamping_KeenSenses_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 043811:Campfire.esm
+  Placement:
+    Position: -559.2217, 515.7681, 7547.5337
+- MutagenObjectType: PlacedObject
+  FormKey: 043833:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_CampingPerkLine_2_3_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 043832:Campfire.esm
+  Scale: 0.74
+  Placement:
+    Position: -587.1429, 515.7681, 7526.161
+    Rotation: 1.5707964, 0, 2.9146998
+- MutagenObjectType: PlacedObject
+  FormKey: 044861:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_CampingPerkLine_1_2_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 043832:Campfire.esm
+  Scale: 0.62
+  Placement:
+    Position: -594.9017, 515.7681, 7491.42
+    Rotation: 1.5707964, 0, 2.9146998
+- MutagenObjectType: PlacedObject
+  FormKey: 044862:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_CampingPerkLine_3_4_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 043832:Campfire.esm
+  Scale: 0.6
+  Placement:
+    Position: -577.0275, 515.7681, 7567.1875
+    Rotation: 1.5707964, 0, 1.998402
+- MutagenObjectType: PlacedObject
+  FormKey: 044863:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_CampingPerkLine_3_5_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 043832:Campfire.esm
+  Scale: 0.48
+  Placement:
+    Position: -578.0275, 515.7681, 7567.1875
+    Rotation: 1.5707964, 0, 0.7766715
+- MutagenObjectType: PlacedObject
+  FormKey: 044DCB:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PerkExitBug_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 044DCA:Campfire.esm
+  Scale: 0.5
+  Placement:
+    Position: -524.6779, 504.9257, 7469.524
+    Rotation: 0, -0, 3.983193
+- MutagenObjectType: PlacedObject
+  FormKey: 044DCE:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PerkNextBug_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 044DCC:Campfire.esm
+  Scale: 0.5
+  Placement:
+    Position: -513.9864, 504.9257, 7521.42
+    Rotation: 0, -0, 5.283188
+- MutagenObjectType: PlacedObject
+  FormKey: 044DCF:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_PerkPrevBug_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 044DCD:Campfire.esm
+  Scale: 0.5
+  Placement:
+    Position: -638.0136, 504.9258, 7521.42
+    Rotation: 0, -0, 0.90000284
+- MutagenObjectType: PlacedObject
+  FormKey: 045335:Campfire.esm
+  MajorRecordFlagsRaw: 1073742848
+  EditorID: _Camp_CampingPerkArtPlane_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x40000000
+  Base: 045333:Campfire.esm
+  Placement:
+    Position: -576, 529, 7533.329
+- MutagenObjectType: PlacedObject
+  FormKey: 0536CB:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_CampfireSitPosRef2
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 039577:Campfire.esm
+  Placement:
+    Position: -1094.4307, 161.21666, 7425
+- MutagenObjectType: PlacedObject
+  FormKey: 0536CC:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_CampfireSitPosRef1
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 039577:Campfire.esm
+  Placement:
+    Position: -1189.5096, 190.41054, 7425
+    Rotation: 0, -0, 0.4
+- MutagenObjectType: PlacedObject
+  FormKey: 0536CD:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_CampfireSitPosRef3
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 039577:Campfire.esm
+  Placement:
+    Position: -1000.412, 195.56184, 7425
+    Rotation: 0, -0, 5.58319
+- MutagenObjectType: PlacedObject
+  FormKey: 0536CE:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_CampfireSitPosRef4
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 039577:Campfire.esm
+  Placement:
+    Position: -944.3549, 266.41284, 7425
+    Rotation: 0, -0, 5.18319
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 02946A:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1088, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02946B:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1344, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02946C:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1088, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02946D:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -64, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02946E:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -832, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02946F:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -576, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029470:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -320, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029471:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -320, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029472:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -576, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029473:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -576, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029474:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2497.0737, 357.62097, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029475:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2318.3027, 704.5871, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029476:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2318.3027, 960.58704, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029477:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 1984, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029478:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2753.0737, 357.62097, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029479:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2753.0737, 101.62099, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02947A:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -320, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02947B:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -64, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02947C:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 192, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02947D:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1600, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02947E:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 192, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02947F:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1344, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029480:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -64, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029481:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 192, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029482:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1600, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029483:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -832, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029484:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1600, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029485:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -832, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029486:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1088, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029487:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1344, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 03231E:Campfire.esm
+  MajorRecordFlagsRaw: 1073741824
+  EditorID: _Camp_CampfireFuelMarkerRef
+  SkyrimMajorRecordFlags:
+  - 0x40000000
+  Base: 040013:Campfire.esm
+  Placement:
+    Position: -1088, 320, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 03231F:Campfire.esm
+  MajorRecordFlagsRaw: 1073741824
+  EditorID: _Camp_CampfireLightMarkerRef
+  SkyrimMajorRecordFlags:
+  - 0x40000000
+  Base: 025BBB:Campfire.esm
+  Placement:
+    Position: -1088, 320, 7525.3286
+- MutagenObjectType: PlacedObject
+  FormKey: 032324:Campfire.esm
+  MajorRecordFlagsRaw: 1073741824
+  EditorID: _Camp_CampfireCookPotMarkerRef
+  SkyrimMajorRecordFlags:
+  - 0x40000000
+  Base: 108230:Skyrim.esm
+  Placement:
+    Position: -991.8915, 409.23642, 7424
+    Rotation: 0, -0, 3.926991
+- MutagenObjectType: PlacedObject
+  FormKey: 03232E:Campfire.esm
+  Base: 0CD824:Skyrim.esm
+  Placement:
+    Position: -861.66876, 52.425808, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 03232F:Campfire.esm
+  Base: 0CD823:Skyrim.esm
+  Placement:
+    Position: -765.3032, 64.479485, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 032330:Campfire.esm
+  Base: 033DA4:Skyrim.esm
+  Placement:
+    Position: -758.37897, 145.68646, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 032331:Campfire.esm
+  Base: 033DA9:Skyrim.esm
+  Placement:
+    Position: -647.5246, 64.49885, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 032342:Campfire.esm
+  Base: 03BD2E:Skyrim.esm
+  Placement:
+    Position: -872.9182, 134.51918, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 0328AE:Campfire.esm
+  Base: 040014:Campfire.esm
+  Placement:
+    Position: -826.9397, -2.7634583, 7421.021
+- MutagenObjectType: PlacedObject
+  FormKey: 0328AF:Campfire.esm
+  Base: 040013:Campfire.esm
+  Placement:
+    Position: -935.2547, -4.505333, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 0328B0:Campfire.esm
+  Base: 035F4A:Skyrim.esm
+  Placement:
+    Position: -1027.4501, 6.2914467, 7424
+- MutagenObjectType: PlacedObject
+  FormKey: 0328B2:Campfire.esm
+  MajorRecordFlagsRaw: 1073741824
+  SkyrimMajorRecordFlags:
+  - 0x40000000
+  Base: 10ACC0:Skyrim.esm
+  Scale: 0.2
+  Placement:
+    Position: -1130.2084, 3.4068909, 7425
+- MutagenObjectType: PlacedObject
+  FormKey: 0343CF:Campfire.esm
+  Base: 035F49:Skyrim.esm
+  Placement:
+    Position: -537.6938, 115.39133, 7424
+MajorFlags:
+- 0x40000

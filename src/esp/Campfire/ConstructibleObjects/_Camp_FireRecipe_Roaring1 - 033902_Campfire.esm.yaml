@@ -1,0 +1,20 @@
+FormKey: 033902:Campfire.esm
+EditorID: _Camp_FireRecipe_Roaring1
+Items:
+- Item:
+    Item: 02E68E:Campfire.esm
+    Count: 6
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0D:Update.esm
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0C:Update.esm
+  ComparisonValue: 3
+CreatedObject: 033392:Campfire.esm
+WorkbenchKeyword: 031DB0:Campfire.esm
+CreatedObjectCount: 1

@@ -1,0 +1,22 @@
+FormKey: 066AC7:Campfire.esm
+EditorID: _Camp_BetaMessage
+Description:
+  TargetLanguage: English
+  Value: >-
+    Thank you for testing the Campfire %.2f Beta!
+
+
+    This version is intended for testing purposes only. Please do not save your game or use this version for long-term use.
+
+
+    Please submit all feedback and bug reports to the Campfire Nexus page.
+
+
+    Thanks! -- Chesko
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

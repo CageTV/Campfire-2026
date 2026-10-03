@@ -1,0 +1,10 @@
+FormKey: 031DB4:Campfire.esm
+MajorRecordFlagsRaw: 4
+EditorID: _Camp_CampfireItem_RuinedBook
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Ruined Book
+MajorFlags:
+- NonPlayable

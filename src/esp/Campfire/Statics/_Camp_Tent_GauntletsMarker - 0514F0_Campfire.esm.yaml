@@ -1,0 +1,15 @@
+FormKey: 0514F0:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_Tent_GauntletsMarker
+SkyrimMajorRecordFlags:
+- 0x800000
+ObjectBounds:
+  First: -12, -8, -6
+  Second: 16, 10, 15
+Model:
+  File: Armor\Steel\GauntletsSteelGO.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- IsMarker

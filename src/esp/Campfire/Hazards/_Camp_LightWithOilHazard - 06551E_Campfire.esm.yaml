@@ -1,0 +1,11 @@
+FormKey: 06551E:Campfire.esm
+EditorID: _Camp_LightWithOilHazard
+Model:
+  File: Effects\FXFireOilHazard.nif
+  Data: 0x020000000000000000000000
+Radius: 4
+Lifetime: 9
+TargetInterval: 0.2
+Flags:
+- DropToGround
+Sound: 10352F:Skyrim.esm

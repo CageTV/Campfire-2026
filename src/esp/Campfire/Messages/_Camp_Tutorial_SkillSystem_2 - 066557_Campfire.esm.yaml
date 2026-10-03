@@ -1,0 +1,19 @@
+FormKey: 066557:Campfire.esm
+EditorID: _Camp_Tutorial_SkillSystem_2
+Description:
+  TargetLanguage: English
+  Value: >-
+    SKILL SYSTEM
+
+
+    Special skill trees can be accessed from lit campfires. By default, the Camping skill is available. (Other mods may add skills of their own. For instance, Frostfall adds the Endurance skill.)
+
+
+    Like normal skills, click on a node in the tree to learn about it and potentially unlock it. You must start with the bottom-most node. Only one rank in a node is required to advance to the next node in the tree.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

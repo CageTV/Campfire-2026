@@ -1,0 +1,28 @@
+FormKey: 0359A6:Campfire.esm
+EditorID: _Camp_legacyconfig_advanced
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Config > Advanced
+
+
+    Configure advanced options.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Adv. Placement
+- Text:
+    TargetLanguage: English
+    Value: Max Threads
+- Text:
+    TargetLanguage: English
+    Value: Track Followers
+- Text:
+    TargetLanguage: English
+    Value: Camping Skill
+- Text:
+    TargetLanguage: English
+    Value: Back

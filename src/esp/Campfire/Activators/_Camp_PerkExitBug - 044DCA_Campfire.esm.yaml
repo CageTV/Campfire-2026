@@ -1,0 +1,24 @@
+FormKey: 044DCA:Campfire.esm
+MajorRecordFlagsRaw: 67108864
+EditorID: _Camp_PerkExitBug
+SkyrimMajorRecordFlags:
+- 0x4000000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_ExitBug
+ObjectBounds:
+  First: -13, -17, -13
+  Second: 14, 10, 19
+Name:
+  TargetLanguage: English
+  Value: Skills
+Model:
+  File: campfire\_Camp_ExitBug.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Exit
+Flags: []
+MajorFlags:
+- NavMeshGenerationFilter

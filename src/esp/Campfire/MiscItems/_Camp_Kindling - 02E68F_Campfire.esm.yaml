@@ -1,0 +1,9 @@
+FormKey: 02E68F:Campfire.esm
+EditorID: _Camp_Kindling
+Name:
+  TargetLanguage: English
+  Value: Kindling
+Model:
+  File: campfire\_Camp_Kindling.nif
+  Data: 0x020000000000000000000000
+Weight: 1

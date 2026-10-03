@@ -1,0 +1,15 @@
+FormKey: 04AFC9:Campfire.esm
+EditorID: _Camp_VisionPowerEnter
+Type: Standard
+Category: 064451:Skyrim.esm
+SoundFiles:
+- Data\Sound\FX\UI\Skills\UI_Skills_Stop_03.wav
+- Data\Sound\FX\UI\Skills\UI_Skills_Stop_01.wav
+- Data\Sound\FX\UI\Skills\UI_Skills_Stop_02.wav
+OutputModel: 0B75FB:Skyrim.esm
+LoopAndRumble:
+  Unknown: 2
+PercentFrequencyShift: 25
+PercentFrequencyVariance: 20
+Priority: 128
+StaticAttenuation: 3.96

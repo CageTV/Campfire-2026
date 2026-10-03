@@ -1,0 +1,35 @@
+FormKey: 02D851:Campfire.esm
+EditorID: _Camp_RecipeSupplies_Backpack_BlackA_Akatosh
+Items:
+- Item:
+    Item: 0C8911:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 02C261:Campfire.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0129:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 02C261:Campfire.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 0C8911:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 02D82F:Campfire.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

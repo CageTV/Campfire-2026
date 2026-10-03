@@ -1,0 +1,21 @@
+FormKey: 03AB3D:Campfire.esm
+EditorID: _Camp_CriticalError_SKSE
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Error - SKSE Out of Date
+
+
+    Skyrim Script Extender was detected, but it is out of date. Certain features in Campfire will not work. Please update to the latest version of SKSE.
+
+
+    Detected version: %.4f
+
+    Expected version: %.4f or greater
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

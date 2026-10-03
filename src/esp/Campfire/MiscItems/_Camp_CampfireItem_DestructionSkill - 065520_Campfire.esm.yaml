@@ -1,0 +1,10 @@
+FormKey: 065520:Campfire.esm
+MajorRecordFlagsRaw: 4
+EditorID: _Camp_CampfireItem_DestructionSkill
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Destruction 20 or Higher
+MajorFlags:
+- NonPlayable

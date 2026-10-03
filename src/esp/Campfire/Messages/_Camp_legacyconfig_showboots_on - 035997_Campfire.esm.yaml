@@ -1,0 +1,25 @@
+FormKey: 035997:Campfire.esm
+EditorID: _Camp_legacyconfig_showboots_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Show Boots in Tent
+
+
+    If enabled, your worn boots or shoes will be removed from your character and placed in and around your tent when sitting or sleeping on your bed roll.
+
+
+    Note: Self-enchanted foot gear will not re-apply enchantment effects after getting out of a tent. This is a game engine issue. Disable if you use self-enchanted foot gear.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

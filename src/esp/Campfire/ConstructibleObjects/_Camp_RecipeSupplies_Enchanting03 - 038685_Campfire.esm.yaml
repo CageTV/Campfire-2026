@@ -1,0 +1,34 @@
+FormKey: 038685:Campfire.esm
+EditorID: _Camp_RecipeSupplies_Enchanting03
+Items:
+- Item:
+    Item: 0319E4:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 06851E:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0B08C5:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0183:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0130:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 0B08C5:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 038680:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

@@ -1,0 +1,25 @@
+FormKey: 0742B0:Campfire.esm
+EditorID: _Camp_legacyconfig_smelldead_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Smell Dead
+
+
+    If enabled, you will be able to smell dead bodies and the undead when using Instincts.
+
+
+    Note: Changes to this setting can take up to 15 seconds to apply!
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

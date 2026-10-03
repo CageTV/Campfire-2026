@@ -1,0 +1,19 @@
+FormKey: 06654A:Campfire.esm
+EditorID: _Camp_Tutorial_FireBuilding_4
+Description:
+  TargetLanguage: English
+  Value: >-
+    Finally, select "Build Fire - Light".
+
+
+    You can light your fire by striking a stone or by using magic.
+
+
+    If you move or get hit, the lighting process is cancelled and your tinder will be lost.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

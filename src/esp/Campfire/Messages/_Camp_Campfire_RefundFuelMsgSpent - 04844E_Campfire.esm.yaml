@@ -1,0 +1,7 @@
+FormKey: 04844E:Campfire.esm
+EditorID: _Camp_Campfire_RefundFuelMsgSpent
+Description:
+  TargetLanguage: English
+  Value: There was no unspent fuel to reclaim.
+INAM: 0x00000000
+DisplayTime: 2

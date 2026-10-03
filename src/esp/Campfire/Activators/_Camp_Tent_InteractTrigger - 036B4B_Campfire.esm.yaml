@@ -1,0 +1,20 @@
+FormKey: 036B4B:Campfire.esm
+EditorID: _Camp_Tent_InteractTrigger
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_Tent_InteractTriggerScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+ObjectBounds:
+  First: -286, -297, -202
+  Second: 286, 297, 202
+Name:
+  TargetLanguage: English
+  Value: Your Bed Roll
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Use
+Flags: []

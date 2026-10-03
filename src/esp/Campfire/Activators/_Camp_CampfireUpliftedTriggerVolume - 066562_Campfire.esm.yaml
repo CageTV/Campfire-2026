@@ -1,0 +1,51 @@
+FormKey: 066562:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_CampfireUpliftedTriggerVolume
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_UpliftedTriggerVolumeScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Inspired1Message
+      Object: 03541B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Inspired2Message
+      Object: 03541C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InspiredSpell1
+      Object: 035413:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InspiredSpell1_Perk1
+      Object: 048F1E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InspiredSpell1_Perk2
+      Object: 048F20:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InspiredSpell2
+      Object: 035414:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InspiredSpell2_Perk1
+      Object: 048F22:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InspiredSpell2_Perk2
+      Object: 048F24:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_HighSpirits
+      Object: 043819:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+ObjectBounds:
+  First: -504, -504, 0
+  Second: 504, 504, 1008
+Model:
+  File: campfire\_Camp_UpliftedTrigger.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags:
+- IgnoredBySandbox
+InteractionKeyword: 099306:Skyrim.esm
+MajorFlags:
+- HiddenFromLocalMap

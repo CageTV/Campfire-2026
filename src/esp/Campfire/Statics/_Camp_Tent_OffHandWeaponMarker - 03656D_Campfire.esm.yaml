@@ -1,0 +1,15 @@
+FormKey: 03656D:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_Tent_OffHandWeaponMarker
+SkyrimMajorRecordFlags:
+- 0x800000
+ObjectBounds:
+  First: -48, -11, -1
+  Second: 8, 70, 2
+Model:
+  File: Weapons\Steel\SteelSword.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- IsMarker

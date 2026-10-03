@@ -1,0 +1,12 @@
+FormKey: 02564C:Campfire.esm
+EditorID: _Camp_DeadwoodBranch
+ObjectBounds:
+  First: -45, -54, -7
+  Second: 47, 2, 32
+Name:
+  TargetLanguage: English
+  Value: Branches
+Model:
+  File: campfire\_Camp_DeadwoodBranch.nif
+  Data: 0x020000000000000000000000
+Weight: 0.5

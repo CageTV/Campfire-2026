@@ -1,0 +1,15 @@
+FormKey: 043826:Campfire.esm
+EditorID: _Camp_PerkGeneral_UpgradeVerify
+Description:
+  TargetLanguage: English
+  Value: Are you sure you want this perk?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Ok
+- Text:
+    TargetLanguage: English
+    Value: Cancel

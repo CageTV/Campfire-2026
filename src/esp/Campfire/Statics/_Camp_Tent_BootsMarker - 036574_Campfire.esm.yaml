@@ -1,0 +1,15 @@
+FormKey: 036574:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_Tent_BootsMarker
+SkyrimMajorRecordFlags:
+- 0x800000
+ObjectBounds:
+  First: -7, -20, 0
+  Second: 11, 11, 34
+Model:
+  File: Armor\Steel\BootsSteelGO.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- IsMarker

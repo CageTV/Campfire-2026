@@ -1,0 +1,15 @@
+FormKey: 032340:Campfire.esm
+EditorID: _Camp_FireMiscRecipe_KindlingDeadwood
+Items:
+- Item:
+    Item: 02E68E:Campfire.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 075842:Campfire.esm
+  ComparisonValue: 1
+CreatedObject: 02E68F:Campfire.esm
+WorkbenchKeyword: 031DB0:Campfire.esm
+CreatedObjectCount: 2

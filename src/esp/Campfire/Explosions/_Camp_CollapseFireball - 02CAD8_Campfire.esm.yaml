@@ -1,0 +1,15 @@
+FormKey: 02CAD8:Campfire.esm
+EditorID: _Camp_CollapseFireball
+Model:
+  File: Magic\FireBallExp01.nif
+  Data: 0x020000000000000000000000
+ImageSpaceModifier: 0439C1:Skyrim.esm
+Sound1: 03EFC0:Skyrim.esm
+Sound2: 0FF24C:Skyrim.esm
+ImpactDataSet: 0D07C2:Skyrim.esm
+Radius: 320
+ISRadius: 400
+Flags:
+- 0x1
+- IgnoreImageSpaceSwap
+SoundLevel: Normal

@@ -1,0 +1,118 @@
+FormKey: 033F66:Campfire.esm
+MajorRecordFlagsRaw: 134217728
+EditorID: _Camp_ContainerBackpacks
+SkyrimMajorRecordFlags:
+- 0x8000000
+ObjectBounds:
+  First: -27, -27, 0
+  Second: 27, 27, 80
+Name:
+  TargetLanguage: English
+  Value: Barrel of Backpacks
+Model:
+  File: Clutter\Barrel01.NIF
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 02C261:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D82F:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D830:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D831:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02F8E8:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D832:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D833:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D834:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D835:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D836:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D837:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02C260:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D81D:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D81E:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D81F:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02F8E9:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D824:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D825:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D820:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D821:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D822:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D823:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02C262:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D826:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D827:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D828:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02F8EA:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D829:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D82A:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D82B:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D82C:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D82D:Campfire.esm
+    Count: 1
+- Item:
+    Item: 02D82E:Campfire.esm
+    Count: 1
+OpenSound: 03C86D:Skyrim.esm
+CloseSound: 03C870:Skyrim.esm
+MajorFlags:
+- NavMeshGenerationBoundingBox

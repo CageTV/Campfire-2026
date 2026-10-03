@@ -1,0 +1,22 @@
+FormKey: 039AFA:Campfire.esm
+EditorID: _Camp_legacyconfig_followersremovegear_off
+Description:
+  TargetLanguage: English
+  Value: >-
+    Remove Gear in Tents (Followers)
+
+
+    If enabled, your followers will remove their worn weapons and shield, and place them in and around your tent when sitting or sleeping.
+
+
+    Current Setting: Disabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Enable
+- Text:
+    TargetLanguage: English
+    Value: Back

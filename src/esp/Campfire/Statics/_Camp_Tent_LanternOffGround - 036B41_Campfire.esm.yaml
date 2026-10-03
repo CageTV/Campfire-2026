@@ -1,0 +1,10 @@
+FormKey: 036B41:Campfire.esm
+EditorID: _Camp_Tent_LanternOffGround
+ObjectBounds:
+  First: -9, -8, -1
+  Second: 9, 15, 30
+Model:
+  File: campfire\_camp_lanternoffground.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

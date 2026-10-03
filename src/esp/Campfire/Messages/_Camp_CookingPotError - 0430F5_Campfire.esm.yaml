@@ -1,0 +1,19 @@
+FormKey: 0430F5:Campfire.esm
+EditorID: _Camp_CookingPotError
+Description:
+  TargetLanguage: English
+  Value: >-
+    There is no fire hot enough to cook with.
+
+
+    What do you do?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Pick Up
+- Text:
+    TargetLanguage: English
+    Value: Exit

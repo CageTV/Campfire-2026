@@ -1,0 +1,19 @@
+FormKey: 066548:Campfire.esm
+EditorID: _Camp_Tutorial_FireBuilding_2
+Description:
+  TargetLanguage: English
+  Value: >-
+    BUILDING CAMPFIRES
+
+
+    Campfires are created by combining three things: fuel, tinder, and a spark.
+
+
+    Select "Build Fire - Add Fuel". You can use branches, kindling, or ruined books as starting fuel.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

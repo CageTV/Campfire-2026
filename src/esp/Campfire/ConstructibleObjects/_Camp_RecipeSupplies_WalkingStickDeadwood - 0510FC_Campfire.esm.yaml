@@ -1,0 +1,20 @@
+FormKey: 0510FC:Campfire.esm
+EditorID: _Camp_RecipeSupplies_WalkingStickDeadwood
+Items:
+- Item:
+    Item: 02E68E:Campfire.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0109:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0150:Update.esm
+  ComparisonValue: 1
+CreatedObject: 0250CA:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

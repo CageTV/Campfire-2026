@@ -1,0 +1,19 @@
+FormKey: 066549:Campfire.esm
+EditorID: _Camp_Tutorial_FireBuilding_3
+Description:
+  TargetLanguage: English
+  Value: >-
+    Next, select "Build Fire - Add Tinder".
+
+
+    Tinder is used to catch a spark in order to ignite your fuel. Many different items can be used as tinder.
+
+
+    Each "Add Tinder" recipe shows the quality of the tinder. The higher the quality, the faster your campfire can be lit. The tinder you choose is what determines how long it takes to light your fire.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

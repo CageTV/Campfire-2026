@@ -1,0 +1,43 @@
+FormKey: 02843B:Campfire.esm
+EditorID: _Camp_PlaceableObjectSelect
+Description:
+  TargetLanguage: English
+  Value: What do you do?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Use
+- Text:
+    TargetLanguage: English
+    Value: Pick Up
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+- Text:
+    TargetLanguage: English
+    Value: Dispel
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Destroy
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+- Text:
+    TargetLanguage: English
+    Value: Exit

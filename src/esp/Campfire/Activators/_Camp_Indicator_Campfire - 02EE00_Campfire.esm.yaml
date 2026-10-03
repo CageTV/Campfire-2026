@@ -1,0 +1,22 @@
+FormKey: 02EE00:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_Indicator_Campfire
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlacementIndicator
+    Properties:
+    - MutagenObjectType: ScriptFloatProperty
+      Name: indicator_distance
+      Data: 200
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_furniture_to_place
+      Object: 031DAF:Campfire.esm
+Model:
+  File: campfire\_Camp_Indicator_CampfireBase.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap

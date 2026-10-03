@@ -1,0 +1,242 @@
+FormKey: 029F7B:Campfire.esm
+EditorID: _Camp_LegalityCheckSpell
+Name:
+  TargetLanguage: English
+  Value: Legality Check Ability
+EquipmentType: 025BEE:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 029F7D:Campfire.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 029DB8:Skyrim.esm
+    ComparisonValue: 3200
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 0284C5:Skyrim.esm
+    ComparisonValue: 8400
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 029AAF:Skyrim.esm
+    ComparisonValue: 5600
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 055E4F:Skyrim.esm
+    ComparisonValue: 4200
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 029DBB:Skyrim.esm
+    ComparisonValue: 4000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 05CA54:Skyrim.esm
+    ComparisonValue: 4000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 02A49D:Skyrim.esm
+    ComparisonValue: 5200
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 029AAE:Skyrim.esm
+    ComparisonValue: 3000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 02A49C:Skyrim.esm
+    ComparisonValue: 2000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 01C1B1:Skyrim.esm
+    ComparisonValue: 3000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 01C1BA:Skyrim.esm
+    ComparisonValue: 5500
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 01BDF3:Skyrim.esm
+    ComparisonValue: 3700
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 02A971:Skyrim.esm
+    ComparisonValue: 5000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 039238:Campfire.esm
+    ComparisonValue: 6000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 01CDD6:Skyrim.esm
+    ComparisonValue: 6000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 02A975:Skyrim.esm
+    ComparisonValue: 8000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 04DEB7:Skyrim.esm
+    ComparisonValue: 11000
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 040CBC:Campfire.esm
+    ComparisonValue: 5600
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      Target: 046BDF:Skyrim.esm
+    ComparisonValue: 4000
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInWorldspaceConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      WorldspaceOrList: 039237:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130DC:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 01CB87:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 01CB85:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 01CD59:Skyrim.esm
+    ComparisonValue: 1

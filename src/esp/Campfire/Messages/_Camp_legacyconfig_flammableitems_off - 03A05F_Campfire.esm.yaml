@@ -1,0 +1,22 @@
+FormKey: 03A05F:Campfire.esm
+EditorID: _Camp_legacyconfig_flammableitems_off
+Description:
+  TargetLanguage: English
+  Value: >-
+    Camping Equipment Can Burn
+
+
+    If enabled (default), certain pieces of camping equipment will be flammable, and can begin to burn when hit with a torch, flame spell, or shout. The fire can be put out with a frost spell before the item becomes consumed. If fire engulfs the item, it will be destroyed.
+
+
+    Current Setting: Disabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Enable
+- Text:
+    TargetLanguage: English
+    Value: Back

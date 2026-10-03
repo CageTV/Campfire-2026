@@ -1,0 +1,34 @@
+FormKey: 019DAE:Campfire.esm
+EditorID: _Camp_CreateItem_Effect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_CraftingObjectEffectScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CraftingObjectREF
+      Object: 03F721:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_GeneralError_Mounted
+      Object: 03AB37:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Create Item
+MenuDisplayObject: 104F70:Skyrim.esm
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Mood
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

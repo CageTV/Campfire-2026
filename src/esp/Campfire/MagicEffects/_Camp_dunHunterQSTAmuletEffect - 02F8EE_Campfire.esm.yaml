@@ -1,0 +1,25 @@
+FormKey: 02F8EE:Campfire.esm
+EditorID: _Camp_dunHunterQSTAmuletEffect
+Name:
+  TargetLanguage: English
+  Value: Kyne's Blessing, Minor
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- NoDuration
+- NoArea
+- Painless
+- NoDeathDispel
+BaseCost: 1.7
+MagicSkill: Destruction
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+SkillUsageMultiplier: 1
+DualCastScale: 1
+PerkToApply: 02F8EB:Campfire.esm
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Damage taken from animals is reduced 5%.

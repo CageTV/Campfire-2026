@@ -1,0 +1,9 @@
+FormKey: 05C372:Campfire.esm
+EditorID: _Camp_RecipeSuppliesTorchDeconstruct
+Items:
+- Item:
+    Item: 01D4EC:Skyrim.esm
+    Count: 1
+CreatedObject: 05C373:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

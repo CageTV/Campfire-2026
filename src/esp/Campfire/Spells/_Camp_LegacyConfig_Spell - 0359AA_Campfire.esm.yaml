@@ -1,0 +1,15 @@
+FormKey: 0359AA:Campfire.esm
+EditorID: _Camp_LegacyConfig_Spell
+Name:
+  TargetLanguage: English
+  Value: 'Options: Campfire'
+MenuDisplayObject: 10A046:Skyrim.esm
+EquipmentType: 025BEE:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Configure Campfire's settings. (Press Shout to use.)
+Type: LesserPower
+CastType: FireAndForget
+Effects:
+- BaseEffect: 035984:Campfire.esm
+  Data: {}

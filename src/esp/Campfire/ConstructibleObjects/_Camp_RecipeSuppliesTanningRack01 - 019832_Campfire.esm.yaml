@@ -1,0 +1,15 @@
+FormKey: 019832:Campfire.esm
+EditorID: _Camp_RecipeSuppliesTanningRack01
+Items:
+- Item:
+    Item: 06F993:Skyrim.esm
+    Count: 3
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0130:Update.esm
+  ComparisonValue: 1
+CreatedObject: 036B4F:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

@@ -1,0 +1,38 @@
+FormKey: 038691:Campfire.esm
+EditorID: _Camp_TanningRack
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlaceableObject
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_InventoryItem
+      Object: 036B4F:Campfire.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Setting_Flammable
+      Data: True
+Name:
+  TargetLanguage: English
+  Value: Tanning Rack
+Model:
+  File: Furniture\TanningRackMarker.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0727A0:Skyrim.esm
+- 0A56D8:Skyrim.esm
+- 06E9C7:Skyrim.esm
+- 07866A:Skyrim.esm
+- 02AFC9:Campfire.esm
+PNAM: 0x00000000
+Flags:
+- 0x40000000
+InteractionKeyword: 013794:Skyrim.esm
+WorkbenchData:
+  BenchType: CreateObject
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  EntryPoints:
+    Type:
+    - Sit
+    Points:
+    - Behind

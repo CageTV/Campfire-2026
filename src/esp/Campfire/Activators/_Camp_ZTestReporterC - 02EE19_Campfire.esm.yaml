@@ -1,0 +1,31 @@
+FormKey: 02EE19:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_ZTestReporterC
+SkyrimMajorRecordFlags:
+- 0x800000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_ZReporterCScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CurrentlyPlacingObject
+      Object: 02EE01:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HelpDone_PlacementError
+      Object: 051A59:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_IndicatorFutureRefC
+      Object: 0294B0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PlacementErrorCounter
+      Object: 051A5A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ZTestShooterREF_C
+      Object: 0294AC:Campfire.esm
+Model:
+  File: MarkerX.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []
+MajorFlags:
+- IsMarker

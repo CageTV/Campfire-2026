@@ -1,0 +1,15 @@
+FormKey: 048F17:Campfire.esm
+EditorID: _Camp_RecipeSuppliesTanningRack01Deadwood
+Items:
+- Item:
+    Item: 02E68E:Campfire.esm
+    Count: 5
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0130:Update.esm
+  ComparisonValue: 1
+CreatedObject: 036B4F:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

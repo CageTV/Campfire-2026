@@ -1,0 +1,9 @@
+MutagenObjectType: GlobalShort
+FormKey: 04381C:Campfire.esm
+MajorRecordFlagsRaw: 64
+EditorID: _Camp_PerkRank_Trailblazer_Max
+SkyrimMajorRecordFlags:
+- 0x40
+MajorFlags:
+- Constant
+Data: 3

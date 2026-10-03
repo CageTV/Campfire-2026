@@ -1,0 +1,7 @@
+FormKey: 0468D1:Campfire.esm
+EditorID: _Camp_TinderINV_BeehiveHusk
+Model:
+  File: Critters\Bee\BeeHiveHusk.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

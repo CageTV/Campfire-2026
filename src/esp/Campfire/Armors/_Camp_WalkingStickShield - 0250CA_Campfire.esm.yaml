@@ -1,0 +1,37 @@
+FormKey: 0250CA:Campfire.esm
+MajorRecordFlagsRaw: 64
+EditorID: _Camp_WalkingStickShield
+SkyrimMajorRecordFlags:
+- 0x40
+Name:
+  TargetLanguage: English
+  Value: Walking Stick
+ObjectEffect: 0504B7:Campfire.esm
+WorldModel:
+  Male:
+    Model:
+      File: campfire\_camp_walkingstickshieldGO.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Shield
+  ActsLike44: True
+EquipmentType: 0141E8:Skyrim.esm
+BashImpactDataSet: 0193CB:Skyrim.esm
+AlternateBlockMaterial: 0774B6:Skyrim.esm
+Race: 000019:Skyrim.esm
+Keywords:
+- 0965B2:Skyrim.esm
+- 08F959:Skyrim.esm
+- 01E717:Skyrim.esm
+- 0C27BD:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 0250CB:Campfire.esm
+Value: 10
+Weight: 3
+ArmorRating: 10
+MajorFlags:
+- Shield

@@ -1,0 +1,35 @@
+FormKey: 02D858:Campfire.esm
+EditorID: _Camp_RecipeSupplies_Backpack_BlackA_Talos
+Items:
+- Item:
+    Item: 0CC846:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 02C261:Campfire.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0129:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 02C261:Campfire.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 0CC846:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 02D836:Campfire.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

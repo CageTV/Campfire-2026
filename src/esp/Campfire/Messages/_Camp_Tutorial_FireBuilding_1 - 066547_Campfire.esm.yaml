@@ -1,0 +1,15 @@
+FormKey: 066547:Campfire.esm
+EditorID: _Camp_Tutorial_FireBuilding_1
+Description:
+  TargetLanguage: English
+  Value: Show campfire building tutorial?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK
+- Text:
+    TargetLanguage: English
+    Value: Skip

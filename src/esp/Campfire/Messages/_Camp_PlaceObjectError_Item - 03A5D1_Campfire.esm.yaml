@@ -1,0 +1,7 @@
+FormKey: 03A5D1:Campfire.esm
+EditorID: _Camp_PlaceObjectError_Item
+Description:
+  TargetLanguage: English
+  Value: You lack the required supplies to use this item.
+INAM: 0x00000000
+DisplayTime: 2

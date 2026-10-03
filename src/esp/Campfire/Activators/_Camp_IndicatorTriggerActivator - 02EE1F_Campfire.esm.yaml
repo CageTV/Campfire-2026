@@ -1,0 +1,20 @@
+FormKey: 02EE1F:Campfire.esm
+EditorID: _Camp_IndicatorTriggerActivator
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_IndicatorTrigger
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CurrentlyPlacingObject
+      Object: 02EE01:Campfire.esm
+ObjectBounds:
+  First: -286, -297, -202
+  Second: 286, 297, 202
+Name:
+  TargetLanguage: English
+  Value: Here
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Place
+Flags: []

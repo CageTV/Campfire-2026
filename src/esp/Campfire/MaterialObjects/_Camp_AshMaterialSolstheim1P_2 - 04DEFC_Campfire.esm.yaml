@@ -1,0 +1,15 @@
+FormKey: 04DEFC:Campfire.esm
+EditorID: _Camp_AshMaterialSolstheim1P_2
+Model:
+  File: ShaderTests\ShaderBox.nif
+  Data: 0x020000000000000000000000
+DNAMs: []
+FalloffScale: 0.4
+FalloffBias: 0.5
+NoiseUvScale: 20
+MaterialUvScale: 170.6667
+ProjectionVector: 0, 0, 1
+NormalDampener: 0.4
+SinglePassColor: '#00464648'
+Flags:
+- SinglePass

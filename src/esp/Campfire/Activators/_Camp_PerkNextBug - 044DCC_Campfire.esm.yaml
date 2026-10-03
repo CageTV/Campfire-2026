@@ -1,0 +1,24 @@
+FormKey: 044DCC:Campfire.esm
+MajorRecordFlagsRaw: 67108864
+EditorID: _Camp_PerkNextBug
+SkyrimMajorRecordFlags:
+- 0x4000000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_NextBug
+ObjectBounds:
+  First: -13, -17, -13
+  Second: 14, 10, 19
+Name:
+  TargetLanguage: English
+  Value: Next Skill
+Model:
+  File: Critters\Firefly\Firefly.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Show
+Flags: []
+MajorFlags:
+- NavMeshGenerationFilter

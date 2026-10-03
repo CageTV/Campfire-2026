@@ -1,0 +1,16 @@
+FormKey: 02D03B:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_LargeFire
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_DeleteLargeFire
+Model:
+  File: campfire\_Camp_LargeFire.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+LoopingSound: 100FA4:Skyrim.esm
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap

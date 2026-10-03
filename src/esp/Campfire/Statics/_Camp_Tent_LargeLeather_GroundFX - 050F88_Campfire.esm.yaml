@@ -1,0 +1,10 @@
+FormKey: 050F88:Campfire.esm
+EditorID: _Camp_Tent_LargeLeather_GroundFX
+ObjectBounds:
+  First: -107, -161, 4
+  Second: 173, 170, 95
+Model:
+  File: campfire\_camp_largeleathertent_groundfx.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

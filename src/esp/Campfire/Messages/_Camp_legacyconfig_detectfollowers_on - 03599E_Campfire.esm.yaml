@@ -1,0 +1,24 @@
+FormKey: 03599E:Campfire.esm
+EditorID: _Camp_legacyconfig_detectfollowers_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Track Followers
+
+    If enabled (default), Campfire will track 3 of your nearest followers and your pet, if any. This enables features like followers sleeping in the bed rolls of tents. This information is also shared with other Campfire-dependent mods.
+
+
+    If disabled, Campfire will not track followers, and ALL follower features in Campfire AND ANY OTHER CAMPFIRE-BASED MOD will be DISABLED. Disabling this feature is not recommended.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

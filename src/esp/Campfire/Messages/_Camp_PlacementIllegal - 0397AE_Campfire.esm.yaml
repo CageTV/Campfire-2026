@@ -1,0 +1,28 @@
+FormKey: 0397AE:Campfire.esm
+EditorID: _Camp_PlacementIllegal
+Description:
+  TargetLanguage: English
+  Value: >-
+    Camping here is illegal. You could be fined for trespassing if a guard or owner sees you.
+
+
+    What do you do?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Place Here
+- Text:
+    TargetLanguage: English
+    Value: Cancel Placement
+- Text:
+    TargetLanguage: English
+    Value: Back
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 048CEE:Campfire.esm
+    ComparisonValue: 2

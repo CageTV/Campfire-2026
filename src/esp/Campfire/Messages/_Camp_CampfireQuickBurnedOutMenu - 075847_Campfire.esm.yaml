@@ -1,0 +1,18 @@
+FormKey: 075847:Campfire.esm
+EditorID: _Camp_CampfireQuickBurnedOutMenu
+Description:
+  TargetLanguage: English
+  Value: What do you do?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Light
+- Text:
+    TargetLanguage: English
+    Value: Destroy
+- Text:
+    TargetLanguage: English
+    Value: Back

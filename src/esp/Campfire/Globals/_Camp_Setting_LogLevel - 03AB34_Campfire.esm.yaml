@@ -1,0 +1,9 @@
+MutagenObjectType: GlobalShort
+FormKey: 03AB34:Campfire.esm
+MajorRecordFlagsRaw: 64
+EditorID: _Camp_Setting_LogLevel
+SkyrimMajorRecordFlags:
+- 0x40
+MajorFlags:
+- Constant
+Data: 2

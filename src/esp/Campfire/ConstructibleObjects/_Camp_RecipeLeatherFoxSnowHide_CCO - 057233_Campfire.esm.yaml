@@ -1,0 +1,27 @@
+FormKey: 057233:Campfire.esm
+EditorID: _Camp_RecipeLeatherFoxSnowHide_CCO
+Items:
+- Item:
+    Item: 0D4BE7:Skyrim.esm
+    Count: 3
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0299:Update.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 0D4BE7:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: DA0BF1:Update.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

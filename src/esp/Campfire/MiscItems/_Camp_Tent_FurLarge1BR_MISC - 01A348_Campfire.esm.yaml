@@ -1,0 +1,22 @@
+FormKey: 01A348:Campfire.esm
+EditorID: _Camp_Tent_FurLarge1BR_MISC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlaceableMiscItem
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_placement_indicator
+      Object: 02EE1D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_this_item
+      Object: 01A348:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: ' Large Fur Tent, Bed Roll'
+Model:
+  File: campfire\_camp_largehidetentmiscobject_1br.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 03AB3C:Campfire.esm
+Value: 60
+Weight: 24

@@ -1,0 +1,24 @@
+FormKey: 03232B:Campfire.esm
+EditorID: _Camp_TentSitMarkerSandbox
+Name:
+  TargetLanguage: English
+  Value: Sit Down
+Model:
+  File: Furniture\SitCrossLeggedMarker.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0C4EFC:Skyrim.esm
+- 06E9C7:Skyrim.esm
+PNAM: 0x00000000
+Flags:
+- 0x40000000
+InteractionKeyword: 013794:Skyrim.esm
+WorkbenchData:
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  EntryPoints:
+    Type:
+    - Sit
+    Points:
+    - Behind

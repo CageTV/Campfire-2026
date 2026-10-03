@@ -1,0 +1,12 @@
+FormKey: 06551D:Campfire.esm
+EditorID: _Camp_SparkID
+Model:
+  File: Effects\ImpactEffects\FXMetalSparkImpact01.nif
+  Data: 0x020000000000000000000000
+Duration: 0.1
+Orientation: ProjectileVector
+AngleThreshold: 85
+PlacementRadius: 16
+SoundLevel: Normal
+NoDecalData: True
+Sound1: 0D6DBF:Skyrim.esm

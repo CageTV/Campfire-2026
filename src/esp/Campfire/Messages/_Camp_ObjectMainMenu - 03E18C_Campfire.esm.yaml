@@ -1,0 +1,37 @@
+FormKey: 03E18C:Campfire.esm
+EditorID: _Camp_ObjectMainMenu
+Description:
+  TargetLanguage: English
+  Value: What do you do?
+Name:
+  TargetLanguage: English
+  Value: Tent
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Use
+- Text:
+    TargetLanguage: English
+    Value: Pick Up
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+- Text:
+    TargetLanguage: English
+    Value: Dispel
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Exit

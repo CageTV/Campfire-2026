@@ -1,0 +1,8 @@
+FormKey: 04DEFD:Campfire.esm
+EditorID: _Camp_Tent_LargeHideStaticASH
+Model:
+  File: campfire\_camp_largehidetent_cutthroughexterior.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 04DEFC:Campfire.esm
+Unused: 0x000000

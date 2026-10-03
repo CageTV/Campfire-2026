@@ -1,0 +1,15 @@
+FormKey: 04103F:Campfire.esm
+EditorID: _Camp_AxeStone
+Items:
+- Item:
+    Item: 02564C:Campfire.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0130:Update.esm
+  ComparisonValue: 1
+CreatedObject: 04103D:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

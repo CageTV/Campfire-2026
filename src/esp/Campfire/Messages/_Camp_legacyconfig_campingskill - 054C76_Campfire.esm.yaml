@@ -1,0 +1,22 @@
+FormKey: 054C76:Campfire.esm
+EditorID: _Camp_legacyconfig_campingskill
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Config > Camping Skill
+
+
+    Select the feature you would like to configure below.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Respec Perks
+- Text:
+    TargetLanguage: English
+    Value: Restore Perk Progress
+- Text:
+    TargetLanguage: English
+    Value: Back

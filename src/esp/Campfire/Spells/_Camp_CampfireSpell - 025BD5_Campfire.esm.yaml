@@ -1,0 +1,15 @@
+FormKey: 025BD5:Campfire.esm
+EditorID: _Camp_CampfireSpell
+Name:
+  TargetLanguage: English
+  Value: Build Campfire
+MenuDisplayObject: 10A046:Skyrim.esm
+EquipmentType: 025BEE:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Use your knowledge of wilderness survival to build campfires.
+Type: LesserPower
+CastType: FireAndForget
+Effects:
+- BaseEffect: 025BD7:Campfire.esm
+  Data: {}

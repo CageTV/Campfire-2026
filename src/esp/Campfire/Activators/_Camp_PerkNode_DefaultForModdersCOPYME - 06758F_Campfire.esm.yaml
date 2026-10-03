@@ -1,0 +1,16 @@
+FormKey: 06758F:Campfire.esm
+EditorID: _Camp_PerkNode_DefaultForModdersCOPYME
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPerkNode
+Name:
+  TargetLanguage: English
+  Value: Resourceful
+Model:
+  File: campfire\_camp_intperkstars01.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Select
+Flags: []

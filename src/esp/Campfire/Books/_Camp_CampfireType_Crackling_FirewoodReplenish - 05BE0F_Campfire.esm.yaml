@@ -1,0 +1,57 @@
+FormKey: 05BE0F:Campfire.esm
+EditorID: _Camp_CampfireType_Crackling_FirewoodReplenish
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_CampfireType_CracklingScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire
+      Object: 031DAF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Light_4
+      Object: 025BBC:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Crackling_DeadwoodLit
+      Object: 040013:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Crackling_DeadwoodUnlit
+      Object: 040014:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Crackling_FirewoodLit
+      Object: 0328B9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Crackling_FirewoodUnlit
+      Object: 0328BA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireSize
+      Object: CC0E0C:Update.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: count_firewood
+      Data: 4
+    - MutagenObjectType: ScriptBoolProperty
+      Name: isFirewood
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Setting_IsFuelRefresh
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 05BE0F:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Replenish Fuel
+BookText:
+  TargetLanguage: English
+  Value: ''
+Keywords:
+- 01E717:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+InventoryArt: 03541D:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: Feed the flames by replacing spent fuel. Burns for 6 hours.

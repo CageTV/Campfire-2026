@@ -1,0 +1,20 @@
+FormKey: 036B4F:Campfire.esm
+EditorID: _Camp_TanningRackMISC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlaceableMiscItem
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_placement_indicator
+      Object: 02EE1C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_this_item
+      Object: 036B4F:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Tanning Rack
+Model:
+  File: campfire\_Camp_TanningRack_MISC.nif
+  Data: 0x020000000000000000000000
+Value: 5
+Weight: 10

@@ -1,0 +1,27 @@
+FormKey: 02EE1C:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_Indicator_TanningRack
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlacementIndicator
+    Properties:
+    - MutagenObjectType: ScriptFloatProperty
+      Name: indicator_distance
+      Data: 150
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_furniture_to_place
+      Object: 038691:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_inventory_item
+      Object: 036B4F:Campfire.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: snap_to_terrain
+Model:
+  File: campfire\_Camp_Indicator_TanningRack.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap

@@ -1,0 +1,62 @@
+FormKey: 05EE95:Campfire.esm
+EditorID: _Camp_CookingPotHangingConjuredShelter
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampCookingPot
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CookingPotError
+      Object: 0430F5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CookingPotErrorNotification
+      Object: 05F95A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HeatSources_Fire
+      Object: 02899F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HeatSources_Fire_Small
+      Object: 028F02:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Asset_ExtraActivator1
+      Object: 04261D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_ExtraActivator1
+      Object: 0294A8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_InventoryItem
+      Object: 019849:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RequiredPositionRef_CenterObject
+      Object: 0294A7:Campfire.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Setting_BypassMenu
+      Data: True
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Setting_IsConjured
+      Data: True
+Name:
+  TargetLanguage: English
+  Value: Cooking Pot
+Model:
+  File: campfire\_camp_cookingpothangingfurniture.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0A56D8:Skyrim.esm
+- 06E9C7:Skyrim.esm
+- 1010B2:Skyrim.esm
+- 0A5CB3:Skyrim.esm
+- 0FD0E1:Skyrim.esm
+PNAM: 0x00000000
+Flags:
+- 0x40000000
+InteractionKeyword: 013794:Skyrim.esm
+WorkbenchData:
+  BenchType: CreateObject
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  EntryPoints:
+    Type:
+    - Sit
+    Points:
+    - Behind

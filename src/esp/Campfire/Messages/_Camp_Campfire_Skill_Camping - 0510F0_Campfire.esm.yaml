@@ -1,0 +1,24 @@
+FormKey: 0510F0:Campfire.esm
+EditorID: _Camp_Campfire_Skill_Camping
+Description:
+  TargetLanguage: English
+  Value: >-
+    CAMPING
+
+
+    Skilled campers can build a fire even in the worst weather and make more effective use of their surroundings. 
+
+
+    Light campfires and sleep in tents (once per day) to earn perks. Each new perk requires a few more actions.
+
+
+    Perks to increase: %.0f
+
+    Next perk progress: %.0f%%
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Back

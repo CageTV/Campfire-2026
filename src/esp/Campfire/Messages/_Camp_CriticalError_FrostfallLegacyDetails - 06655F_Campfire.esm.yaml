@@ -1,0 +1,12 @@
+FormKey: 06655F:Campfire.esm
+EditorID: _Camp_CriticalError_FrostfallLegacyDetails
+Description:
+  TargetLanguage: English
+  Value: ''
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

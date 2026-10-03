@@ -1,0 +1,28 @@
+FormKey: 075845:Campfire.esm
+EditorID: _Camp_legacyconfig_campfiremode_quick
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Building
+
+
+    Quick: 4 firewood or deadwood is used, and the campfire is lit automatically.
+
+
+    Realistic: You must use tinder, starting fuel, and lighting the campfire takes skill and time.
+
+
+    Current setting: Quick
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Quick
+- Text:
+    TargetLanguage: English
+    Value: Realistic
+- Text:
+    TargetLanguage: English
+    Value: Back

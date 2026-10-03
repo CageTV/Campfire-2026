@@ -1,0 +1,15 @@
+FormKey: 03657D:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_Tent_BowMarker
+SkyrimMajorRecordFlags:
+- 0x800000
+ObjectBounds:
+  First: -17, -57, -2
+  Second: 4, 57, 2
+Model:
+  File: Weapons\Steel\SteelBow.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- IsMarker

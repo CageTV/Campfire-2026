@@ -1,0 +1,22 @@
+FormKey: 05573B:Campfire.esm
+EditorID: _Camp_CriticalError_FrostfallLegacy
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Error - Frostfall Out of Date
+
+
+    Frostfall was detected, but it is out of date. Frostfall 2.6 and below is incompatible with Campfire. Check your load order for Chesko_Frostfall.esp, or legacy Frostfall compatibility patch, and disable it. If you upgraded from Frostfall 2.6, ensure that you followed ALL upgrade instructions found on skyrimsurvival.com/home/frostfall/quickstart-guide/ and clean-saved without either version of Frostfall installed.
+
+
+    DO NOT SAVE YOUR GAME, exit now, and upgrade or disable Frostfall. This message will repeat.
+
+
+    (Further debug details not available because SKSE is not installed.)
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

@@ -1,0 +1,28 @@
+FormKey: 04104D:Campfire.esm
+EditorID: _Camp_RecipeLeatherGoatHide
+Items:
+- Item:
+    Item: 03AD8E:Skyrim.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0299:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 03AD8E:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: DA0BF1:Update.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

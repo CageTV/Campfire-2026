@@ -1,0 +1,39 @@
+FormKey: 02D835:Campfire.esm
+EditorID: _Camp_Backpack_Black_Stendarr
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_BackpackToggle
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_BackpackDisplayReset
+      Object: 02D29F:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Backpack, Black Fur (Stendarr)
+ObjectEffect: 02D86D:Campfire.esm
+WorldModel:
+  Male:
+    Model:
+      File: campfire\_Camp_backpack_stendarrgnd.nif
+      Data: 0x020000000000000000000000
+      AlternateTextures:
+      - Name: BackpackMesh
+        NewTexture: 02C25E:Campfire.esm
+        Index: 1
+BodyTemplate:
+  FirstPersonFlags:
+  - 0x20000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 0C27BD:Skyrim.esm
+- 050A1D:Campfire.esm
+- AF0129:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 02D811:Campfire.esm
+Value: 50
+Weight: 5

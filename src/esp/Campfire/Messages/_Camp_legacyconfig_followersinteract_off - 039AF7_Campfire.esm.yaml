@@ -1,0 +1,22 @@
+FormKey: 039AF7:Campfire.esm
+EditorID: _Camp_legacyconfig_followersinteract_off
+Description:
+  TargetLanguage: English
+  Value: >-
+    Followers Interact with Campsite
+
+
+    If enabled (default), your followers (up to 3) will sleep in spare bed rolls when you lay down, and sit inside a tent or near campfires when you do.
+
+
+    Current Setting: Disabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Enable
+- Text:
+    TargetLanguage: English
+    Value: Back

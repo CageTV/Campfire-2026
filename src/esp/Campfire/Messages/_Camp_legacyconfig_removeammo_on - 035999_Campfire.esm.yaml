@@ -1,0 +1,22 @@
+FormKey: 035999:Campfire.esm
+EditorID: _Camp_legacyconfig_removeammo_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Remove Ammo in Tent
+
+
+    If enabled, your worn ammo will be removed from your character when sitting or sleeping on your bed roll.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

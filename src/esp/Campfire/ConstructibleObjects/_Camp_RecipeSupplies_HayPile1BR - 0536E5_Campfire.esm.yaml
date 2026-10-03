@@ -1,0 +1,15 @@
+FormKey: 0536E5:Campfire.esm
+EditorID: _Camp_RecipeSupplies_HayPile1BR
+Items:
+- Item:
+    Item: DA0BF1:Update.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0189:Update.esm
+  ComparisonValue: 1
+CreatedObject: 0536E4:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

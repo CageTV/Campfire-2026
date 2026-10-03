@@ -1,0 +1,18 @@
+FormKey: 052AA1:Campfire.esm
+EditorID: BehindBedRollExitChair
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 036587:Campfire.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsFurnitureEntryTypeConditionData
+    FurnitureEntryType: 131072
+  ComparisonValue: 1
+AnimationEvent: IdleChairExitStart
+RelatedIdles:
+- 013972:Skyrim.esm
+- 097276:Skyrim.esm
+AnimationGroupSection: 108

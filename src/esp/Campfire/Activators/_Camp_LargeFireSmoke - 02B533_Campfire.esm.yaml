@@ -1,0 +1,13 @@
+FormKey: 02B533:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_LargeFireSmoke
+SkyrimMajorRecordFlags:
+- 0x200
+Model:
+  File: campfire\_Camp_LargeFireSmoke.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+LoopingSound: 100FA4:Skyrim.esm
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap

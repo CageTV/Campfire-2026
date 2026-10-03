@@ -1,0 +1,34 @@
+FormKey: 03900D:Campfire.esm
+EditorID: _Camp_Bedroll_SpouseF
+ObjectBounds:
+  First: -42, -113, -4
+  Second: 42, 88, 30
+Name:
+  TargetLanguage: English
+  Value: Bed Roll
+Model:
+  File: campfire\_camp_PlayerBedrollFurniture.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0E4AD6:Skyrim.esm
+- 0FD0E1:Skyrim.esm
+PNAM: 0x00000000
+Flags:
+- IgnoredBySandbox
+- 0x80000000
+InteractionKeyword: 013794:Skyrim.esm
+WorkbenchData:
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  DisabledEntryPoints:
+    Points:
+    - Right
+    - Left
+  EntryPoints:
+    Type:
+    - Lay
+    Points:
+    - Front
+    - Right
+    - Left

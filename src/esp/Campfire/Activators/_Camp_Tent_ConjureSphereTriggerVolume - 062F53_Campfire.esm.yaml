@@ -1,0 +1,32 @@
+FormKey: 062F53:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_Tent_ConjureSphereTriggerVolume
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampShelterSphereTriggerVolumeScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_EnterSphereEffect
+      Object: 0634B6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMBRumbleALP
+      Object: 01C152:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FXCameraAttachDustFineEffect
+      Object: 0B96CA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAGWardTestDeflect
+      Object: 0225AD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+Model:
+  File: campfire\_Camp_ConjuredShelterTrigger.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags:
+- IgnoredBySandbox
+MajorFlags:
+- HiddenFromLocalMap

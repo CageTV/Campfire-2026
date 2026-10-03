@@ -1,0 +1,33 @@
+FormKey: 04382E:Campfire.esm
+EditorID: _Camp_PerkDesc_KeenSenses
+Description:
+  TargetLanguage: English
+  Value: >-
+    Detect items and creatures %.0f%% farther, determine if creatures are hostile, and move while sneaking without cancelling the effect when using Instincts.
+
+
+    Rank: %.0f/%.0f
+
+
+    Perks to increase: %.0f
+
+    Next perk progress: %.0f%%
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Choose Perk
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: CC0D02:Update.esm
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: About Camping
+- Text:
+    TargetLanguage: English
+    Value: Back

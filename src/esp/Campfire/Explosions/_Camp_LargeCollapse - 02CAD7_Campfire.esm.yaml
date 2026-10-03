@@ -1,0 +1,12 @@
+FormKey: 02CAD7:Campfire.esm
+EditorID: _Camp_LargeCollapse
+Model:
+  File: Effects\FallingDustExplosion01.nif
+  Data: 0x020000000000000000000000
+Force: 10
+Radius: 256
+Flags:
+- 0x1
+- IgnoreLosCheck
+- IgnoreImageSpaceSwap
+SoundLevel: Normal

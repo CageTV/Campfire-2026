@@ -1,0 +1,39 @@
+FormKey: 0415C1:Campfire.esm
+EditorID: _Camp_ArmorBanditBoots
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_SwapCraftedItem
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FakeArmor
+      Object: 0415C1:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RealArmor
+      Object: 06F398:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Fur Shoes
+WorldModel:
+  Male:
+    Model:
+      File: Armor\Bandit\bootsGO.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Feet
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBD3:Skyrim.esm
+- 08F959:Skyrim.esm
+- 06C0ED:Skyrim.esm
+- 0914EA:Skyrim.esm
+- 06BBDD:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 06F394:Skyrim.esm
+Value: 4
+Weight: 2
+ArmorRating: 6

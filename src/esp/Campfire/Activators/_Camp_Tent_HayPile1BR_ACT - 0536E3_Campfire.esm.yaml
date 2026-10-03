@@ -1,0 +1,70 @@
+FormKey: 0536E3:Campfire.esm
+EditorID: _Camp_Tent_HayPile1BR_ACT
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampTent
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_AnimalLayDownMarker
+      Object: 0536E6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ArmorBoots
+      Object: 0536DF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ArmorCuirass
+      Object: 0536E0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ArmorGauntlets
+      Object: 0536DD:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ArmorHelm
+      Object: 0536DC:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_Backpack
+      Object: 0536DE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_Shield
+      Object: 0536D6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_ShieldInterior
+      Object: 0536D7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_WeaponBow
+      Object: 0536D9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_WeaponMainHand
+      Object: 0536DB:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_WeaponOffHand
+      Object: 0536D8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Player_WeaponTwoHand
+      Object: 0536DA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_Ward
+      Object: 0536D5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RequiredPositionRef_PlayerBed
+      Object: 0536D4:Campfire.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Setting_Flammable
+      Data: True
+Name:
+  TargetLanguage: English
+  Value: Your Bedding
+Model:
+  File: Furniture\Bedroll\BedrollHay01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: BedrollHay01:7
+    NewTexture: 0462D3:Skyrim.esm
+    Index: 3
+Keywords:
+- 0536E1:Campfire.esm
+- 02AFC9:Campfire.esm
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Use
+Flags:
+- IgnoredBySandbox

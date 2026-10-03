@@ -1,0 +1,21 @@
+FormKey: 0737E7:Campfire.esm
+EditorID: _Camp_CombinedActionsMenu
+Description:
+  TargetLanguage: English
+  Value: What do you do?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Harvest Wood
+- Text:
+    TargetLanguage: English
+    Value: Build Campfire
+- Text:
+    TargetLanguage: English
+    Value: Create Item
+- Text:
+    TargetLanguage: English
+    Value: Back

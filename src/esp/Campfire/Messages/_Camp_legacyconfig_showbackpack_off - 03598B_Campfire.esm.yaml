@@ -1,0 +1,22 @@
+FormKey: 03598B:Campfire.esm
+EditorID: _Camp_legacyconfig_showbackpack_off
+Description:
+  TargetLanguage: English
+  Value: >-
+    Show Backpack in Tent
+
+
+    If enabled (default), your worn backpack will be removed from your character and placed in and around your tent when sitting or sleeping on your bed roll.
+
+
+    Current Setting: Disabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Enable
+- Text:
+    TargetLanguage: English
+    Value: Back

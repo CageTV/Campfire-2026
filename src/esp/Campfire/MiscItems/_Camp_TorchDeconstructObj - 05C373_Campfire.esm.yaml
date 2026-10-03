@@ -1,0 +1,29 @@
+FormKey: 05C373:Campfire.esm
+MajorRecordFlagsRaw: 4
+EditorID: _Camp_TorchDeconstructObj
+SkyrimMajorRecordFlags:
+- NotPlayable
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_Deconstruct
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: outputItem1
+      Object: 034CD6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: outputItem2
+      Object: 02E68F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ThisItem
+      Object: 05C373:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Kindling, Linen Wrap
+Model:
+  File: Clutter\Ruins\RuinsLinenWrap01.nif
+  Data: 0x020000000000000000000000
+MajorFlags:
+- NonPlayable

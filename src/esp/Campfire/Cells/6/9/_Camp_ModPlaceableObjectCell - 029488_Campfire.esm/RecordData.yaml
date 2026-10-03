@@ -1,0 +1,221 @@
+FormKey: 029488:Campfire.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: _Camp_ModPlaceableObjectCell
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: 3rd Party Mod Object Staging Cell
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00202621'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00172116'
+  FogFar: 4500
+  DirectionalFade: 1
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#00232622'
+    DirectionalXMinus: '#001C261F'
+    DirectionalYPlus: '#00202721'
+    DirectionalYMinus: '#00202421'
+    DirectionalZPlus: '#000F120E'
+    DirectionalZMinus: '#00303933'
+    Specular: '#00172116'
+    Scale: 1
+  FogFarColor: '#00172116'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+WaterHeight: -2.1474836E+09
+ImageSpace: 013B32:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 029489:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1088, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02948A:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1344, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02948B:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1088, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02948C:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -64, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02948D:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -832, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02948E:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -576, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02948F:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -320, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029490:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -320, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029491:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -576, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029492:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -576, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029493:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2497.0737, 357.62097, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029494:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2318.3027, 704.5871, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029495:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2318.3027, 960.58704, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029496:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 1984, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029497:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2753.0737, 357.62097, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029498:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 2753.0737, 101.62099, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 029499:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -320, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02949A:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -64, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02949B:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 192, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02949C:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1600, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02949D:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 192, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02949E:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1344, 576, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 02949F:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -64, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0294A0:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: 192, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0294A1:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1600, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0294A2:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -832, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0294A3:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1600, 320, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0294A4:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -832, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0294A5:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1088, 64, 7424
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0294A6:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -1344, 320, 7424
+    Rotation: 0, -0, 3.1415927
+MajorFlags:
+- 0x40000

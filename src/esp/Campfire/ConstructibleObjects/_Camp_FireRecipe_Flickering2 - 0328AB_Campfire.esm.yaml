@@ -1,0 +1,20 @@
+FormKey: 0328AB:Campfire.esm
+EditorID: _Camp_FireRecipe_Flickering2
+Items:
+- Item:
+    Item: 031DB4:Campfire.esm
+    Count: 4
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0D:Update.esm
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0C:Update.esm
+  ComparisonValue: 1
+CreatedObject: 03338D:Campfire.esm
+WorkbenchKeyword: 031DB0:Campfire.esm
+CreatedObjectCount: 1

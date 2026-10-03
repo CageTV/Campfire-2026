@@ -1,0 +1,7 @@
+FormKey: 052A9A:Campfire.esm
+EditorID: _Camp_Tent_LargeLeatherStaticExterior
+Model:
+  File: campfire\_camp_largeleathertent_cutthroughexterior.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

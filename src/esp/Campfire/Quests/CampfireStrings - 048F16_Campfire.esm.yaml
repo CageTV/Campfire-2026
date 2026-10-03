@@ -1,0 +1,86 @@
+FormKey: 048F16:Campfire.esm
+EditorID: CampfireStrings
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_Strings
+    Properties:
+    - MutagenObjectType: ScriptStringProperty
+      Name: AnimalNameGeneric
+      Data: Your companion
+    - MutagenObjectType: ScriptStringProperty
+      Name: Follower_gathered
+      Data: ' found '
+    - MutagenObjectType: ScriptStringProperty
+      Name: FollowerHarvestBranches
+      Data: ' extra branch.'
+    - MutagenObjectType: ScriptStringProperty
+      Name: FollowerHarvestBranchesPlural
+      Data: ' extra branches.'
+    - MutagenObjectType: ScriptStringProperty
+      Name: FollowerHarvestDeadwood
+      Data: ' extra piece of deadwood.'
+    - MutagenObjectType: ScriptStringProperty
+      Name: FollowerHarvestDeadwoodPlural
+      Data: ' extra pieces of deadwood.'
+    - MutagenObjectType: ScriptStringProperty
+      Name: FollowerNameGeneric
+      Data: Your follower
+    - MutagenObjectType: ScriptStringProperty
+      Name: FrostfallCriticalError1
+      Data: Campfire Error - Legacy Frostfall Detected                      Frostfall 2.6 or below was detected, which is incompatible with Campfire. Check for Chesko_Frostfall.esp, or a legacy Frostfall compatibility patch, and disable it. If you upgraded from 2.6 to 3.x, ensure that you followed the Frostfall 3 Quickstart Guide.                               DO NOT SAVE YOUR GAME, exit now, and upgrade or disable Frostfall. This message will repeat.
+    - MutagenObjectType: ScriptStringProperty
+      Name: FrostfallCriticalError2
+      Data: '           (Details: Found '
+    - MutagenObjectType: ScriptStringProperty
+      Name: FrostfallCriticalError2NoSKSE
+      Data: '           (Further details not available because SKSE was not found.)'
+    - MutagenObjectType: ScriptStringProperty
+      Name: FrostfallCriticalError3
+      Data: ' at enabled plug-in position '
+    - MutagenObjectType: ScriptStringProperty
+      Name: FrostfallCriticalError4
+      Data: ' of load order. Detected author: '
+    - MutagenObjectType: ScriptStringProperty
+      Name: FrostfallCriticalErrorUnknown1
+      Data: "Campfire Error: Frostfall 2.6 or below was detected, but Campfire couldn't resolve it to an enabled plug-in in your load order. The cause of this is unknown, but could be due to improper upgrade of Frostfall 2.6 to 3.x. Ensure that you followed the Frostfall 3 Quickstart Guide and clean-saved. You can continue to play, but you may require a clean save of Frostfall."
+    - MutagenObjectType: ScriptStringProperty
+      Name: FrostfallCriticalErrorUnknown2
+      Data: ' (Details: Game.GetFormFromFile(0x0286F3, "Chesko_Frostfall.esp") detected legacy Frostfall form '
+    - MutagenObjectType: ScriptStringProperty
+      Name: FrostfallCriticalErrorUnknown3
+      Data: ", but Game.GetModByName(\"Chesko_Frostfall.esp\") couldn't find the plugin.)"
+    - MutagenObjectType: ScriptStringProperty
+      Name: HotkeyConflict1
+      Data: 'This key is already bound to '
+    - MutagenObjectType: ScriptStringProperty
+      Name: HotkeyConflict2
+      Data: ' in '
+    - MutagenObjectType: ScriptStringProperty
+      Name: HotkeyConflict3_game
+      Data: ' in Skyrim. Please select a different key.'
+    - MutagenObjectType: ScriptStringProperty
+      Name: HotkeyConflict3_mod
+      Data: . Undesirable behavior may occur; use with caution, or assign to a different key.\n\nContinue?
+    - MutagenObjectType: ScriptStringProperty
+      Name: HotkeyDescription_BuildCampfire
+      Data: 'Survival Skill: Build Campfire'
+    - MutagenObjectType: ScriptStringProperty
+      Name: HotkeyDescription_CreateItem
+      Data: 'Survival Skill: Create Item'
+    - MutagenObjectType: ScriptStringProperty
+      Name: HotkeyDescription_HarvestWood
+      Data: 'Survival Skill: Harvest Wood'
+    - MutagenObjectType: ScriptStringProperty
+      Name: HotkeyDescription_Instincts
+      Data: 'Survival Skill: Instincts'
+    - MutagenObjectType: ScriptStringProperty
+      Name: IngredientRequired
+      Data: ' required.'
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  FileName: ''
+Name:
+  TargetLanguage: English
+  Value: Campfire String Properties
+NextAliasID: 0

@@ -1,0 +1,38 @@
+FormKey: 06D178:Campfire.esm
+EditorID: _Camp_SurvivalVisionDetectMotionIndoors
+Name:
+  TargetLanguage: English
+  Value: Detect Sound Indoors
+Flags:
+- Recover
+- NoHitEvent
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+- Painless
+HitShader: 04E05F:Campfire.esm
+SpellmakingArea: 50
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: DetectLife
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 06DC4D:Campfire.esm
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04381A:Campfire.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 0F82F4:Skyrim.esm

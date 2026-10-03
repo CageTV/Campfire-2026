@@ -1,0 +1,11 @@
+FormKey: 040013:Campfire.esm
+EditorID: _Camp_Fuel_Crackling_DeadwoodLit
+ObjectBounds:
+  First: -57, -44, -99
+  Second: 135, 29, 178
+Model:
+  File: campfire\_Camp_Fuel_Crackling_DeadwoodLit.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+LoopingSound: 0E9DDF:Skyrim.esm
+Flags: []

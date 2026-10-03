@@ -1,0 +1,23 @@
+FormKey: 02D839:Campfire.esm
+EditorID: _Camp_RecipeSupplies_Backpack_Brown_Bear_Default
+Items:
+- Item:
+    Item: 03AD52:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0800E4:Skyrim.esm
+    Count: 8
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0129:Update.esm
+  ComparisonValue: 1
+CreatedObject: 02C260:Campfire.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

@@ -1,0 +1,17 @@
+FormKey: 0536E9:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_Tent_SmallTentTriggerVolume
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampLargeTentTriggerVolumeScript
+Model:
+  File: campfire\_Camp_SmallTentTrigger.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags:
+- IgnoredBySandbox
+InteractionKeyword: 099306:Skyrim.esm
+MajorFlags:
+- HiddenFromLocalMap

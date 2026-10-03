@@ -1,0 +1,23 @@
+FormKey: 02EE0A:Campfire.esm
+EditorID: _Camp_ZTestEffectC
+Name:
+  TargetLanguage: English
+  Value: Z Test Effect C
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- FXPersist
+- NoRecast
+- NoDeathDispel
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 02EE16:Campfire.esm
+CastType: FireAndForget
+TargetType: Aimed
+DualCastScale: 1.1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

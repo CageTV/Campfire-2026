@@ -1,0 +1,9 @@
+MutagenObjectType: GlobalShort
+FormKey: 0473E6:Campfire.esm
+MajorRecordFlagsRaw: 64
+EditorID: _Camp_PerkRank_Firecraft_Max
+SkyrimMajorRecordFlags:
+- 0x40
+MajorFlags:
+- Constant
+Data: 4

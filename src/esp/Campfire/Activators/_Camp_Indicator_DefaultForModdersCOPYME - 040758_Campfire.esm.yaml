@@ -1,0 +1,15 @@
+FormKey: 040758:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_Indicator_DefaultForModdersCOPYME
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlacementIndicator
+Model:
+  File: campfire\_camp_defaultindicator.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap

@@ -1,0 +1,22 @@
+FormKey: 0742B6:Campfire.esm
+EditorID: _Camp_legacyconfig_instinctsVFX_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Instincts Visual Effect
+
+
+    Toggle the visual distortion effect when starting Instincts on or off.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

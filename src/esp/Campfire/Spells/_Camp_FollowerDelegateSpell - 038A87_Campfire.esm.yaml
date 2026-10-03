@@ -1,0 +1,17 @@
+FormKey: 038A87:Campfire.esm
+EditorID: _Camp_FollowerDelegateSpell
+Name:
+  TargetLanguage: English
+  Value: Follower Delegate Spell
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- NoAbsorbOrReflect
+CastType: Concentration
+TargetType: Aimed
+Effects:
+- BaseEffect: 038A86:Campfire.esm
+  Data:
+    Duration: 1

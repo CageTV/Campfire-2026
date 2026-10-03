@@ -1,0 +1,7 @@
+FormKey: 0468C3:Campfire.esm
+EditorID: _Camp_TinderINV_Cotton
+Model:
+  File: Plants\TundraCotton01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

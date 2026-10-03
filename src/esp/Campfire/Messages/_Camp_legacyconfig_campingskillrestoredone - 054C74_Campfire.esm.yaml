@@ -1,0 +1,12 @@
+FormKey: 054C74:Campfire.esm
+EditorID: _Camp_legacyconfig_campingskillrestoredone
+Description:
+  TargetLanguage: English
+  Value: Perks restored successfully.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Ok

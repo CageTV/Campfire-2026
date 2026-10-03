@@ -1,0 +1,25 @@
+FormKey: 066552:Campfire.esm
+EditorID: _Camp_legacyconfig_tutorials_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Show Tutorials
+
+
+    If enabled, Campfire will display certain tutorial messages when it is contextually relevant. If you are already an experienced Campfire player, you can safely disable this feature.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Reset Tutorials
+- Text:
+    TargetLanguage: English
+    Value: Back

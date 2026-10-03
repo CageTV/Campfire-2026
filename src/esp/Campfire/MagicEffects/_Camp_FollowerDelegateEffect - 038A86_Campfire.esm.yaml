@@ -1,0 +1,43 @@
+FormKey: 038A86:Campfire.esm
+EditorID: _Camp_FollowerDelegateEffect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_FollowerDelegate
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_FollowerRegistrationSpell
+      Object: 036F7F:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Follower Delegate Effect
+Flags:
+- NoHitEvent
+- HideInUI
+- NoDeathDispel
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: Concentration
+TargetType: Aimed
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 036F7C:Campfire.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetPlayerTeammateConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetFactionRankConditionData
+    Faction: 0BD738:Skyrim.esm

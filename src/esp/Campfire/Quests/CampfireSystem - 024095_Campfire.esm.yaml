@@ -1,0 +1,248 @@
+FormKey: 024095:Campfire.esm
+EditorID: CampfireSystem
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _CampfireInternalAPI
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampingCrimeTracking
+      Object: 02AFC7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_NotInitializedError
+      Object: 066560:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ObjectMainMenu
+      Object: 03E18C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampfireStrings
+      Object: 048F16:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IllegalItem1
+      Object: 02AFC7:Campfire.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IllegalItem2
+      Object: 02AFC7:Campfire.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IllegalItem3
+      Object: 02AFC7:Campfire.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MagicDamageFire
+      Object: 01CEAD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MagicDamageFrost
+      Object: 01CEAE:Skyrim.esm
+  - Name: CampfireAPI
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_APIVersion
+      Object: 03F1BE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireVersion
+      Object: 051666:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CurrentlyPlacingObject
+      Object: 02EE01:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_GeneralError_Busy
+      Object: 03AB35:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_GeneralError_Mounted
+      Object: 03AB37:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_GeneralError_Placement
+      Object: 03AB39:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_GeneralError_Sleeping
+      Object: 03AB38:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_GeneralError_Swimming
+      Object: 03AB36:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_GeneralError_Transformed
+      Object: 03FC8C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_MainQuest
+      Object: 022033:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_AdvancedPlacement
+      Object: 048CEE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_CampingArmorTakeOff
+      Object: 03EA70:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_CompatibilityEO
+      Object: 052C04:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_EquipmentFlammable
+      Object: 03A060:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_FollowersRemoveGearInTents
+      Object: 039AF6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_FollowersUseCampsite
+      Object: 039AF5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_Legality
+      Object: 02409E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_ManualFireLighting
+      Object: 01C3E8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_MaxThreads
+      Object: 026EAF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Ammo
+      Object: 0250E8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Backpack
+      Object: 0250E5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Boots
+      Object: 0250E4:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Cuirass
+      Object: 0250E2:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Gauntlets
+      Object: 0250E3:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Helm
+      Object: 0250E1:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Shield
+      Object: 0250E7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Weapons
+      Object: 0250E6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TrackFollowers
+      Object: 035983:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_WarmBaseTents
+      Object: 06FCA0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_WorldspacesInteriors
+      Object: 0339E3:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorTypeCreature
+      Object: 013795:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorTypeNPC
+      Object: 013794:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorTypeUndead
+      Object: 013796:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Animal
+      Object: 061A04:Campfire.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampData
+      Object: 024095:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampfireObjectPlacementSystem
+      Object: 02612B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampfireTentSystem
+      Object: 025BC2:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Compatibility
+      Object: 022033:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_CampfirePerkPurchased
+      Object: 0727B7:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_InstinctsRunAliases
+      Object: 0727BC:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_InstinctsStartSearch
+      Object: 0727B9:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_InstinctsStopSearch
+      Object: 0727BA:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_Loaded
+      Object: 0727B6:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_OnBedrollSitLay
+      Object: 0727B3:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_OnConjuredObjectIDUpdated
+      Object: 0727B8:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_OnObjectPlaced
+      Object: 0727B1:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_OnObjectRemoved
+      Object: 0727B2:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_OnTentEnter
+      Object: 0727B4:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_OnTentLeave
+      Object: 0727B5:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EventEmitter_PlayerHit
+      Object: 0727BB:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Follower1
+      Object: 061A04:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Follower2
+      Object: 061A04:Campfire.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Follower3
+      Object: 061A04:Campfire.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ImmuneParalysis
+      Object: 0F23C5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: isCampfireCrimeToPlaceInTowns
+      Object: 02AFC9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: isCampfireObjectTemporary
+      Object: 052695:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: isCampfireTentNoShelter
+      Object: 0536E1:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: isCampfireTentWarm
+      Object: 03AB3B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: isCampfireTentWaterproof
+      Object: 03AB3A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Legal
+      Object: 022033:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerVampireQuest
+      Object: 0EAFD5:Skyrim.esm
+  - Name: CampfireData
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  FileName: ''
+NextAliasID: 0

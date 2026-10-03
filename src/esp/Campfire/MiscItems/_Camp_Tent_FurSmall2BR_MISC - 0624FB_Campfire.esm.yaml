@@ -1,0 +1,22 @@
+FormKey: 0624FB:Campfire.esm
+EditorID: _Camp_Tent_FurSmall2BR_MISC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlaceableMiscItem
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_placement_indicator
+      Object: 0624FE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_this_item
+      Object: 0624FB:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: ' Small Fur Tent, 2x Bed Roll'
+Model:
+  File: campfire\_camp_smallhidetentmiscobject_2br.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 03AB3C:Campfire.esm
+Value: 25
+Weight: 14

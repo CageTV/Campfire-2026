@@ -1,0 +1,26 @@
+FormKey: 04AD8A:Campfire.esm
+EditorID: _Camp_Recipe_Reclaim_Backpack_Black_Kynareth
+Items:
+- Item:
+    Item: 02D833:Campfire.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0129:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 02D833:Campfire.esm
+  ComparisonValue: 1
+CreatedObject: 04AD6C:Campfire.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

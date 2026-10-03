@@ -1,0 +1,22 @@
+FormKey: 03598E:Campfire.esm
+EditorID: _Camp_legacyconfig_showarmor_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Show Armor in Tent
+
+
+    If enabled, your worn body armor will be removed from your character and placed in and around your tent when sitting or sleeping on your bed roll.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

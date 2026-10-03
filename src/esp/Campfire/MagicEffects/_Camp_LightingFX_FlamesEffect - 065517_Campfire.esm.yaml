@@ -1,0 +1,18 @@
+FormKey: 065517:Campfire.esm
+EditorID: _Camp_LightingFX_FlamesEffect
+Name:
+  TargetLanguage: English
+  Value: Fire Lighting Flame Hand Effects
+Flags:
+- FXPersist
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectLightArchetype
+  Association: 0140EC:Skyrim.esm
+HitEffectArt: 065518:Campfire.esm
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

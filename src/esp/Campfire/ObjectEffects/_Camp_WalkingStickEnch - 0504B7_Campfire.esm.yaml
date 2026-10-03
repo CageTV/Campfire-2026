@@ -1,0 +1,42 @@
+FormKey: 0504B7:Campfire.esm
+EditorID: _Camp_WalkingStickEnch
+Name:
+  TargetLanguage: English
+  Value: Walking Stick
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 0250CC:Campfire.esm
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 043817:Campfire.esm
+- BaseEffect: 048F18:Campfire.esm
+  Data:
+    Magnitude: 20
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 043817:Campfire.esm
+    ComparisonValue: 1
+- BaseEffect: 048F18:Campfire.esm
+  Data:
+    Magnitude: 25
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 043817:Campfire.esm
+    ComparisonValue: 2
+- BaseEffect: 048F18:Campfire.esm
+  Data:
+    Magnitude: 30
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 043817:Campfire.esm
+    ComparisonValue: 3

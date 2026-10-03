@@ -1,0 +1,7 @@
+FormKey: 075844:Campfire.esm
+EditorID: _Camp_CampfireNoFuelMsg
+Description:
+  TargetLanguage: English
+  Value: You need 4 firewood or deadwood to build a campfire.
+INAM: 0x00000000
+DisplayTime: 2

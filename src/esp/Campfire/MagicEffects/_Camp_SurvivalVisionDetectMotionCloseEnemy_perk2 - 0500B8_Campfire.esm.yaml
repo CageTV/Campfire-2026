@@ -1,0 +1,46 @@
+FormKey: 0500B8:Campfire.esm
+EditorID: _Camp_SurvivalVisionDetectMotionCloseEnemy_perk2
+Name:
+  TargetLanguage: English
+  Value: Detect Sound Close Enemy Perk 2
+Flags:
+- Recover
+- NoHitEvent
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+- Painless
+HitShader: 0500BA:Campfire.esm
+SpellmakingArea: 200
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: DetectLife
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 06DC4D:Campfire.esm
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 04381A:Campfire.esm
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 013796:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 0F82F4:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsUndeadConditionData

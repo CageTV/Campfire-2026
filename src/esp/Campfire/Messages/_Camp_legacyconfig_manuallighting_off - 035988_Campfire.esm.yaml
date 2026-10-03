@@ -1,0 +1,25 @@
+FormKey: 035988:Campfire.esm
+EditorID: _Camp_legacyconfig_manuallighting_off
+Description:
+  TargetLanguage: English
+  Value: >-
+    Manually Light Campfires
+
+
+    If enabled, you must light the campfires you build by hitting it with a torch or by using a flame spell or shout.
+
+
+    If disabled (default), campfires that you build will be lit automatically.
+
+
+    Current Setting: Disabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Enable
+- Text:
+    TargetLanguage: English
+    Value: Back

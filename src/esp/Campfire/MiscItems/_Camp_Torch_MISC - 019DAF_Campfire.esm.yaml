@@ -1,0 +1,20 @@
+FormKey: 019DAF:Campfire.esm
+EditorID: _Camp_Torch_MISC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_SwapCraftedTorch
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Torch_MISC
+      Object: 019DAF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Torch01
+      Object: 01D4EC:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Torch
+Model:
+  File: campfire\_Camp_Torch_MISC.nif
+  Data: 0x020000000000000000000000
+Value: 2
+Weight: 0.5

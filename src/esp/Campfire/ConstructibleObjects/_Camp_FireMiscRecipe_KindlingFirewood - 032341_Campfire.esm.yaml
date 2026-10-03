@@ -1,0 +1,15 @@
+FormKey: 032341:Campfire.esm
+EditorID: _Camp_FireMiscRecipe_KindlingFirewood
+Items:
+- Item:
+    Item: 06F993:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 075842:Campfire.esm
+  ComparisonValue: 1
+CreatedObject: 02E68F:Campfire.esm
+WorkbenchKeyword: 031DB0:Campfire.esm
+CreatedObjectCount: 4

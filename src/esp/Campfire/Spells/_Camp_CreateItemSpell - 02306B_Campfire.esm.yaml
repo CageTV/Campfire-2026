@@ -1,0 +1,15 @@
+FormKey: 02306B:Campfire.esm
+EditorID: _Camp_CreateItemSpell
+Name:
+  TargetLanguage: English
+  Value: Create Item
+MenuDisplayObject: 10A046:Skyrim.esm
+EquipmentType: 025BEE:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Use your knowledge of wilderness survival to create useful items.
+Type: LesserPower
+CastType: FireAndForget
+Effects:
+- BaseEffect: 019DAE:Campfire.esm
+  Data: {}

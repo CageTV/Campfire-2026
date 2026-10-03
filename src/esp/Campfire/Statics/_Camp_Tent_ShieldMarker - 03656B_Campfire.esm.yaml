@@ -1,0 +1,15 @@
+FormKey: 03656B:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_Tent_ShieldMarker
+SkyrimMajorRecordFlags:
+- 0x800000
+ObjectBounds:
+  First: -25, -25, -11
+  Second: 25, 25, 1
+Model:
+  File: Armor\Steel\Shield.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- IsMarker

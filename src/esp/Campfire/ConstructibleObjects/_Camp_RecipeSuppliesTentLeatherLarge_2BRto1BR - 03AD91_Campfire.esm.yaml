@@ -1,0 +1,21 @@
+FormKey: 03AD91:Campfire.esm
+EditorID: _Camp_RecipeSuppliesTentLeatherLarge_2BRto1BR
+Items:
+- Item:
+    Item: 038CBD:Campfire.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0189:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 038CBD:Campfire.esm
+  ComparisonValue: 1
+CreatedObject: 038CBC:Campfire.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

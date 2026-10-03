@@ -1,0 +1,19 @@
+FormKey: 06654B:Campfire.esm
+EditorID: _Camp_Tutorial_FireBuilding_5
+Description:
+  TargetLanguage: English
+  Value: >-
+    You have created a fragile fire that will last for one hour. Well done!
+
+
+    You can now add more fuel to increase the warmth and duration of your campfire. Select flickering, crackling, or roaring campfire recipes to view their required materials.
+
+
+    Larger campfires can be used to cook food and grant bonuses.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK (Complete Tutorial)

@@ -1,0 +1,134 @@
+FormKey: 032329:Campfire.esm
+EditorID: _Camp_Campfire_Menu
+Description:
+  TargetLanguage: English
+  Value: >-
+    What do you do?
+
+
+    (%.0f hours, %.0f minutes remaining.)
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Use
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsPlayerSittingNearFire_var
+- Text:
+    TargetLanguage: English
+    Value: Sit
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsPlayerSittingNearFire_var
+- Text:
+    TargetLanguage: English
+    Value: Talk To...
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsPlayerSittingNearFire_var
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::Follower1Registered_var
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::Follower2Registered_var
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::Follower3Registered_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Put Out
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: CC0E0D:Update.esm
+    ComparisonValue: 2
+- Text:
+    TargetLanguage: English
+    Value: Destroy
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+- Text:
+    TargetLanguage: English
+    Value: Place Cooking Pot
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsCurrentTentConjured_var
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 019849:Campfire.esm
+- Text:
+    TargetLanguage: English
+    Value: Skills
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsPlayerSittingNearFire_var
+- Text:
+    TargetLanguage: English
+    Value: Get Up
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsPlayerSittingNearFire_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Back

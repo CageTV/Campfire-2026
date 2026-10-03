@@ -1,0 +1,31 @@
+FormKey: 0397C0:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_Indicator_TentLeatherLarge3BR
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlacementIndicator
+    Properties:
+    - MutagenObjectType: ScriptFloatProperty
+      Name: height_adjustment
+      Data: -46.8232
+    - MutagenObjectType: ScriptFloatProperty
+      Name: indicator_distance
+      Data: 400
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_activator_to_place
+      Object: 0397BD:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_inventory_item
+      Object: 038CBE:Campfire.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: z_angle_adjustment
+      Data: -90
+Model:
+  File: campfire\_Camp_Indicator_largeleathertent_3br.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap

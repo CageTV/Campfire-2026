@@ -1,0 +1,27 @@
+FormKey: 07BEA1:Campfire.esm
+EditorID: _Camp_TentSitMarkerVR
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_TentSitLayScript
+Name:
+  TargetLanguage: English
+  Value: Sit Down
+Model:
+  File: Furniture\ChairInvisibleSingle.nif
+  Data: 0x020000000000000000000000
+PNAM: 0xCC4C3300
+Flags:
+- IgnoredBySandbox
+- 0x40000000
+InteractionKeyword: 099306:Skyrim.esm
+WorkbenchData:
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  EntryPoints:
+    Type:
+    - Sit
+    Points:
+    - Front
+    - Right
+    - Left

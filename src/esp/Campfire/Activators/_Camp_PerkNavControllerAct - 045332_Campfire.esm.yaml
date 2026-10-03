@@ -1,0 +1,44 @@
+FormKey: 045332:Campfire.esm
+MajorRecordFlagsRaw: 8389120
+EditorID: _Camp_PerkNavControllerAct
+SkyrimMajorRecordFlags:
+- 0x200
+- 0x800000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_PerkNavController
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkExitBug
+      Object: 044DCA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkNextBug
+      Object: 044DCC:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkPrevBug
+      Object: 044DCD:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkExitBug_PositionRef
+      Object: 044DCB:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNavController_PositionRef
+      Object: 043820:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNextBug_PositionRef
+      Object: 044DCE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkPrevBug_PositionRef
+      Object: 044DCF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+Model:
+  File: MarkerX.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 052695:Campfire.esm
+MarkerColor: '#00CC4C33'
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap
+- IsMarker

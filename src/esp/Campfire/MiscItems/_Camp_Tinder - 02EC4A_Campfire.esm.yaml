@@ -1,0 +1,9 @@
+FormKey: 02EC4A:Campfire.esm
+EditorID: _Camp_Tinder
+Name:
+  TargetLanguage: English
+  Value: Tinder
+Model:
+  File: campfire\_Camp_Tinder.nif
+  Data: 0x020000000000000000000000
+Weight: 0.1

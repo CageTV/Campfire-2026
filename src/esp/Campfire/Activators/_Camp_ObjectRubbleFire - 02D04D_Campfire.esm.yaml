@@ -1,0 +1,11 @@
+FormKey: 02D04D:Campfire.esm
+EditorID: _Camp_ObjectRubbleFire
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_RubbleFire
+Model:
+  File: campfire\_Camp_BurntTentRubble.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+LoopingSound: 0E9DDF:Skyrim.esm
+Flags: []

@@ -1,0 +1,52 @@
+FormKey: 05DE67:Campfire.esm
+MajorRecordFlagsRaw: 268435456
+EditorID: _Camp_BedNPC_Common
+SkyrimMajorRecordFlags:
+- 0x10000000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_CampTentNPCBedrollScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_FollowersRemoveGearInTents
+      Object: 039AF6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tent_FollowerBed
+      Object: 05DE6C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tent_FollowerBedroll
+      Object: 04413D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_WalkingStickShield
+      Object: 0250CA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: Setting_IsBed
+      Data: True
+Name:
+  TargetLanguage: English
+  Value: Spare Bed
+Model:
+  File: Furniture\Common\CommonBed01.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0FD0E1:Skyrim.esm
+PNAM: 0x00000000
+Flags:
+- MustExitToTalk
+- 0x80000000
+InteractionKeyword: 013794:Skyrim.esm
+WorkbenchData:
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  EntryPoints:
+    Type:
+    - Lay
+    Points:
+    - Right
+    - Left
+MajorFlags:
+- MustExitToTalk

@@ -1,0 +1,20 @@
+FormKey: 04000A:Campfire.esm
+EditorID: _Camp_RecipeSupplies_Cloak_Hide
+Items:
+- Item:
+    Item: 0DB5D2:Skyrim.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0119:Update.esm
+  ComparisonValue: 1
+CreatedObject: 03FA9F:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

@@ -1,0 +1,133 @@
+FormKey: 067591:Campfire.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: _Camp_ModPerkTreeCell
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: 3rd Party Mod Perk Tree Cell
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00202621'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00172116'
+  FogFar: 4500
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#00232622'
+    DirectionalXMinus: '#001C261F'
+    DirectionalYPlus: '#00202721'
+    DirectionalYMinus: '#00202421'
+    DirectionalZPlus: '#000F120E'
+    DirectionalZMinus: '#00303933'
+    Specular: '#00172116'
+    Scale: 1
+  FogFarColor: '#00172116'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+WaterHeight: 0
+ImageSpace: 013B32:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 0675B0:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_CampfireBaseExampleRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 03231A:Campfire.esm
+  Placement:
+    Position: -896, 124, 7549
+- MutagenObjectType: PlacedObject
+  FormKey: 0675B1:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_PerkControllerExampleRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 00003B:Skyrim.esm
+  Placement:
+    Position: -896, 124, 7549
+- MutagenObjectType: PlacedObject
+  FormKey: 0675B2:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_PerkExitBugExampleRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 044DCA:Campfire.esm
+  Scale: 0.5
+  Placement:
+    Position: -845, 53, 7595
+    Rotation: 0, -0, 3.9793508
+- MutagenObjectType: PlacedObject
+  FormKey: 0675B3:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_PerkNextBugExampleRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 044DCC:Campfire.esm
+  Scale: 0.5
+  Placement:
+    Position: -834, 53, 7646
+    Rotation: 0, -0, 5.2883477
+- MutagenObjectType: PlacedObject
+  FormKey: 0675B4:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: _Camp_PerkPrevBugExampleRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 044DCD:Campfire.esm
+  Scale: 0.5
+  Placement:
+    Position: -958, 53, 7646
+    Rotation: 0, -0, 0.9075712
+- MutagenObjectType: PlacedObject
+  FormKey: 0675B5:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: Example_Node_1_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 043811:Campfire.esm
+  Placement:
+    Position: -896, 64, 7615
+- MutagenObjectType: PlacedObject
+  FormKey: 0675B7:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: Example_Node_2_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 043811:Campfire.esm
+  Placement:
+    Position: -896, 64, 7651
+- MutagenObjectType: PlacedObject
+  FormKey: 0675BE:Campfire.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: Example_Line_1_2_PosRef
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 043832:Campfire.esm
+  Scale: 0.62
+  Placement:
+    Position: -896, 64, 7616
+    Rotation: 1.5707964, 0, 3.1415927
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 067597:Campfire.esm
+  Base: 0A33D9:Skyrim.esm
+  Placement:
+    Position: -896, 124, 7549
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0675B6:Campfire.esm
+  EditorID: _Camp_CampingPerkArtPlaneExampleRef
+  Base: 0675C0:Campfire.esm
+  Placement:
+    Position: -896, 77, 7658
+MajorFlags:
+- 0x40000

@@ -1,0 +1,133 @@
+FormKey: 02AFC8:Campfire.esm
+EditorID: _Camp_TravelAndGuard
+Type: PackageTemplate
+PreferredSpeed: Run
+Unknown: 111
+InterruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- 0x100
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x747572
+Data:
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Place to Travel
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationKeyword
+      Radius: 512
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: RestrictedArea
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearSelf
+      Radius: 512
+- Key: 9
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Suspicious Of
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 000DB1:Skyrim.esm
+- Key: 10
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Prefer Preffered Path?
+    Flags:
+    - Public
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Ride Horse if possible?
+    Flags:
+    - Public
+- Key: 4
+  Value:
+    MutagenObjectType: APackageData
+    Name: <none>
+    Flags:
+    - Public
+- Key: 5
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 6
+  Value:
+    MutagenObjectType: APackageData
+    Name: RideHorseIfPossible
+    Flags:
+    - Public
+- Key: 7
+  Value:
+    MutagenObjectType: APackageData
+    Name: PreferPreferredPath
+    Flags:
+    - Public
+XnamMarker: 0x0B
+ProcedureTree:
+- BranchType: Simultaneous
+  Root:
+    BranchCount: 2
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Data:
+      MutagenObjectType: GetTrespassWarningLevelConditionData
+    ComparisonValue: 1
+  ProcedureType: Guard
+  Flags: []
+  DataInputIndices:
+  - 8
+  - 9
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Travel
+  Flags:
+  - SuccessCompletesPackage
+  DataInputIndices:
+  - 0
+  - 2
+  - 10
+  Unknown: []
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

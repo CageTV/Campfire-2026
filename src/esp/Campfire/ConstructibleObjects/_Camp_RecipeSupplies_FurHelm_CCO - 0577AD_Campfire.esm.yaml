@@ -1,0 +1,32 @@
+FormKey: 0577AD:Campfire.esm
+EditorID: _Camp_RecipeSupplies_FurHelm_CCO
+Items:
+- Item:
+    Item: CC0606:Update.esm
+    Count: 1
+- Item:
+    Item: DA0BF1:Update.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0299:Update.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0108:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0100:Update.esm
+  ComparisonValue: 1
+CreatedObject: 06F39E:Skyrim.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

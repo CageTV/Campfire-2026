@@ -1,0 +1,10 @@
+FormKey: 03BE8E:Campfire.esm
+EditorID: _Camp_TentWard
+ObjectBounds:
+  First: -3, -664, -4
+  Second: 131, 47, 8
+Model:
+  File: campfire\_Camp_tentward.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

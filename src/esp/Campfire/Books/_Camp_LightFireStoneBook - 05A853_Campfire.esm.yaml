@@ -1,0 +1,36 @@
+FormKey: 05A853:Campfire.esm
+EditorID: _Camp_LightFireStoneBook
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_LightMethod
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireLightFlamesMarker
+      Object: 06551B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireLightStoneMarker
+      Object: 0644E1:Campfire.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: is_stone
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 05A853:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Build Fire - Light (Strike Stone)
+BookText:
+  TargetLanguage: English
+  Value: ''
+Keywords:
+- 01E717:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+InventoryArt: 03541D:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: Light the fire by striking a stone. Firecraft perk improves lighting speed. Increases Camping.

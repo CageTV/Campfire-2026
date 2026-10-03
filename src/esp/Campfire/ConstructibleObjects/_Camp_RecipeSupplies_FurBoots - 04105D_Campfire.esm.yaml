@@ -1,0 +1,28 @@
+FormKey: 04105D:Campfire.esm
+EditorID: _Camp_RecipeSupplies_FurBoots
+Items:
+- Item:
+    Item: CC0606:Update.esm
+    Count: 2
+- Item:
+    Item: DA0BF1:Update.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0105:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0100:Update.esm
+  ComparisonValue: 1
+CreatedObject: 0415C8:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

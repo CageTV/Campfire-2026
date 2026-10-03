@@ -1,0 +1,36 @@
+FormKey: 05A841:Campfire.esm
+EditorID: _Camp_TinderType_BW_Shavings
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_TinderTypeScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireSize
+      Object: CC0E0C:Update.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: is_bad_weather
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: quality_rank
+      Data: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 05A841:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Build Fire - Add Tinder (Wood Shavings)
+BookText:
+  TargetLanguage: English
+  Value: ''
+Keywords:
+- 01E717:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+InventoryArt: 05A84B:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: Poor quality tinder. Extremely difficult to light under current weather conditions.

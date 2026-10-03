@@ -1,0 +1,52 @@
+FormKey: 0536E8:Campfire.esm
+EditorID: _Camp_TalkMenu
+Description:
+  TargetLanguage: English
+  Value: Talk to...
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follower 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::Follower1Registered_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Follower 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::Follower2Registered_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Follower 3
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::Follower3Registered_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Animal
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::AnimalRegistered_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: No One

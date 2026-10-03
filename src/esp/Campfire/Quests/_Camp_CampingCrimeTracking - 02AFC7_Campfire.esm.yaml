@@ -1,0 +1,70 @@
+FormKey: 02AFC7:Campfire.esm
+EditorID: _Camp_CampingCrimeTracking
+VirtualMachineAdapter:
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 02AFC7:Campfire.esm
+      Alias: 0
+    Scripts:
+    - Name: _Camp_CampCrimeGuardScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CampingCrimeTrackingGuardScene
+        Object: 03A061:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: IllegalItem1
+        Object: 02AFC7:Campfire.esm
+        Alias: 2
+      - MutagenObjectType: ScriptObjectProperty
+        Name: IllegalItem2
+        Object: 02AFC7:Campfire.esm
+        Alias: 3
+      - MutagenObjectType: ScriptObjectProperty
+        Name: IllegalItem3
+        Object: 02AFC7:Campfire.esm
+        Alias: 4
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+Priority: 75
+NextAliasID: 7
+Aliases:
+- Name: Guard
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 02BE3B:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInMyOwnedCellConditionData
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: IllegalItem1
+  Flags:
+  - Optional
+  - AllowReserved
+  VoiceTypes: Null
+- ID: 3
+  Name: IllegalItem2
+  Flags:
+  - Optional
+  - AllowReserved
+  VoiceTypes: Null
+- ID: 4
+  Name: IllegalItem3
+  Flags:
+  - Optional
+  - AllowReserved
+  VoiceTypes: Null

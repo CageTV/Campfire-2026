@@ -1,0 +1,189 @@
+FormKey: 02D865:Campfire.esm
+EditorID: _Camp_Backpack_Arkay
+Name:
+  TargetLanguage: English
+  Value: Backpack
+EnchantmentCost: 44
+EnchantmentAmount: 44
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 02C26F:Campfire.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsChoppingWood_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsChoppingWoodEnvironment_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 01EA6F:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 064D68:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 02D29F:Campfire.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 10ACCC:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetEquippedConditionData
+      ItemOrList: 10ACCC:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetEquippedConditionData
+      ItemOrList: 02C274:Campfire.esm
+    ComparisonValue: 1
+- BaseEffect: 02C270:Campfire.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 01EA6F:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 064D68:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 02D29F:Campfire.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 04123F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetEquippedConditionData
+      ItemOrList: 02C274:Campfire.esm
+    ComparisonValue: 1
+- BaseEffect: 02C271:Campfire.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 01EA6F:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 064D68:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 02D29F:Campfire.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetKeywordItemCountConditionData
+      Keyword: 03AB3C:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetEquippedConditionData
+      ItemOrList: 02C274:Campfire.esm
+    ComparisonValue: 1
+- BaseEffect: 02C272:Campfire.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 01EA6F:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 064D68:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 02D29F:Campfire.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 01D4EC:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: GetEquippedItemTypeConditionData
+    ComparisonValue: 11
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetEquippedConditionData
+      ItemOrList: 02C274:Campfire.esm
+    ComparisonValue: 1
+- BaseEffect: 04774A:Campfire.esm
+  Data:
+    Magnitude: 50
+- BaseEffect: 0493AA:Skyrim.esm
+  Data:
+    Magnitude: 5
+- BaseEffect: 031EF6:Campfire.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 01EA6F:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 064D68:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 02D29F:Campfire.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 05711E:Campfire.esm

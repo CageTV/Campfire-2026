@@ -1,0 +1,22 @@
+FormKey: 0742B3:Campfire.esm
+EditorID: _Camp_legacyconfig_senseobjective_off
+Description:
+  TargetLanguage: English
+  Value: >-
+    Sense Objective
+
+
+    If enabled, the path to your next quest objective will be briefly displayed when using Instincts.
+
+
+    Current Setting: Disabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Enable
+- Text:
+    TargetLanguage: English
+    Value: Back

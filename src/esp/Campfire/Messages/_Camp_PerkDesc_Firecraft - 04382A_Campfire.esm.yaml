@@ -1,0 +1,33 @@
+FormKey: 04382A:Campfire.esm
+EditorID: _Camp_PerkDesc_Firecraft
+Description:
+  TargetLanguage: English
+  Value: >-
+    Light campfires %.0f seconds faster in all weather conditions when using Strike Stone.
+
+
+    Rank: %.0f/%.0f
+
+
+    Perks to increase: %.0f
+
+    Next perk progress: %.0f%%
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Choose Perk
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: CC0D02:Update.esm
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: About Camping
+- Text:
+    TargetLanguage: English
+    Value: Back

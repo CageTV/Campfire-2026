@@ -1,0 +1,22 @@
+FormKey: 036B70:Campfire.esm
+EditorID: _Camp_Tent_LeatherSmall2BR_MISC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlaceableMiscItem
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_placement_indicator
+      Object: 03CED3:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_this_item
+      Object: 036B70:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: ' Small Leather Tent, 2x Bed Roll'
+Model:
+  File: campfire\_camp_smallleathertentmiscobject_2br.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 03AB3C:Campfire.esm
+Value: 45
+Weight: 8

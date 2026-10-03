@@ -1,0 +1,12 @@
+FormKey: 066555:Campfire.esm
+EditorID: _Camp_legacyconfig_tutorials_resetdone
+Description:
+  TargetLanguage: English
+  Value: Tutorials reset.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

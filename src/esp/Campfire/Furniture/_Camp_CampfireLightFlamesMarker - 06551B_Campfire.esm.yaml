@@ -1,0 +1,60 @@
+FormKey: 06551B:Campfire.esm
+EditorID: _Camp_CampfireLightFlamesMarker
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_LightFireFurnScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireStage
+      Object: CC0E0D:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LightFireFXFlamesSpell
+      Object: 065519:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LightWithOilExplosion
+      Object: 06551F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_Firecraft
+      Object: 0473E5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PlayerAlias
+      Object: 022033:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_SparkIDS
+      Object: 065516:Campfire.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: is_flamespell
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAGCloakFireLP
+      Object: 02B0E6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: XMarker
+      Object: 00003B:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Sit Down
+Model:
+  File: Furniture\SitCrossLeggedMarker.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 06E9C7:Skyrim.esm
+- 0E8E4F:Skyrim.esm
+PNAM: 0x00000000
+Flags:
+- IgnoredBySandbox
+- 0x40000000
+InteractionKeyword: 099306:Skyrim.esm
+WorkbenchData:
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  EntryPoints:
+    Type:
+    - Sit
+    Points:
+    - Behind

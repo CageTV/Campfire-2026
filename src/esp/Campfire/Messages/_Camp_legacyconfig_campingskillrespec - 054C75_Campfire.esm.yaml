@@ -1,0 +1,22 @@
+FormKey: 054C75:Campfire.esm
+EditorID: _Camp_legacyconfig_campingskillrespec
+Description:
+  TargetLanguage: English
+  Value: >-
+    Respec Perks
+
+
+    Select "Confirm" to have all spent perk points refunded.
+
+
+    Are you sure you want to refund all earned Camping skill points so you can reallocate them?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Confirm
+- Text:
+    TargetLanguage: English
+    Value: Back

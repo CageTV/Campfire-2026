@@ -1,0 +1,80 @@
+FormKey: 07022E:Skyrim.esm
+MajorRecordFlagsRaw: 268435456
+EditorID: WoodChoppingBlock
+Version2: 2
+SkyrimMajorRecordFlags:
+- 0x10000000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_WoodChoppingFurnitureScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_MainQuest
+      Object: 022033:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: woodChoppingAxes
+      Object: 10ACCC:Skyrim.esm
+  - Name: hardworkerwoodscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+  - Name: resourcefurniturescript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FailureMessage
+      Object: 07022D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleWoodchopExit
+      Object: 1010B6:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MaxResourcePerActivation
+      Data: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: requiredItemList
+      Object: 10ACCC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Resource
+      Object: 06F993:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: ResourceCount
+      Data: 2
+ObjectBounds:
+  First: -125, -28, -34
+  Second: 112, 162, 64
+Name:
+  TargetLanguage: English
+  Value: Wood Chopping Block
+Model:
+  File: Furniture\Clutter\WoodChoppingBlock.nif
+  Data: 0x0200000006000000000000005386A5E764647300523D2822E3C2640264647300523D2822261B5160646473003BAC5C0A5D2792DE646473003BAC5C0AE2D984B46464730032AE7B415E426E046464730032AE7B41
+Keywords:
+- 06E9C7:Skyrim.esm
+- 072DFB:Skyrim.esm
+- 0A56D8:Skyrim.esm
+PNAM: 0x00000000
+Flags:
+- MustExitToTalk
+- 0x40000000
+InteractionKeyword: 013794:Skyrim.esm
+WorkbenchData:
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  DisabledEntryPoints:
+    Points:
+    - Right
+  EntryPoints:
+    Type:
+    - Sit
+    Points:
+    - Behind
+    - Right
+MajorFlags:
+- MustExitToTalk

@@ -1,0 +1,31 @@
+FormKey: 0727BB:Campfire.esm
+EditorID: _Camp_EventEmitter_PlayerHit
+VirtualMachineAdapter:
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0727BB:Campfire.esm
+      Alias: 0
+    Scripts:
+    - Name: FallbackEventEmitter
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FallbackEventHandleMarker
+        Object: 0727BD:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: UseStaticEventHandler
+        Data: True
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+NextAliasID: 1
+Aliases:
+- Name: Player
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null

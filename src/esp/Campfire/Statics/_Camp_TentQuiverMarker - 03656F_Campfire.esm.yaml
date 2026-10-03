@@ -1,0 +1,15 @@
+FormKey: 03656F:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_TentQuiverMarker
+SkyrimMajorRecordFlags:
+- 0x800000
+ObjectBounds:
+  First: -8, -60, -5
+  Second: 9, 2, 5
+Model:
+  File: Clutter\DummyItems\DummyQuiver01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- IsMarker

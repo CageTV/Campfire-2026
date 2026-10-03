@@ -1,0 +1,16 @@
+FormKey: 048F19:Campfire.esm
+EditorID: _Camp_InspiredPerk2
+Name:
+  TargetLanguage: English
+  Value: Inspired
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  EntryPoint: ModSkillUse
+  PerkConditionTabCount: 1
+  Modification: Multiply
+  Value: 1.05

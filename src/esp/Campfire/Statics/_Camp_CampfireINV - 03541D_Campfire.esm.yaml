@@ -1,0 +1,7 @@
+FormKey: 03541D:Campfire.esm
+EditorID: _Camp_CampfireINV
+Model:
+  File: campfire\_Camp_CampfireInvArt.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

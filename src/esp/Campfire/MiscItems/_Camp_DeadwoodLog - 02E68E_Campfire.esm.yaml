@@ -1,0 +1,9 @@
+FormKey: 02E68E:Campfire.esm
+EditorID: _Camp_DeadwoodLog
+Name:
+  TargetLanguage: English
+  Value: Deadwood
+Model:
+  File: campfire\_Camp_DeadwoodLog.nif
+  Data: 0x020000000000000000000000
+Weight: 5

@@ -1,0 +1,22 @@
+FormKey: 0250CC:Campfire.esm
+EditorID: _Camp_EnchWalkingStickEffect
+Name:
+  TargetLanguage: English
+  Value: Fortify Stamina
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 074F71:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoArea
+- PowerAffectsMagnitude
+MagicSkill: Restoration
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: Stamina
+DualCastScale: 1
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Increases your stamina by <mag> points.

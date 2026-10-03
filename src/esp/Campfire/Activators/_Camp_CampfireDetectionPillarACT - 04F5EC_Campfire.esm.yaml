@@ -1,0 +1,8 @@
+FormKey: 04F5EC:Campfire.esm
+EditorID: _Camp_CampfireDetectionPillarACT
+Model:
+  File: campfire\_Camp_CampfireDetectionPillar01.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags:
+- IgnoredBySandbox

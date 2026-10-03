@@ -1,0 +1,35 @@
+FormKey: 035418:Campfire.esm
+EditorID: _Camp_UpliftedSkillEffect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TimedAbilityScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pAbilityToRemove
+      Object: 035413:Campfire.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: pHoursToWait
+      Data: 6
+Name:
+  TargetLanguage: English
+  Value: Uplifted
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+Keywords:
+- 035419:Campfire.esm
+Flags:
+- Recover
+- DispelWithKeywords
+- NoArea
+- PowerAffectsMagnitude
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: Health
+DualCastScale: 1
+PerkToApply: 03541A:Campfire.esm
+CastingSoundLevel: Silent
+Sounds:
+- Type: Release
+  Sound: 03F361:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''

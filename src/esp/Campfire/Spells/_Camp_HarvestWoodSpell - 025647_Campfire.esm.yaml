@@ -1,0 +1,16 @@
+FormKey: 025647:Campfire.esm
+EditorID: _Camp_HarvestWoodSpell
+Name:
+  TargetLanguage: English
+  Value: Harvest Wood
+MenuDisplayObject: 10A046:Skyrim.esm
+EquipmentType: 025BEE:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Spend <30> minutes gathering deadwood and branches from the nearby area.
+Type: LesserPower
+CastType: FireAndForget
+Effects:
+- BaseEffect: 025649:Campfire.esm
+  Data:
+    Duration: 30

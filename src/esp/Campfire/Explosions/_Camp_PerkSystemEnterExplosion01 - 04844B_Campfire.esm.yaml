@@ -1,0 +1,10 @@
+FormKey: 04844B:Campfire.esm
+EditorID: _Camp_PerkSystemEnterExplosion01
+Model:
+  File: campfire\_Camp_PerkSystemEnterExp.nif
+  Data: 0x020000000000000000000000
+Radius: 180
+Flags:
+- 0x1
+- NoControllerVibration
+SoundLevel: Silent

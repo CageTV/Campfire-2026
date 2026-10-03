@@ -1,0 +1,27 @@
+FormKey: 029F7D:Campfire.esm
+EditorID: _Camp_LegalityCheckEffect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_SetLegality
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Legal
+      Object: 022033:Campfire.esm
+      Alias: 0
+Name:
+  TargetLanguage: English
+  Value: Legality Check Effect
+Flags:
+- NoDuration
+- HideInUI
+- PowerAffectsDuration
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Mood
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

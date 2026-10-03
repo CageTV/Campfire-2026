@@ -1,0 +1,22 @@
+FormKey: 0742B4:Campfire.esm
+EditorID: _Camp_legacyconfig_instinctsSFX_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Instincts Sound Effect
+
+
+    Toggle the sound effect when starting Instincts on or off.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

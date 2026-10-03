@@ -1,0 +1,21 @@
+FormKey: 01A320:Campfire.esm
+EditorID: _Camp_RecipeSuppliesTentHideLarge_2BRto1BR
+Items:
+- Item:
+    Item: 01A347:Campfire.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0189:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 01A347:Campfire.esm
+  ComparisonValue: 1
+CreatedObject: 01A348:Campfire.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

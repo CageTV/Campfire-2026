@@ -1,0 +1,34 @@
+FormKey: 025BD7:Campfire.esm
+EditorID: _Camp_Indicator_CampfireEffect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_SpawnCampfire
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireModeSelect
+      Object: 075843:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Indicator_Campfire
+      Object: 02EE00:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_CampfireMode
+      Object: 075842:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Build Campfire
+MenuDisplayObject: 104F70:Skyrim.esm
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Mood
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Use your knowledge of wilderness survival to build campfires.

@@ -1,0 +1,28 @@
+FormKey: 054C73:Campfire.esm
+EditorID: _Camp_legacyconfig_campingskillrestore
+Description:
+  TargetLanguage: English
+  Value: >-
+    Restore Perk Progress
+
+
+    This option is intended to be used to reclaim Camping skill progress that was lost due to a clean save or mod uninstallation.
+
+
+    Increase or decrease the number of perks you wish to restore, and then select Confirm and Exit.
+
+
+    Restore: %.0f Perks
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Decrease (-1)
+- Text:
+    TargetLanguage: English
+    Value: Increase (+1)
+- Text:
+    TargetLanguage: English
+    Value: Confirm and Exit

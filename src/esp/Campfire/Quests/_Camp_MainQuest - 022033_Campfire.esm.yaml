@@ -1,0 +1,449 @@
+FormKey: 022033:Campfire.esm
+EditorID: _Camp_MainQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_ConditionValues
+  - Name: _Camp_Main
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_FollowerQuest
+      Object: 061A04:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Compatibility
+      Object: 022033:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerAlias
+      Object: 022033:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 022033:Campfire.esm
+      Alias: 0
+    Scripts:
+    - Name: _Camp_PlayerEventMonitor
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_SurvivalVisionPower
+        Object: 035411:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_Compatibility
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_BetaMessage
+        Object: 066AC7:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CampfireSpell
+        Object: 025BD5:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CampfireVersion
+        Object: 051666:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CombinedActionsSpell
+        Object: 0737E5:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CreateItemSpell
+        Object: 02306B:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CriticalError_FrostfallLegacy
+        Object: 05573B:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CriticalError_FrostfallLegacyDetails
+        Object: 06655F:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CriticalError_SKSE
+        Object: 03AB3D:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_FireMiscRecipe_BW_TinderStraw
+        Object: 0468E4:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_FireMiscRecipe_TinderStraw
+        Object: 03233E:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_FollowerDetectSpell
+        Object: 036F7E:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_FollowerQuest
+        Object: 061A04:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HarvestWoodEnabled
+        Object: 05980D:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HarvestWoodSpell
+        Object: 025647:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HeatSources_All
+        Object: 028F06:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HeatSources_Fire
+        Object: 02899F:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HeatSources_Fire_Large
+        Object: 028F04:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HeatSources_Fire_Medium
+        Object: 028F03:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HeatSources_Fire_Small
+        Object: 028F02:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HeatSources_Other
+        Object: 028F05:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HotkeyBuildCampfire
+        Object: 035F10:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HotkeyCreateItem
+        Object: 035F12:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HotkeyHarvestWood
+        Object: 035F11:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_HotkeyInstincts
+        Object: 050B89:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_IsBeta
+        Object: 066AC6:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_LastSelectedSkill
+        Object: 0510F4:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_LegacyConfig_Spell
+        Object: 0359AA:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_MainQuest
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_ModWaterSkins
+        Object: 05711E:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkNavControllerAct
+        Object: 045332:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkNodeController_Camping
+        Object: 0468C0:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkNodeControllerCount
+        Object: 06655C:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_Firecraft
+        Object: 0473E5:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_Resourceful
+        Object: 043816:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PreviousVersion
+        Object: 05C8DB:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_RecipeLeatherValeDeerHideDLC1
+        Object: 041B46:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_RecipeLeatherValeSabreCatHideDLC1
+        Object: 041B47:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_RecipeLeatherValeSabreCatHideDLC1_CCO
+        Object: 057237:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_RecipeTanningLeatherValeDeerHideDLC1
+        Object: 049262:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_RecipeTanningLeatherValeSabreCatHideDLC1
+        Object: 049263:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_RecipeTanningLeatherValeSabreCatHideDLC1_CCO
+        Object: 057248:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_Setting_MaxThreads
+        Object: 026EAF:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_Setting_TrackFollowers
+        Object: 035983:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_SurvivalVisionPower
+        Object: 035411:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_Trees
+        Object: 01D441:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_Upgrade_1_6_Msg
+        Object: 05C8DA:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_WorldspacesInteriors
+        Object: 0339E3:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Animal
+        Object: 061A04:Campfire.esm
+        Alias: 5
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CampConfig
+        Object: 0225A6:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Campfire
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CurrentHireling
+        Object: 0BD738:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: EnchantmentResistDisease
+        Object: 10CF28:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: EnchantmentResistFire
+        Object: 10CD22:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: EnchantmentResistFrost
+        Object: 10CD23:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: EnchantmentResistMagic
+        Object: 10CD25:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: EnchantmentResistPoison
+        Object: 10CF29:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: EnchantmentResistShock
+        Object: 10CD24:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Follower1
+        Object: 061A04:Campfire.esm
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Follower2
+        Object: 061A04:Campfire.esm
+        Alias: 1
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Follower3
+        Object: 061A04:Campfire.esm
+        Alias: 2
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MerchantRiverwoodTraderContainer
+        Object: 078C0B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlacementSystem
+        Object: 02612B:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerAlias
+        Object: 022033:Campfire.esm
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TentSys
+        Object: 025BC2:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WAF_ClothingCloak
+        Object: AF0128:Update.esm
+    - Name: _Camp_LegalAreaCheck
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_MarkarthCenterMarker
+        Object: 039238:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_Setting_Legality
+        Object: 02409E:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerDawnstar
+        Object: 0284C5:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerFalkreath
+        Object: 029DBB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerHelgen
+        Object: 055E4F:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerIvarstead
+        Object: 02A49D:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerKarthwasten
+        Object: 05CA54:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerMorthal
+        Object: 01C1BA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerRfiten
+        Object: 01CDD6:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerRorikstead
+        Object: 029AAE:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerShorsStone
+        Object: 02A49C:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerSolitudeSawmill
+        Object: 05CA38:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerWhiterun
+        Object: 029AAF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CenterMarkerWinterhold
+        Object: 01C1B1:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CWSiegeDefendTrigger1Whiterun
+        Object: 040CBC:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DragonBridgeLocationCenterMarkerREF
+        Object: 029DB8:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: KynesgroveLocationCenterMarkerREF
+        Object: 02A971:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypeDwelling
+        Object: 0130DC:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypeHouse
+        Object: 01CB85:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypeInn
+        Object: 01CB87:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypeJail
+        Object: 01CD59:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RiverwoodLocationCenterMarker
+        Object: 01BDF3:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SolitudeCenterMarker
+        Object: 04DEB7:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownDawnstarFaction
+        Object: 02817F:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownDragonBridgeFaction
+        Object: 02817B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownFalkreathFaction
+        Object: 028177:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownHelgenFaction
+        Object: 028176:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownIvarsteadFaction
+        Object: 028185:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownKarthwastenFaction
+        Object: 02817A:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownKynesgroveFaction
+        Object: 028182:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownMarkarthFaction
+        Object: 028178:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownMorthalFaction
+        Object: 02817D:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownRiftenFaction
+        Object: 028186:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownRiverwoodFaction
+        Object: 013481:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownRoriksteadFaction
+        Object: 028174:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownShorsStoneFaction
+        Object: 028184:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownSolitudeFaction
+        Object: 02817C:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownWhiterunFaction
+        Object: 028172:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownWindhelmFaction
+        Object: 028173:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TownWinterholdFaction
+        Object: 028181:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WindhelmLocationCenterMarkerREF
+        Object: 02A975:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WinterholdCollegeCenterMarker
+        Object: 046BDF:Skyrim.esm
+    - Name: _Camp_CampfireUseMonitor
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_Campfire
+        Object: 031DAF:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CampfireConjuredShelter
+        Object: 05E932:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_CampfireItem_RuinedBook
+        Object: 031DB4:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_ZZCampfireItem_WeatherFavorable
+        Object: 03232D:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RuinedBook
+        Object: 0CE70B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RuinedBook02
+        Object: 0E4897:Skyrim.esm
+    - Name: _Camp_EquipMonitor
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_Backpacks
+        Object: 02C274:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ArmorBoots
+        Object: 06C0ED:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ArmorCuirass
+        Object: 06C0EC:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ArmorGauntlets
+        Object: 06C0EF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ArmorHelmet
+        Object: 06C0EE:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CampData
+        Object: 024095:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ClothingBody
+        Object: 0A8657:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ClothingFeet
+        Object: 10CD12:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ClothingHands
+        Object: 10CD13:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ClothingHead
+        Object: 10CD11:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_PlayerHitMonitor
+Stages:
+- Flags:
+  - StartUpStage
+NextAliasID: 2
+Aliases:
+- Name: _Camp_PlayerAlias
+  Flags:
+  - AllowReserved
+  ForcedReference: 000014:Skyrim.esm
+  Spells:
+  - 029F7B:Campfire.esm
+  VoiceTypes: Null

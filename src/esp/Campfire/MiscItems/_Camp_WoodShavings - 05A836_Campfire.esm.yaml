@@ -1,0 +1,9 @@
+FormKey: 05A836:Campfire.esm
+EditorID: _Camp_WoodShavings
+Name:
+  TargetLanguage: English
+  Value: Wood Shavings
+Model:
+  File: campfire\_Camp_WoodShavings.nif
+  Data: 0x020000000000000000000000
+Weight: 0.1

@@ -1,0 +1,15 @@
+FormKey: 036573:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_Tent_HelmMarker
+SkyrimMajorRecordFlags:
+- 0x800000
+ObjectBounds:
+  First: -16, -3, -7
+  Second: 16, 6, 28
+Model:
+  File: Armor\Steel\HelmetSteelGO.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- IsMarker

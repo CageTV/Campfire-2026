@@ -1,0 +1,66 @@
+FormKey: 03338E:Campfire.esm
+EditorID: _Camp_CampfireType_Flickering_Branches
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_CampfireType_FlickeringScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire
+      Object: 031DAF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Light_3
+      Object: 025BBB:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Flickering_BooksLit
+      Object: 0328A8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Flickering_BooksUnlit
+      Object: 0328A9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Flickering_BranchesLit
+      Object: 0328A6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Flickering_BranchesUnlit
+      Object: 0328A7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Flickering_KindlingLit
+      Object: 05C8D8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Flickering_KindlingUnlit
+      Object: 05C8D9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireSize
+      Object: CC0E0C:Update.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: count_branches
+      Data: 4
+    - MutagenObjectType: ScriptBoolProperty
+      Name: isBranches
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RuinedBook
+      Object: 0CE70B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RuinedBook02
+      Object: 0E4897:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 03338E:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Flickering Campfire
+BookText:
+  TargetLanguage: English
+  Value: ''
+Keywords:
+- 01E717:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+InventoryArt: 03541D:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: A campfire that burns for 3 hours. Emits decent heat. Can be used for cooking.

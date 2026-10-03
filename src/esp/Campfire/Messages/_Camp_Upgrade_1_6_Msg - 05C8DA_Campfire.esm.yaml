@@ -1,0 +1,12 @@
+FormKey: 05C8DA:Campfire.esm
+EditorID: _Camp_Upgrade_1_6_Msg
+Description:
+  TargetLanguage: English
+  Value: >-
+    Camping Perks Refunded
+
+
+    Due to changes in the Camping skill tree as of Campfire 1.6, your Camping skill points have been refunded. You can use a campfire to spend your points again.
+INAM: 0x00000000
+Flags:
+- MessageBox

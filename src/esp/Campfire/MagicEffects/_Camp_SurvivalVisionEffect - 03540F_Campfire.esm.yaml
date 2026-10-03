@@ -1,0 +1,106 @@
+FormKey: 03540F:Campfire.esm
+EditorID: _Camp_SurvivalVisionEffect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_InstinctsController
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InstinctsOtherFloraSearch
+      Object: 06B67F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InstinctsOtherTinderSearch
+      Object: 06C6AF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InstinctsTreeFloraSearch
+      Object: 06C6AE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_InstinctsTreeTinderSearch
+      Object: 06B11C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_IsUsingInstincts
+      Object: 06D6E7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_KeenSenses
+      Object: 04381A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_InstinctsFindFlora
+      Object: 06DC4C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_InstinctsFindTinder
+      Object: 06DC4B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_SurvivalVisionPower
+      Object: 035411:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_SurvivalVisionPowerDetectSpell
+      Object: 04DAF1:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_SurvivalVisionPowerDetectSpellIndoors
+      Object: 06D176:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_SurvivalVisionPowerGuideSpell
+      Object: 06B116:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_VisionPowerErrorMounted
+      Object: 05573C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+  - Name: _Camp_InstinctsCtrlEventReceiver
+  - Name: _Camp_InstinctsEffects
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AltIntroFX
+      Object: 06DC53:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AltVFXGlobal
+      Object: 06DC50:Campfire.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: bPlayerOnly
+      Data: True
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fDelay
+      Data: 0.55
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fImodStrength
+      Data: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IntroFX
+      Object: 04A4C2:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LoopFX
+      Object: 04A4C3:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OutroFX
+      Object: 04A4C4:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFX
+      Object: 06DC52:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFXGlobal
+      Object: 06DC51:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Instincts
+MenuDisplayObject: 104F70:Skyrim.esm
+Keywords:
+- 04DAF0:Campfire.esm
+Flags:
+- NoHitEvent
+- NoMagnitude
+- NoArea
+- HideInUI
+SpellmakingArea: 100
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: Mood
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Focus your senses to detect sounds and scents. Less effective when indoors. Movement and getting hit cancels the effect.

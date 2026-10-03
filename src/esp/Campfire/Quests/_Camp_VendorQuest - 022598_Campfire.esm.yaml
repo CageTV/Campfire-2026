@@ -1,0 +1,510 @@
+FormKey: 022598:Campfire.esm
+EditorID: _Camp_VendorQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_VendorStock
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Alchemy_MortarPestleMISC
+      Object: 038689:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Backpack_Black
+      Object: 02C261:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Backpack_Brown
+      Object: 02C260:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Backpack_White
+      Object: 02C262:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Cloak_BasicBurlap
+      Object: 03FA9C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Cloak_BasicLinen
+      Object: 03FA9D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CookingPot_MISC
+      Object: 019849:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tent_FurLarge1BR_MISC
+      Object: 01A348:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tent_FurSmall1BR_MISC
+      Object: 036B4E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tent_LeatherLarge1BR_MISC
+      Object: 038CBC:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tent_LeatherSmall1BR_MISC
+      Object: 01A314:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AngelineAromaticsChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArcadiasCauldronChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArnleifChest
+      Object: 094377:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArnleifChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvalAtheronChest
+      Object: 0A3F0A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvalAtheronChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BethethorsChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BethethorsMerchantChestRef
+      Object: 09CAF9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BirnaChest
+      Object: 09DA64:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BirnaChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BrandChest
+      Object: 0A31B8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BrandChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CaravanAChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CaravanAChestREF
+      Object: 07434C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CaravanBChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CaravanBChestREF
+      Object: 074353:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CaravanCChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CaravanCChestREF
+      Object: 074355:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ElgrimsElixersChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GrayPineGoodsChest
+      Object: 0A6BFD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GrayPineGoodsChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagsCureChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MerchantDawnstarMortarPestleChestRef
+      Object: 09DA30:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MerchantMarkarthHagsCureChestRef
+      Object: 094381:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MerchantMorthalLamisChestRef
+      Object: 09DA5A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MerchantRiftenElgrimsElixtersChest
+      Object: 0A31BE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MerchantSolitudeAngelinesAromaticsRef
+      Object: 0A6C09:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MerchantSolitudeBitsAndPiecesChestRef
+      Object: 0A6C0A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MerchantWindhelmWhitePhialChestRef
+      Object: 0AF633:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MortarAndPestleChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NiranyeChest
+      Object: 0A3F08:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NiranyeChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PawnedPrawnChest
+      Object: 0A31BF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PawnedPrawnChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RiverwoodTraderChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RiverwoodTraderMerchantContainer
+      Object: 078C0B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SolitudeBitsAndPiecesChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ThaumaturgistsHutChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WhitePhialChestAlias
+      Object: 022598:Campfire.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WhiterunArcadiasCauldronChestRef
+      Object: 09CD46:Skyrim.esm
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  FileName: ''
+NextAliasID: 21
+Aliases:
+- Name: ArcadiasCauldronChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 09CD46:Skyrim.esm
+  Items:
+  - Item:
+      Item: 038689:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 6
+  Name: AngelineAromaticsChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 0A6C09:Skyrim.esm
+  Items:
+  - Item:
+      Item: 038689:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 5
+  Name: ThaumaturgistsHutChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 09DA5A:Skyrim.esm
+  Items:
+  - Item:
+      Item: 038689:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: MortarAndPestleChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 09DA30:Skyrim.esm
+  Items:
+  - Item:
+      Item: 038689:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: HagsCureChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 094381:Skyrim.esm
+  Items:
+  - Item:
+      Item: 038689:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: ElgrimsElixersChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 0A31BE:Skyrim.esm
+  Items:
+  - Item:
+      Item: 038689:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: WhitePhialChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 0AF633:Skyrim.esm
+  Items:
+  - Item:
+      Item: 038689:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 7
+  Name: RiverwoodTraderChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 078C0B:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 2
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 01A314:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 19
+  Name: CaravanAChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 07434C:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 036B4E:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 18
+  Name: CaravanBChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 074353:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 036B4E:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 17
+  Name: CaravanCChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 074355:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 036B4E:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 16
+  Name: AvalAtheronChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 0A3F0A:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 02C261:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 15
+  Name: BethethorsChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 09CAF9:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9D:Campfire.esm
+      Count: 2
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 038CBC:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 01A314:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 14
+  Name: BirnaChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 09DA64:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9D:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 02C262:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 036B4E:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 01A348:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 13
+  Name: BrandChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 0A31B8:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 12
+  Name: PawnedPrawnChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 0A31BF:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 01A314:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 10
+  Name: SolitudeBitsAndPiecesChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 0A6C0A:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9E:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 03FA9D:Campfire.esm
+      Count: 2
+  - Item:
+      Item: 02C262:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 02C261:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 01A314:Campfire.esm
+      Count: 2
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 3
+  - Item:
+      Item: 038CBC:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 9
+  Name: ArnleifChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 094377:Skyrim.esm
+  Items:
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 2
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 01A314:Campfire.esm
+      Count: 2
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 8
+  Name: GrayPineGoodsChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 0A6BFD:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 01A314:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 2
+  VoiceTypes: Null
+- ID: 20
+  Name: NiranyeChestAlias
+  Flags:
+  - Optional
+  ForcedReference: 0A3F08:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03FA9C:Campfire.esm
+      Count: 2
+  - Item:
+      Item: 02C260:Campfire.esm
+      Count: 2
+  - Item:
+      Item: 019849:Campfire.esm
+      Count: 1
+  - Item:
+      Item: 036B4E:Campfire.esm
+      Count: 1
+  VoiceTypes: Null

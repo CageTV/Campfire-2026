@@ -1,0 +1,9 @@
+MutagenObjectType: GlobalShort
+FormKey: 0510F8:Campfire.esm
+MajorRecordFlagsRaw: 64
+EditorID: CampingPerkPointsTotal
+SkyrimMajorRecordFlags:
+- 0x40
+MajorFlags:
+- Constant
+Data: 13

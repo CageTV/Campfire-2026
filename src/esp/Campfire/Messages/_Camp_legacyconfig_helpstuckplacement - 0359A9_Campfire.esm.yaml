@@ -1,0 +1,22 @@
+FormKey: 0359A9:Campfire.esm
+EditorID: _Camp_legacyconfig_helpstuckplacement
+Description:
+  TargetLanguage: English
+  Value: >-
+    Troubleshooting: Always "Already Placing Object"
+
+
+    If you always receive a message that you are "already placing another object" when attempting to place camping equipment even though you are not, click Attempt to Fix.
+
+
+    Note: This procedure will do the best it can to solve the problem, and is not guarenteed to work.  However, in most cases, this should usually fix the problem.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Attempt to Fix
+- Text:
+    TargetLanguage: English
+    Value: Back

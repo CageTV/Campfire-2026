@@ -1,0 +1,20 @@
+FormKey: 07630F:Campfire.esm
+EditorID: _Camp_RecipeSupplies_Cloak_LinenTanningRack
+Items:
+- Item:
+    Item: 034CD6:Skyrim.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0197:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0119:Update.esm
+  ComparisonValue: 1
+CreatedObject: 03FA9D:Campfire.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

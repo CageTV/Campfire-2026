@@ -1,0 +1,10 @@
+FormKey: CC0E0B:Update.esm
+MajorRecordFlagsRaw: 4
+EditorID: _Camp_CampfireItem_GoodWeather
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Clear Weather
+MajorFlags:
+- NonPlayable

@@ -1,0 +1,22 @@
+FormKey: 035994:Campfire.esm
+EditorID: _Camp_legacyconfig_showgauntlets_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Show Gauntlets in Tent
+
+
+    If enabled, your worn gauntlets or gloves will be removed from your character and placed in and around your tent when sitting or sleeping on your bed roll.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

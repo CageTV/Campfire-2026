@@ -1,0 +1,31 @@
+FormKey: 038680:Campfire.esm
+EditorID: _Camp_Enchanting_MISC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlaceableMiscItem
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: consumable_cost
+      Data: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: consumable_ingredient
+      Object: 034CDD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: consumable_ingredient_error
+      Object: 0788C2:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_placement_indicator
+      Object: 03867B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_this_item
+      Object: 038680:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Enchanting Supplies
+Model:
+  File: campfire\_Camp_Enchanting_GND.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914E9:Skyrim.esm
+Value: 25
+Weight: 3

@@ -1,0 +1,18 @@
+FormKey: 02C26F:Campfire.esm
+EditorID: _Camp_BackpackEffect_Axe
+Name:
+  TargetLanguage: English
+  Value: Backpack Effect Axe
+Flags:
+- FXPersist
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Mood
+HitEffectArt: 02C263:Campfire.esm
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

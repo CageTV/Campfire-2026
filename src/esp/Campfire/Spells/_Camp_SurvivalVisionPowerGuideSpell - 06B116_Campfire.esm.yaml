@@ -1,0 +1,17 @@
+FormKey: 06B116:Campfire.esm
+EditorID: _Camp_SurvivalVisionPowerGuideSpell
+Name:
+  TargetLanguage: English
+  Value: Guide Spell
+MenuDisplayObject: 10A046:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 9
+Flags:
+- AreaEffectIgnoresLOS
+Effects:
+- BaseEffect: 06B118:Campfire.esm
+  Data:
+    Duration: 4

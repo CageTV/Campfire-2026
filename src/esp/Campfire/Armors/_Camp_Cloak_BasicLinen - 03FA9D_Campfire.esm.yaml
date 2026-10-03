@@ -1,0 +1,29 @@
+FormKey: 03FA9D:Campfire.esm
+EditorID: _Camp_Cloak_BasicLinen
+Name:
+  TargetLanguage: English
+  Value: Travel Cloak, Linen
+WorldModel:
+  Male:
+    Model:
+      File: campfire\_Camp_Cloak_BurlapHideLinen_GO.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Tail
+  - 0x10000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBE8:Skyrim.esm
+- 08F95B:Skyrim.esm
+- 06BBDD:Skyrim.esm
+- AF0128:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 03FAA3:Campfire.esm
+Value: 16
+Weight: 1.5

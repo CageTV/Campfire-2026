@@ -1,0 +1,11 @@
+FormKey: 06D175:Campfire.esm
+EditorID: _Camp_GuideHazard
+Model:
+  File: campfire\_camp_guidehazard01.nif
+  Data: 0x020000000000000000000000
+Limit: 1
+Lifetime: 10
+TargetInterval: 10
+Flags:
+- InheritDurationFromSpawnSpell
+- AlignToImpactNormal

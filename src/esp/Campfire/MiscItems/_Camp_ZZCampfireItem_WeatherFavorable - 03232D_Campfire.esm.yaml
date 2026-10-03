@@ -1,0 +1,10 @@
+FormKey: 03232D:Campfire.esm
+MajorRecordFlagsRaw: 4
+EditorID: _Camp_ZZCampfireItem_WeatherFavorable
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Favorable Weather
+MajorFlags:
+- NonPlayable

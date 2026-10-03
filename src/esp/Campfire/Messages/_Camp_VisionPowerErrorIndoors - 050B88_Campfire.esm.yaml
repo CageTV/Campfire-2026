@@ -1,0 +1,7 @@
+FormKey: 050B88:Campfire.esm
+EditorID: _Camp_VisionPowerErrorIndoors
+Description:
+  TargetLanguage: English
+  Value: You cannot use this ability while indoors.
+INAM: 0x00000000
+DisplayTime: 2

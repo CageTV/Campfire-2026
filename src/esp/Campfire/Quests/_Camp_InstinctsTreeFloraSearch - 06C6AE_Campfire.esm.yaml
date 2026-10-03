@@ -1,0 +1,416 @@
+FormKey: 06C6AE:Campfire.esm
+EditorID: _Camp_InstinctsTreeFloraSearch
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_SearchQuest
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: alias1
+      Object: 06C6AE:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias10
+      Object: 06C6AE:Campfire.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: alias2
+      Object: 06C6AE:Campfire.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias3
+      Object: 06C6AE:Campfire.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias4
+      Object: 06C6AE:Campfire.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias5
+      Object: 06C6AE:Campfire.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias6
+      Object: 06C6AE:Campfire.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias7
+      Object: 06C6AE:Campfire.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias8
+      Object: 06C6AE:Campfire.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias9
+      Object: 06C6AE:Campfire.esm
+      Alias: 24
+  - Name: _Camp_SearchQuestEventReceiver
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 0
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 22
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 21
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 20
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 19
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 18
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 17
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 16
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 24
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06C6AE:Campfire.esm
+      Alias: 23
+    Scripts:
+    - Name: _Camp_SearchAliasTreeFlora
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowFloraFX
+        Object: 04BA90:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+Name:
+  TargetLanguage: English
+  Value: Instincts Flora Scent Search
+Flags:
+- AllowRepeatedStages
+- 0x1000
+NextAliasID: 25
+Aliases:
+- Name: FloraAlias1
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 22
+  Name: FloraAlias2
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 21
+  Name: FloraAlias3
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 20
+  Name: FloraAlias4
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 19
+  Name: FloraAlias5
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 18
+  Name: FloraAlias6
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 17
+  Name: FloraAlias7
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 16
+  Name: FloraAlias8
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 24
+  Name: FloraAlias9
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 23
+  Name: FloraAlias10
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06C6AD:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null

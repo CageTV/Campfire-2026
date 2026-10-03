@@ -1,0 +1,15 @@
+FormKey: 03656C:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_Tent_MainWeaponMarker
+SkyrimMajorRecordFlags:
+- 0x800000
+ObjectBounds:
+  First: -6, -13, -7
+  Second: 7, 48, 6
+Model:
+  File: Weapons\Steel\SteelMace.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- IsMarker

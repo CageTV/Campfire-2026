@@ -1,0 +1,18 @@
+FormKey: 02C271:Campfire.esm
+EditorID: _Camp_BackpackEffect_Tent
+Name:
+  TargetLanguage: English
+  Value: Backpack Effect Tent
+Flags:
+- FXPersist
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Mood
+HitEffectArt: 02C264:Campfire.esm
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

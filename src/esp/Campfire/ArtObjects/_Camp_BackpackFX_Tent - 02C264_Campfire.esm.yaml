@@ -1,0 +1,7 @@
+FormKey: 02C264:Campfire.esm
+EditorID: _Camp_BackpackFX_Tent
+Model:
+  File: campfire\_Camp_backpackfx_bedroll.nif
+  Data: 0x020000000000000000000000
+Type:
+- MagicCasting

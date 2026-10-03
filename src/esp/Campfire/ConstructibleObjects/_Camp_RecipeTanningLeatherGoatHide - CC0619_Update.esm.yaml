@@ -1,0 +1,20 @@
+FormKey: CC0619:Update.esm
+EditorID: _Camp_RecipeTanningLeatherGoatHide
+Items:
+- Item:
+    Item: 03AD8E:Skyrim.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 03AD8E:Skyrim.esm
+CreatedObject: DA0BF1:Update.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

@@ -1,0 +1,84 @@
+FormKey: 04AD82:Campfire.esm
+EditorID: _Camp_Reclaim_Backpack_White_Stendarr
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_BackpackReclaim
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Backpack_Black
+      Object: 02C261:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Backpack_Brown
+      Object: 02C260:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Backpack_White
+      Object: 02C262:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonBone
+      Object: 03ADA4:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: outputAmulet
+      Data: 7
+    - MutagenObjectType: ScriptIntProperty
+      Name: outputBackpack
+      Data: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReligiousAkatoshTime
+      Object: 0C8911:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReligiousArkayLifeDeath
+      Object: 0CC848:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReligiousDibellaBeauty
+      Object: 0C8915:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReligiousJulianosMagic
+      Object: 0C8917:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReligiousKynarethAir
+      Object: 0C8919:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReligiousMaraLove
+      Object: 0C891B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReligiousStendarrMercy
+      Object: 0CC844:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReligiousTalosMankind
+      Object: 0CC846:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReligiousZenitharCommerce
+      Object: 0878BB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: thisBackpack
+      Object: 04AD82:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: 'Separate: Backpack, White Fur - Amulet of Stendarr'
+WorldModel:
+  Male:
+    Model:
+      File: campfire\_Camp_backpack_stendarrgnd_reclaim.nif
+      Data: 0x020000000000000000000000
+      AlternateTextures:
+      - Name: BackpackMesh
+        NewTexture: 02C25F:Campfire.esm
+        Index: 1
+BodyTemplate:
+  FirstPersonFlags:
+  - 0x20000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 0C27BD:Skyrim.esm
+- AF0129:Update.esm
+- CCA001:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 02D81A:Campfire.esm

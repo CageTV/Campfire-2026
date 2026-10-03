@@ -1,0 +1,36 @@
+FormKey: 0468D5:Campfire.esm
+EditorID: _Camp_TinderType_BW_BeehiveHusk
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_TinderTypeScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireSize
+      Object: CC0E0C:Update.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: is_bad_weather
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: quality_rank
+      Data: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 0468D5:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Build Fire - Add Tinder (Beehive Husk)
+BookText:
+  TargetLanguage: English
+  Value: ''
+Keywords:
+- 01E717:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+InventoryArt: 0468D1:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: High quality tinder. Somewhat challenging to light under current weather conditions.

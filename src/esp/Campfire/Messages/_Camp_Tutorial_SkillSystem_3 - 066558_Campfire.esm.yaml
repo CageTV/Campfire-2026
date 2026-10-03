@@ -1,0 +1,19 @@
+FormKey: 066558:Campfire.esm
+EditorID: _Camp_Tutorial_SkillSystem_3
+Description:
+  TargetLanguage: English
+  Value: >-
+    These skills have unique methods of progression. Click the "About Skill" option when selecting a node to learn more about the skill and how to advance it.
+
+
+    If more than one skill is available, special torchbugs will appear. Selecting them will display the previous or next skill.
+
+
+    To exit the skill system, select the red torchbug, or simply walk away from the campfire.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK (Complete Tutorial)

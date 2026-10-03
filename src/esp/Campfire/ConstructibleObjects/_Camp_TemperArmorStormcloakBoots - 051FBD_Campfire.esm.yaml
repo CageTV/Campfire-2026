@@ -1,0 +1,22 @@
+FormKey: 051FBD:Campfire.esm
+EditorID: _Camp_TemperArmorStormcloakBoots
+Items:
+- Item:
+    Item: 0DB5D2:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: EPTemperingItemIsEnchantedConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 05218E:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 0415C8:Campfire.esm
+WorkbenchKeyword: 0ADB78:Skyrim.esm
+CreatedObjectCount: 1

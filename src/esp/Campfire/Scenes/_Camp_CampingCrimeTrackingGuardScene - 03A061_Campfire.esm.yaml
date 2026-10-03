@@ -1,0 +1,542 @@
+FormKey: 03A061:Campfire.esm
+EditorID: _Camp_CampingCrimeTrackingGuardScene
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_Frag_CampingCrimeExecute
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard
+      Object: 02AFC7:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IllegalItem1
+      Object: 02AFC7:Campfire.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IllegalItem2
+      Object: 02AFC7:Campfire.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IllegalItem3
+      Object: 02AFC7:Campfire.esm
+      Alias: 4
+  ScriptFragments:
+    FileName: _Camp_Frag_CampingCrimeExecute
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_5
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_6
+    PhaseFragments:
+    - Flags:
+      - OnStart
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_21
+    - Flags:
+      - OnStart
+      Index: 1
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_7
+    - Flags:
+      - OnStart
+      Index: 2
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_19
+    - Flags:
+      - OnStart
+      Index: 3
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_18
+    - Flags:
+      - OnStart
+      Index: 4
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_17
+    - Flags:
+      - OnStart
+      Index: 5
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_16
+    - Flags:
+      - OnStart
+      Index: 6
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_15
+    - Flags:
+      - OnStart
+      Index: 7
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_22
+    - Flags:
+      - OnStart
+      Index: 8
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_23
+    - Flags:
+      - OnStart
+      Index: 9
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_14
+    - Flags:
+      - OnCompletion
+      Index: 9
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_24
+    - Flags:
+      - OnCompletion
+      Index: 10
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_25
+    - Flags:
+      - OnCompletion
+      Index: 11
+      Unknown: 16777216
+      ScriptName: _Camp_Frag_CampingCrimeExecute
+      FragmentName: Fragment_26
+Flags:
+- StopQuestOnEnd
+Phases:
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 0
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 340
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 0
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2048
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 4
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 0
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2048
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 4
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 0
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2048
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 4
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 0
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2048
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 4
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 0
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2048
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 4
+  Unused2: {}
+  EditorWidth: 200
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 0
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2048
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 4
+  Unused2: {}
+  EditorWidth: 200
+- Name: Player resists
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 0
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2048
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 4
+  Unused2: {}
+  EditorWidth: 200
+- Name: Player complied
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 4
+    ComparisonValue: 1
+  Unused2: {}
+  EditorWidth: 200
+- Name: Player left, destroy first item
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 0
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2048
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 2
+  Unused2: {}
+  EditorWidth: 200
+- Name: Destroy second item
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+  Unused2: {}
+  EditorWidth: 200
+- Name: Destroy third item
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 4
+  Unused2: {}
+  EditorWidth: 200
+Actors:
+- Flags: []
+  BehaviorFlags:
+  - DeathEnd
+  - CombatPause
+  - ObsComPause
+Actions:
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 1
+  StartPhase: 0
+  EndPhase: 0
+  Packages:
+  - 02A4E1:Campfire.esm
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 2
+  StartPhase: 1
+  EndPhase: 1
+  Packages:
+  - 02AA63:Campfire.esm
+- Type: Timer
+  Name: ''
+  ActorID: 0
+  Index: 4
+  StartPhase: 2
+  EndPhase: 2
+  TimerSeconds: 8
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 5
+  StartPhase: 3
+  EndPhase: 3
+  Packages:
+  - 03A5CF:Campfire.esm
+- Type: Timer
+  Name: ''
+  ActorID: 0
+  Index: 6
+  StartPhase: 4
+  EndPhase: 4
+  TimerSeconds: 8
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 7
+  StartPhase: 5
+  EndPhase: 5
+  Packages:
+  - 02AA63:Campfire.esm
+- Type: Timer
+  Name: ''
+  ActorID: 0
+  Index: 8
+  StartPhase: 6
+  EndPhase: 6
+  TimerSeconds: 8
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 9
+  StartPhase: 2
+  EndPhase: 2
+  Packages:
+  - 03A5C6:Campfire.esm
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 10
+  StartPhase: 4
+  EndPhase: 4
+  Packages:
+  - 03A5C6:Campfire.esm
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 11
+  StartPhase: 6
+  EndPhase: 6
+  Packages:
+  - 03A5C6:Campfire.esm
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 12
+  StartPhase: 8
+  EndPhase: 8
+  Packages:
+  - 03A5C7:Campfire.esm
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 13
+  StartPhase: 9
+  EndPhase: 9
+  Packages:
+  - 03A5C8:Campfire.esm
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 14
+  StartPhase: 10
+  EndPhase: 10
+  Packages:
+  - 03A5C9:Campfire.esm
+- Type: Package
+  Name: ''
+  ActorID: 0
+  Index: 15
+  StartPhase: 11
+  EndPhase: 11
+  Packages:
+  - 03A5CA:Campfire.esm
+Quest: 02AFC7:Campfire.esm
+LastActionIndex: 20
+VNAM: 0x03000000030000000300000003000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 0
+    Target: 000014:Skyrim.esm
+  ComparisonValue: 2048
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: DoesNotExistConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: DoesNotExistConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 3
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: DoesNotExistConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 4

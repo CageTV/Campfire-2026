@@ -1,0 +1,7 @@
+FormKey: 05F95A:Campfire.esm
+EditorID: _Camp_CookingPotErrorNotification
+Description:
+  TargetLanguage: English
+  Value: There is no fire hot enough to cook with.
+INAM: 0x00000000
+DisplayTime: 2

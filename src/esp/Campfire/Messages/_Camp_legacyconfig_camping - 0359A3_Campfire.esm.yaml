@@ -1,0 +1,28 @@
+FormKey: 0359A3:Campfire.esm
+EditorID: _Camp_legacyconfig_camping
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Config > Camping
+
+
+    Select the feature you would like to configure below.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Gear In Tents (Player)
+- Text:
+    TargetLanguage: English
+    Value: Gear In Tents (Followers)
+- Text:
+    TargetLanguage: English
+    Value: Follower Interaction
+- Text:
+    TargetLanguage: English
+    Value: More...
+- Text:
+    TargetLanguage: English
+    Value: Back

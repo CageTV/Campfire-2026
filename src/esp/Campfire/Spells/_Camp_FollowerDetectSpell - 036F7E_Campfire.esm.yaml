@@ -1,0 +1,25 @@
+FormKey: 036F7E:Campfire.esm
+EditorID: _Camp_FollowerDetectSpell
+Name:
+  TargetLanguage: English
+  Value: Follower Detect Spell
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 036F7D:Campfire.esm
+  Data:
+    Magnitude: 192
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetQuestRunningConditionData
+      Quest: 047AE6:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: GetStageConditionData
+      Quest: 04B2D9:Skyrim.esm
+    ComparisonValue: 20

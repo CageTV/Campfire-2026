@@ -1,0 +1,24 @@
+FormKey: 02F8EB:Campfire.esm
+EditorID: _Camp_dunHunterQstPerk
+Name:
+  TargetLanguage: English
+  Value: Kyne's Blessing, Minor
+Description:
+  TargetLanguage: English
+  Value: Damage taken from animals is reduced by 5%.
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 013798:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: ModIncomingDamage
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 0.95

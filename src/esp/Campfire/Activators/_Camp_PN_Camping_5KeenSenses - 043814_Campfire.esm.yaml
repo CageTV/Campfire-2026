@@ -1,0 +1,43 @@
+FormKey: 043814:Campfire.esm
+EditorID: _Camp_PN_Camping_5KeenSenses
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPerkNode
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: description_value_iterator
+      Data: 50
+    - MutagenObjectType: ScriptIntProperty
+      Name: description_value_modifier
+    - MutagenObjectType: ScriptObjectProperty
+      Name: downstream_line_1
+      Object: 044867:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: downstream_node_1
+      Object: 0427E8:Campfire.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: required_description_value_count
+      Data: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: required_perk_description
+      Object: 04382E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: required_perk_rank_global
+      Object: 04381A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: required_perk_rank_global_max
+      Object: 04381F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: required_skill_description
+      Object: 0510F0:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Keen Senses
+Model:
+  File: campfire\_camp_intperkstars01.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Select
+Flags: []

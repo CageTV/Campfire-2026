@@ -1,0 +1,93 @@
+FormKey: 0468C0:Campfire.esm
+MajorRecordFlagsRaw: 8389120
+EditorID: _Camp_PerkNodeController_Camping
+SkyrimMajorRecordFlags:
+- 0x200
+- 0x800000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPerkNodeControllerBehavior
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkGeneral_UpgradeVerify
+      Object: 043826:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkArtPlane
+      Object: 045333:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkArtPlane_PositionRef
+      Object: 045335:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkLine00
+      Object: 044864:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkLine00_PositionRef
+      Object: 044861:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkLine01
+      Object: 044865:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkLine01_PositionRef
+      Object: 043833:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkLine02
+      Object: 044866:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkLine02_PositionRef
+      Object: 044862:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkLine03
+      Object: 044867:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkLine03_PositionRef
+      Object: 044863:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode00
+      Object: 043813:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode00_PositionRef
+      Object: 0427E9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode01
+      Object: 043812:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode01_PositionRef
+      Object: 043821:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode02
+      Object: 0427E8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode02_PositionRef
+      Object: 043823:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode03
+      Object: 043815:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode03_PositionRef
+      Object: 043822:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode04
+      Object: 043814:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNode04_PositionRef
+      Object: 043824:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkNodeController_PositionRef
+      Object: 043820:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: required_perk_point_progress
+      Object: 0510F9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: required_perk_points_available
+      Object: 0510F6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: required_skill_description
+      Object: 0510F0:Campfire.esm
+Model:
+  File: MarkerX.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap
+- IsMarker

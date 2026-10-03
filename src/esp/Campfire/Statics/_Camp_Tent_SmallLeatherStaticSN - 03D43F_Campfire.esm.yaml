@@ -1,0 +1,15 @@
+FormKey: 03D43F:Campfire.esm
+MajorRecordFlagsRaw: 67584
+EditorID: _Camp_Tent_SmallLeatherStaticSN
+SkyrimMajorRecordFlags:
+- InitiallyDisabled
+- 0x10000
+Model:
+  File: campfire\_camp_smallleathertent_cutthroughexterior.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 025129:Skyrim.esm
+Unused: 0x000000
+MajorFlags:
+- 0x800
+- 0x10000

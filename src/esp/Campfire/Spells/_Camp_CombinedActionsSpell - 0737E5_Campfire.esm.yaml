@@ -1,0 +1,15 @@
+FormKey: 0737E5:Campfire.esm
+EditorID: _Camp_CombinedActionsSpell
+Name:
+  TargetLanguage: English
+  Value: Resourcefulness
+MenuDisplayObject: 10A046:Skyrim.esm
+EquipmentType: 025BEE:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Use your knowledge of wilderness survival to build campfires, harvest wood, and create useful items.
+Type: LesserPower
+CastType: FireAndForget
+Effects:
+- BaseEffect: 0737E4:Campfire.esm
+  Data: {}

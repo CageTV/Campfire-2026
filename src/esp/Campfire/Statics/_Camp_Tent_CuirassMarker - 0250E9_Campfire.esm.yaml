@@ -1,0 +1,15 @@
+FormKey: 0250E9:Campfire.esm
+MajorRecordFlagsRaw: 8388608
+EditorID: _Camp_Tent_CuirassMarker
+SkyrimMajorRecordFlags:
+- 0x800000
+ObjectBounds:
+  First: -26, -23, -1
+  Second: 26, 27, 17
+Model:
+  File: Armor\Ebony\M\CuirassGND.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- IsMarker

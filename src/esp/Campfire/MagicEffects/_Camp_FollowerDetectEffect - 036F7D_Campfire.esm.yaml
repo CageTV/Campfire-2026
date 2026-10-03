@@ -1,0 +1,20 @@
+FormKey: 036F7D:Campfire.esm
+EditorID: _Camp_FollowerDetectEffect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_FollowerDetectDebugEffect
+Name:
+  TargetLanguage: English
+  Value: Follower Detection Effect
+Flags:
+- NoHitEvent
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectCloakArchetype
+  Association: 038A87:Campfire.esm
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

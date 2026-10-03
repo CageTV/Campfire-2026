@@ -1,0 +1,53 @@
+FormKey: 038678:Campfire.esm
+MajorRecordFlagsRaw: 268435456
+EditorID: _Camp_Enchanting
+SkyrimMajorRecordFlags:
+- 0x10000000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlaceableObjectEx
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Asset_ExtraLight1
+      Object: 0B9BE7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PositionRef_ExtraLight1
+      Object: 03E6F4:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_InventoryItem
+      Object: 038680:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RequiredPositionRef_CenterObject
+      Object: 03E6EF:Campfire.esm
+ObjectBounds:
+  First: -41, -10, -34
+  Second: 41, 107, 64
+Name:
+  TargetLanguage: English
+  Value: Enchanter's Circle
+Model:
+  File: campfire\_camp_EnchantingCircle_FURN.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 06E9C7:Skyrim.esm
+- 04F6DD:Skyrim.esm
+- 0A56D8:Skyrim.esm
+- 0F688E:Skyrim.esm
+PNAM: 0x00000000
+Flags:
+- IgnoredBySandbox
+- MustExitToTalk
+- 0x40000000
+InteractionKeyword: 013794:Skyrim.esm
+WorkbenchData:
+  BenchType: Enchanting
+  UsesSkill: Enchanting
+Markers:
+- Enabled: True
+  EntryPoints:
+    Type:
+    - Sit
+    Points:
+    - Behind
+MajorFlags:
+- MustExitToTalk

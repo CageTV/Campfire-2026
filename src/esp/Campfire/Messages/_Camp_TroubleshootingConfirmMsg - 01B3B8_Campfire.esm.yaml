@@ -1,0 +1,12 @@
+FormKey: 01B3B8:Campfire.esm
+EditorID: _Camp_TroubleshootingConfirmMsg
+Description:
+  TargetLanguage: English
+  Value: Campfire attempted to fix the problem. Please check now to see if the problem has been solved.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: OK

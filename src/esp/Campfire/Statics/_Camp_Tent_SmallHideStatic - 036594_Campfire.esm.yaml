@@ -1,0 +1,15 @@
+FormKey: 036594:Campfire.esm
+MajorRecordFlagsRaw: 134217728
+EditorID: _Camp_Tent_SmallHideStatic
+SkyrimMajorRecordFlags:
+- 0x8000000
+ObjectBounds:
+  First: -194, -259, -49
+  Second: 194, 204, 257
+Model:
+  File: campfire\_camp_smallhidetent_cutthroughinterior.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- NavMeshGenerationBoundingBox

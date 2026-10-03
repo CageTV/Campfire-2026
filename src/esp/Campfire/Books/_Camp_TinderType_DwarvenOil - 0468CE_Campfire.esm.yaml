@@ -1,0 +1,35 @@
+FormKey: 0468CE:Campfire.esm
+EditorID: _Camp_TinderType_DwarvenOil
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_TinderTypeScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireSize
+      Object: CC0E0C:Update.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: is_oil
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: quality_rank
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 0468CE:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Build Fire - Add Tinder (Dwarven Oil)
+BookText:
+  TargetLanguage: English
+  Value: ''
+Keywords:
+- 01E717:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+InventoryArt: 0468C7:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: Excellent quality tinder. Trivial to light under current weather conditions.

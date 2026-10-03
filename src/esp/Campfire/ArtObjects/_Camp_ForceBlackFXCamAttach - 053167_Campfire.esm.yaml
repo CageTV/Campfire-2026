@@ -1,0 +1,7 @@
+FormKey: 053167:Campfire.esm
+EditorID: _Camp_ForceBlackFXCamAttach
+Model:
+  File: campfire\_Camp_ForceBlackFXCamAttach.nif
+  Data: 0x020000000000000000000000
+Type:
+- MagicCasting

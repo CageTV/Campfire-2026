@@ -1,0 +1,25 @@
+FormKey: 03599C:Campfire.esm
+EditorID: _Camp_legacyconfig_advancedplacement_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Advanced Placement
+
+
+    If disabled, camping equipment will always be placed flat and in front of your character. An indicator will appear that will display where the item will go. This may help with performance when placing equipment.
+
+
+    If enabled (default), the indicator will follow your movements and snap to the terrain for precise placement.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

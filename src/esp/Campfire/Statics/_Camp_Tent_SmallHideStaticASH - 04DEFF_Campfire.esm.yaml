@@ -1,0 +1,15 @@
+FormKey: 04DEFF:Campfire.esm
+MajorRecordFlagsRaw: 67584
+EditorID: _Camp_Tent_SmallHideStaticASH
+SkyrimMajorRecordFlags:
+- InitiallyDisabled
+- 0x10000
+Model:
+  File: campfire\_camp_smallhidetent_cutthroughexterior.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 70
+Material: 04DEFC:Campfire.esm
+Unused: 0x000000
+MajorFlags:
+- 0x800
+- 0x10000

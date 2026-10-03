@@ -1,0 +1,10 @@
+FormKey: 050F8A:Campfire.esm
+EditorID: _Camp_Tent_LargeHide_GroundFX
+ObjectBounds:
+  First: -361, -217, -21
+  Second: 386, 171, 67
+Model:
+  File: campfire\_camp_largehidetent_groundfx.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

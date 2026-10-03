@@ -1,0 +1,19 @@
+FormKey: 035411:Campfire.esm
+EditorID: _Camp_SurvivalVisionPower
+Name:
+  TargetLanguage: English
+  Value: Instincts
+MenuDisplayObject: 10A046:Skyrim.esm
+EquipmentType: 025BEE:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Focus your senses to detect sounds and scents. Less effective when indoors. Movement and getting hit cancels the effect.
+Flags:
+- AreaEffectIgnoresLOS
+Type: LesserPower
+CastType: FireAndForget
+Effects:
+- BaseEffect: 03540F:Campfire.esm
+  Data:
+    Area: 100
+    Duration: 600

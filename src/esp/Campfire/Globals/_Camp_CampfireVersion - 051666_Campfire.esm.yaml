@@ -1,0 +1,9 @@
+MutagenObjectType: GlobalShort
+FormKey: 051666:Campfire.esm
+MajorRecordFlagsRaw: 64
+EditorID: _Camp_CampfireVersion
+SkyrimMajorRecordFlags:
+- 0x40
+MajorFlags:
+- Constant
+Data: 11200

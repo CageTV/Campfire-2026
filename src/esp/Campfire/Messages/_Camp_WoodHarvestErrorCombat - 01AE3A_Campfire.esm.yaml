@@ -1,0 +1,7 @@
+FormKey: 01AE3A:Campfire.esm
+EditorID: _Camp_WoodHarvestErrorCombat
+Description:
+  TargetLanguage: English
+  Value: You cannot harvest wood while in combat.
+INAM: 0x00000000
+DisplayTime: 2

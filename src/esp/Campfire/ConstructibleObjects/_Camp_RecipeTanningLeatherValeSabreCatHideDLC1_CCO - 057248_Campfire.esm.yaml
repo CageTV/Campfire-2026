@@ -1,0 +1,31 @@
+FormKey: 057248:Campfire.esm
+EditorID: _Camp_RecipeTanningLeatherValeSabreCatHideDLC1_CCO
+Items:
+- Item:
+    Item: 064B3D:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0299:Update.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 022033:Campfire.esm
+    VariableName: ::isSKSELoaded_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 022033:Campfire.esm
+    VariableName: ::IsDawnguardLoaded_var
+  ComparisonValue: 1
+CreatedObject: DA0BF1:Update.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 3

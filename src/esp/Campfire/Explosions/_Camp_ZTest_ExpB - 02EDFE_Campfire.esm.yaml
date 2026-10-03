@@ -1,0 +1,9 @@
+FormKey: 02EDFE:Campfire.esm
+EditorID: _Camp_ZTest_ExpB
+PlacedObject: 02EE18:Campfire.esm
+Flags:
+- 0x1
+- IgnoreLosCheck
+- IgnoreImageSpaceSwap
+- NoControllerVibration
+SoundLevel: Silent

@@ -1,0 +1,28 @@
+FormKey: 039AFB:Campfire.esm
+EditorID: _Camp_legacyconfig_camping2
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Config > Camping
+
+
+    Select the feature you would like to configure below.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Camping Legality
+- Text:
+    TargetLanguage: English
+    Value: Equipment Can Burn
+- Text:
+    TargetLanguage: English
+    Value: Campfire Building
+- Text:
+    TargetLanguage: English
+    Value: More...
+- Text:
+    TargetLanguage: English
+    Value: Back

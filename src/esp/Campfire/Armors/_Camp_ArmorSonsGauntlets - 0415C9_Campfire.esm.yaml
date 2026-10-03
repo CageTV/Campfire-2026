@@ -1,0 +1,28 @@
+FormKey: 0415C9:Campfire.esm
+EditorID: _Camp_ArmorSonsGauntlets
+Name:
+  TargetLanguage: English
+  Value: Fur Gauntlets
+WorldModel:
+  Male:
+    Model:
+      File: Armor\StormCloaks\GlovesGO.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Hands
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBD3:Skyrim.esm
+- 08F959:Skyrim.esm
+- 06C0EF:Skyrim.esm
+- 06BBDD:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 0A6D7C:Skyrim.esm
+Value: 5
+Weight: 2
+ArmorRating: 5

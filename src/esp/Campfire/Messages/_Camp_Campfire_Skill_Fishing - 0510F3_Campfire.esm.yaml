@@ -1,0 +1,24 @@
+FormKey: 0510F3:Campfire.esm
+EditorID: _Camp_Campfire_Skill_Fishing
+Description:
+  TargetLanguage: English
+  Value: >-
+    FISHING
+
+
+    The art of catching fish of all shapes and sizes. Those skilled in fishing hook bigger catches and make more effective use of their rods, bait, and nets. 
+
+
+    Catch fish to earn perks. Each new perk requires a few more catches.
+
+
+    Perks to increase: %.0f
+
+    Next perk progress: %.0f%%
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Back

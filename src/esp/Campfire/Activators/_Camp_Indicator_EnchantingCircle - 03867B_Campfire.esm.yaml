@@ -1,0 +1,23 @@
+FormKey: 03867B:Campfire.esm
+EditorID: _Camp_Indicator_EnchantingCircle
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlacementIndicator
+    Properties:
+    - MutagenObjectType: ScriptFloatProperty
+      Name: height_adjustment
+      Data: 3
+    - MutagenObjectType: ScriptFloatProperty
+      Name: indicator_distance
+      Data: 150
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_furniture_to_place
+      Object: 038678:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_inventory_item
+      Object: 038680:Campfire.esm
+Model:
+  File: campfire\_Camp_Indicator_EnchantingCircle.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

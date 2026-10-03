@@ -1,0 +1,18 @@
+FormKey: 02C270:Campfire.esm
+EditorID: _Camp_BackpackEffect_CookingPot
+Name:
+  TargetLanguage: English
+  Value: Backpack Effect Cooking Pot
+Flags:
+- FXPersist
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Mood
+HitEffectArt: 02C266:Campfire.esm
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

@@ -1,0 +1,38 @@
+FormKey: 06B118:Campfire.esm
+EditorID: _Camp_SurvivalVisionGuideEffect
+Name:
+  TargetLanguage: English
+  Value: Instincts Guide
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- NoMagnitude
+- NoArea
+- FXPersist
+- HideInUI
+BaseCost: 25
+MagicSkill: Illusion
+CastingLight: 06B110:Skyrim.esm
+Archetype:
+  MutagenObjectType: MagicEffectGuideArchetype
+  Association: 06D175:Campfire.esm
+CastingArt: 06B10F:Skyrim.esm
+SkillUsageMultiplier: 0.01
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds:
+- Sound: 07BBAB:Skyrim.esm
+- Type: Charge
+  Sound: 06F6D3:Skyrim.esm
+- Type: Release
+  Sound: 07BBAE:Skyrim.esm
+- Type: ConcentrationCastLoop
+  Sound: 0AC037:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 06DC4F:Campfire.esm
+  ComparisonValue: 2

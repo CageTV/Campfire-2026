@@ -1,0 +1,220 @@
+FormKey: 02612B:Campfire.esm
+EditorID: CampfireObjectPlacementSystem
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_ObjectPlacementIndicatorThread01
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: future
+      Object: 0294AE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: receiver_ref
+      Object: 02EE11:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: shooter_ref
+      Object: 02EE10:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: z_test_spell
+      Object: 02EE02:Campfire.esm
+  - Name: _Camp_ObjectPlacementIndicatorThread02
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: future
+      Object: 0294AF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: receiver_ref
+      Object: 0294A9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: shooter_ref
+      Object: 0294AB:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: z_test_spell
+      Object: 02EE04:Campfire.esm
+  - Name: _Camp_ObjectPlacementIndicatorThread03
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: future
+      Object: 0294B0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: receiver_ref
+      Object: 0294AA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: shooter_ref
+      Object: 0294AC:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: z_test_spell
+      Object: 02EE06:Campfire.esm
+  - Name: _Camp_ObjectPlacementThread01
+  - Name: _Camp_ObjectPlacementThread02
+  - Name: _Camp_ObjectPlacementThread03
+  - Name: _Camp_ObjectPlacementThread04
+  - Name: _Camp_ObjectPlacementThread05
+  - Name: _Camp_ObjectPlacementThread06
+  - Name: _Camp_ObjectPlacementThread07
+  - Name: _Camp_ObjectPlacementThread08
+  - Name: _Camp_ObjectPlacementThread09
+  - Name: _Camp_ObjectPlacementThread10
+  - Name: _Camp_ObjectPlacementThread11
+  - Name: _Camp_ObjectPlacementThread12
+  - Name: _Camp_ObjectPlacementThread13
+  - Name: _Camp_ObjectPlacementThread14
+  - Name: _Camp_ObjectPlacementThread15
+  - Name: _Camp_ObjectPlacementThread16
+  - Name: _Camp_ObjectPlacementThread17
+  - Name: _Camp_ObjectPlacementThread18
+  - Name: _Camp_ObjectPlacementThread19
+  - Name: _Camp_ObjectPlacementThread20
+  - Name: _Camp_ObjectPlacementThread21
+  - Name: _Camp_ObjectPlacementThread22
+  - Name: _Camp_ObjectPlacementThread23
+  - Name: _Camp_ObjectPlacementThread24
+  - Name: _Camp_ObjectPlacementThread25
+  - Name: _Camp_ObjectPlacementThread26
+  - Name: _Camp_ObjectPlacementThread27
+  - Name: _Camp_ObjectPlacementThread28
+  - Name: _Camp_ObjectPlacementThread29
+  - Name: _Camp_ObjectPlacementThread30
+  - Name: _Camp_ObjectPlacementThreadManager
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Anchor
+      Object: 02202C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_BurnEffect
+      Object: 02716A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampingCrimeTracking
+      Object: 02AFC7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CollapseFireball
+      Object: 02CAD8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CurrentlyPlacingObject
+      Object: 02EE01:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HelpDone_PlacementError
+      Object: 051A59:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_IndicatorFutureRefA
+      Object: 0294AE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_IndicatorFutureRefB
+      Object: 0294AF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_IndicatorFutureRefC
+      Object: 0294B0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_IndicatorSelect
+      Object: 029A14:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_IndicatorTriggerRef
+      Object: 02EE20:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LargeFire
+      Object: 02D03B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LargeFireSmoke
+      Object: 02B533:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastPlacementHeightOffset
+      Object: 05573D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ObjectPlacementFutureActivator
+      Object: 026BF1:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ObjectPlacementFutureAnchor
+      Object: 026EAE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ObjectRubbleFire
+      Object: 02D04D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Placement_Cancelled
+      Object: 044143:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Placement_Cancelled_CollisionBug
+      Object: 051A58:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PlacementIllegal
+      Object: 0397AE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PlaceObjectError_Item
+      Object: 03A5D1:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PlaceObjectError_Perk
+      Object: 03A5D0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_AdvancedPlacement
+      Object: 048CEE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_MaxThreads
+      Object: 026EAF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_VisError
+      Object: 041B4E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_VisPlacement
+      Object: 026EB0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ZTestReceiverREF_A
+      Object: 02EE11:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ZTestReceiverREF_B
+      Object: 0294A9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ZTestReceiverREF_C
+      Object: 0294AA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ZTestShooterREF_A
+      Object: 02EE10:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ZTestShooterREF_B
+      Object: 0294AB:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_ZTestShooterREF_C
+      Object: 0294AC:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampfireObjectPlacementSystem
+      Object: 02612B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Compatibility
+      Object: 022033:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FallingDustExplosion01
+      Object: 088109:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IllegalItem1
+      Object: 02AFC7:Campfire.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IllegalItem2
+      Object: 02AFC7:Campfire.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IllegalItem3
+      Object: 02AFC7:Campfire.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Legal
+      Object: 022033:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: XMarker
+      Object: 00003B:Skyrim.esm
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  FileName: ''
+NextAliasID: 0

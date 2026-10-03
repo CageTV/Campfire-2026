@@ -1,0 +1,23 @@
+FormKey: 0401F5:Campfire.esm
+EditorID: _Camp_RecipeSupplies_LongbowDeadwood
+Items:
+- Item:
+    Item: CC0606:Update.esm
+    Count: 4
+- Item:
+    Item: 02E68E:Campfire.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0217:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0150:Update.esm
+  ComparisonValue: 1
+CreatedObject: 03C96E:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

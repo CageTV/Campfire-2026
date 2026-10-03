@@ -1,0 +1,85 @@
+FormKey: 0365B3:Campfire.esm
+EditorID: _Camp_TentLayMenu
+Description:
+  TargetLanguage: English
+  Value: What do you want to do?
+Name:
+  TargetLanguage: English
+  Value: Tent
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Sleep
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+- Text:
+    TargetLanguage: English
+    Value: Use Light
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::CurrentTentHasLantern_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Talk To...
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::Follower1Registered_var
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::Follower2Registered_var
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::Follower3Registered_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Toggle View
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsPlayerInInterior_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::CurrentTentHasVisualShelter_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Get Up
+- Text:
+    TargetLanguage: English
+    Value: Exit

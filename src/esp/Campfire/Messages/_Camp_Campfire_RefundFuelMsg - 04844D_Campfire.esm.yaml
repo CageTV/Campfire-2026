@@ -1,0 +1,7 @@
+FormKey: 04844D:Campfire.esm
+EditorID: _Camp_Campfire_RefundFuelMsg
+Description:
+  TargetLanguage: English
+  Value: You gather any unspent fuel.
+INAM: 0x00000000
+DisplayTime: 2

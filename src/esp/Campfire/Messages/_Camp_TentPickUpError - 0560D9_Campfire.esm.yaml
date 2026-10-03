@@ -1,0 +1,7 @@
+FormKey: 0560D9:Campfire.esm
+EditorID: _Camp_TentPickUpError
+Description:
+  TargetLanguage: English
+  Value: Cannot pack tent while bed rolls are in use.
+INAM: 0x00000000
+DisplayTime: 2

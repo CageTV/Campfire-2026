@@ -1,0 +1,221 @@
+FormKey: 0225A6:Campfire.esm
+EditorID: _Camp_SkyUIConfigPanel
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_SkyUIConfigPanelScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CampfireSpell
+      Object: 025BD5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CreateItemSpell
+      Object: 02306B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_CurrentlyPlacingObject
+      Object: 02EE01:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_FollowerDetectSpell
+      Object: 036F7E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HarvestWoodSpell
+      Object: 025647:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HotkeyBuildCampfire
+      Object: 035F10:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HotkeyCreateItem
+      Object: 035F12:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HotkeyHarvestWood
+      Object: 035F11:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_HotkeyInstincts
+      Object: 050B89:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_Firecraft
+      Object: 0473E5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_HighSpirits
+      Object: 043819:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_KeenSenses
+      Object: 04381A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_Resourceful
+      Object: 043816:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_PerkRank_Trailblazer
+      Object: 043817:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_AdvancedPlacement
+      Object: 048CEE:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_AutoSaveLoad
+      Object: 051BCC:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_CampfireMode
+      Object: 075842:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_CampingArmorTakeOff
+      Object: 03EA70:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_CompatibilityEO
+      Object: 052C04:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_CurrentProfile
+      Object: 051BCD:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_EnableTutorials
+      Object: 066551:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_EquipmentFlammable
+      Object: 03A060:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_FollowersRemoveGearInTents
+      Object: 039AF6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_FollowersUseCampsite
+      Object: 039AF5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_InstinctsFindFlora
+      Object: 06DC4C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_InstinctsFindTinder
+      Object: 06DC4B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_InstinctsHearCreatures
+      Object: 06DC4D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_InstinctsSenseObjective
+      Object: 06DC4F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_InstinctsSFX
+      Object: 06DC51:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_InstinctsSmellDead
+      Object: 06DC4E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_InstinctsVFX
+      Object: 06DC50:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_Legality
+      Object: 02409E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_ManualFireLighting
+      Object: 01C3E8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_MaxThreads
+      Object: 026EAF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Ammo
+      Object: 0250E8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Backpack
+      Object: 0250E5:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Boots
+      Object: 0250E4:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Cuirass
+      Object: 0250E2:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Gauntlets
+      Object: 0250E3:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Helm
+      Object: 0250E1:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Shield
+      Object: 0250E7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TakeOff_Weapons
+      Object: 0250E6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Setting_TrackFollowers
+      Object: 035983:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_SurvivalVisionPower
+      Object: 035411:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_TroubleshootingConfirmMsg
+      Object: 01B3B8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding1_Displayed
+      Object: 06654D:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding2_Displayed
+      Object: 06654C:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding3_Displayed
+      Object: 06654E:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding4_Displayed
+      Object: 06654F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_FireBuilding5_Displayed
+      Object: 066550:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_SkillSystem1_Displayed
+      Object: 066559:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_SkillSystem2_Displayed
+      Object: 06655A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Tutorial_SkillSystem3_Displayed
+      Object: 06655B:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Animal
+      Object: 061A04:Campfire.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampingPerkPointProgress
+      Object: 0510F9:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampingPerkPoints
+      Object: 0510F6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampingPerkPointsEarned
+      Object: 0510F7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CampingPerkPointsTotal
+      Object: 0510F8:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Compatibility
+      Object: 022033:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Follower1
+      Object: 061A04:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Follower2
+      Object: 061A04:Campfire.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Follower3
+      Object: 061A04:Campfire.esm
+      Alias: 2
+    - MutagenObjectType: ScriptStringProperty
+      Name: ModName
+      Data: Campfire
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0225A6:Campfire.esm
+      Alias: 0
+    Scripts:
+    - Name: SKI_PlayerLoadGameAlias
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+NextAliasID: 1
+Aliases:
+- Name: PlayerAlias
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null

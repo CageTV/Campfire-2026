@@ -1,0 +1,25 @@
+FormKey: 051A58:Campfire.esm
+EditorID: _Camp_Placement_Cancelled_CollisionBug
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire ran into a problem trying to place this item using Advanced Placement. This error is caused by an inherent flaw in Skyrim's engine and cannot be fixed.
+
+
+    Advanced Placement will begin working correctly again after leaving this area (by using a load door or fast travel).
+
+
+    Would you like to fall back to simple placement mode?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Yes
+- Text:
+    TargetLanguage: English
+    Value: No
+- Text:
+    TargetLanguage: English
+    Value: No - Don't Ask Again

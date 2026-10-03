@@ -1,0 +1,15 @@
+FormKey: 041047:Campfire.esm
+EditorID: _Camp_RecipeLeatherBearHide
+Items:
+- Item:
+    Item: 03AD52:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+CreatedObject: DA0BF1:Update.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 4

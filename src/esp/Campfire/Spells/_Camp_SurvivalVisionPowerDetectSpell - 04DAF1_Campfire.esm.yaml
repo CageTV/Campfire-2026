@@ -1,0 +1,556 @@
+FormKey: 04DAF1:Campfire.esm
+EditorID: _Camp_SurvivalVisionPowerDetectSpell
+Name:
+  TargetLanguage: English
+  Value: Detect Sound Spell
+MenuDisplayObject: 10A046:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- AreaEffectIgnoresLOS
+CastType: FireAndForget
+Effects:
+- BaseEffect: 04A4C5:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 100
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+    ComparisonValue: 1
+- BaseEffect: 04CAC5:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 150
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsHostileToActorConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0F1ABC:Skyrim.esm
+    ComparisonValue: 1
+- BaseEffect: 04CAC6:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 200
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsHostileToActorConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0F1ABC:Skyrim.esm
+    ComparisonValue: 1
+- BaseEffect: 04CAC7:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 150
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: IsHostileToActorConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0F1ABC:Skyrim.esm
+- BaseEffect: 04CAC8:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 200
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsFleeingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: IsHostileToActorConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0F1ABC:Skyrim.esm
+- BaseEffect: 04E05D:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 150
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+- BaseEffect: 04E05E:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 200
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+- BaseEffect: 04F5E8:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 100
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+- BaseEffect: 04FB52:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 100
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 1067
+- BaseEffect: 04FB53:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 150
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 1600
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsHostileToActorConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0F1ABC:Skyrim.esm
+    ComparisonValue: 1
+- BaseEffect: 0500B7:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 200
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2134
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsHostileToActorConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0F1ABC:Skyrim.esm
+    ComparisonValue: 1
+- BaseEffect: 04FB54:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 150
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 1600
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: IsHostileToActorConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0F1ABC:Skyrim.esm
+- BaseEffect: 0500B8:Campfire.esm
+  Data:
+    Magnitude: 20
+    Area: 200
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: Reference
+      Reference: 000014:Skyrim.esm
+      MagicEffect: 03540F:Campfire.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsSneakingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsMovingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTalkingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsCurrentFurnitureObjConditionData
+      Furniture: 04D02B:Campfire.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetActorAggroRadiusViolatedConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 2134
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: IsHostileToActorConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0F1ABC:Skyrim.esm

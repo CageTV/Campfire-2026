@@ -1,0 +1,13 @@
+FormKey: 035414:Campfire.esm
+EditorID: _Camp_InspiredSpell2
+Name:
+  TargetLanguage: English
+  Value: Inspired
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: All skills improve <5>% faster for <6> hours.
+Type: Ability
+Effects:
+- BaseEffect: 035417:Campfire.esm
+  Data: {}

@@ -1,0 +1,28 @@
+FormKey: 02EE1D:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_Indicator_TentFurLarge1BR
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlacementIndicator
+    Properties:
+    - MutagenObjectType: ScriptFloatProperty
+      Name: indicator_distance
+      Data: 400
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_activator_to_place
+      Object: 0397AF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_inventory_item
+      Object: 01A348:Campfire.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: z_angle_adjustment
+      Data: 180
+Model:
+  File: campfire\_Camp_Indicator_largehidetent_1br.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap

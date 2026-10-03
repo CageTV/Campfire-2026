@@ -1,0 +1,31 @@
+FormKey: 0359A2:Campfire.esm
+EditorID: _Camp_legacyconfig_root
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Config
+
+
+    Select the feature you would like to configure below.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Camping
+- Text:
+    TargetLanguage: English
+    Value: Tents
+- Text:
+    TargetLanguage: English
+    Value: Instincts
+- Text:
+    TargetLanguage: English
+    Value: Advanced
+- Text:
+    TargetLanguage: English
+    Value: Help
+- Text:
+    TargetLanguage: English
+    Value: Exit

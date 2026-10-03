@@ -1,0 +1,19 @@
+FormKey: 04BA90:Campfire.esm
+EditorID: _Camp_InstinctsGlowFloraFX
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_InstinctsGlowEventReceiver
+  - Name: _Camp_InstinctsGlowScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_SurvivalVisionEffect
+      Object: 03540F:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+Model:
+  File: campfire\_Campfire_VisionDetectionMoteMisc.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags:
+- IgnoredBySandbox

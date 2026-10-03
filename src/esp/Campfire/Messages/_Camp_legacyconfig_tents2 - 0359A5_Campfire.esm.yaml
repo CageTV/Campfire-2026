@@ -1,0 +1,31 @@
+FormKey: 0359A5:Campfire.esm
+EditorID: _Camp_legacyconfig_tents2
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Config > Tents
+
+
+    Configure which pieces of gear will appear when sitting or sleeping on your bed roll.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Gauntlets
+- Text:
+    TargetLanguage: English
+    Value: Helm
+- Text:
+    TargetLanguage: English
+    Value: Boots
+- Text:
+    TargetLanguage: English
+    Value: Ammo
+- Text:
+    TargetLanguage: English
+    Value: More...
+- Text:
+    TargetLanguage: English
+    Value: Back

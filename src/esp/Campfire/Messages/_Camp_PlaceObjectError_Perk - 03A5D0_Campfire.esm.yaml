@@ -1,0 +1,7 @@
+FormKey: 03A5D0:Campfire.esm
+EditorID: _Camp_PlaceObjectError_Perk
+Description:
+  TargetLanguage: English
+  Value: You lack the required perk to use this item.
+INAM: 0x00000000
+DisplayTime: 2

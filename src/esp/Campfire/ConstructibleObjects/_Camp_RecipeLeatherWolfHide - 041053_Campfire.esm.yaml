@@ -1,0 +1,23 @@
+FormKey: 041053:Campfire.esm
+EditorID: _Camp_RecipeLeatherWolfHide
+Items:
+- Item:
+    Item: 03AD74:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 03AD74:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: DA0BF1:Update.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

@@ -1,0 +1,15 @@
+FormKey: 025BBA:Campfire.esm
+EditorID: _Camp_Campfire_Light_2
+Time: -1
+Radius: 512
+Color: '#00E28C3F'
+Flags:
+- Dynamic
+- Flicker
+FalloffExponent: 1
+FOV: 90
+NearClip: 1
+FlickerPeriod: 0.6666667
+FlickerIntensityAmplitude: 0.2
+FlickerMovementAmplitude: 12
+FadeValue: 1.25

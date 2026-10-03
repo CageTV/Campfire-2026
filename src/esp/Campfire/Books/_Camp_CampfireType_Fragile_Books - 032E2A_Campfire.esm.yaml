@@ -1,0 +1,66 @@
+FormKey: 032E2A:Campfire.esm
+EditorID: _Camp_CampfireType_Fragile_Books
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_CampfireType_FragileScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire
+      Object: 031DAF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Light_2
+      Object: 025BBA:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Fragile_BooksLit
+      Object: 032334:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Fragile_BooksUnlit
+      Object: 032335:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Fragile_BranchesLit
+      Object: 032333:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Fragile_BranchesUnlit
+      Object: 032332:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Fragile_KindlingLit
+      Object: 05C8D6:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Fragile_KindlingUnlit
+      Object: 05C8D7:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireSize
+      Object: CC0E0C:Update.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: count_books
+      Data: 2
+    - MutagenObjectType: ScriptBoolProperty
+      Name: isBooks
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RuinedBook
+      Object: 0CE70B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RuinedBook02
+      Object: 0E4897:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 032E2A:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Build Fire - Add Fuel (Books)
+BookText:
+  TargetLanguage: English
+  Value: ''
+Keywords:
+- 01E717:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+InventoryArt: 03541D:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: Begin building a weak campfire that burns for 1 hour. Emits faint heat.

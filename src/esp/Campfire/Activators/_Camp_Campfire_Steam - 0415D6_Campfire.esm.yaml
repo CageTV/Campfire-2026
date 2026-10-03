@@ -1,0 +1,7 @@
+FormKey: 0415D6:Campfire.esm
+EditorID: _Camp_Campfire_Steam
+Model:
+  File: Effects\FXSteamBillow.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

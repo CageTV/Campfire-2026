@@ -1,0 +1,24 @@
+FormKey: 0510F2:Campfire.esm
+EditorID: _Camp_Campfire_Skill_Provisioning
+Description:
+  TargetLanguage: English
+  Value: >-
+    PROVISIONING
+
+
+    The techniques of cooking, trapping, and food preservation to stay healthy and rested while on the road or in the wilds. 
+
+
+    Cook food to earn perks. Each new perk requires a few more meals.
+
+
+    Perks to increase: %.0f
+
+    Next perk progress: %.0f%%
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Back

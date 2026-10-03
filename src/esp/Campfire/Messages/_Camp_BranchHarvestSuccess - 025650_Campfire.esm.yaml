@@ -1,0 +1,7 @@
+FormKey: 025650:Campfire.esm
+EditorID: _Camp_BranchHarvestSuccess
+Description:
+  TargetLanguage: English
+  Value: You find %.0f branches.
+INAM: 0x00000000
+DisplayTime: 2

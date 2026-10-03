@@ -1,0 +1,416 @@
+FormKey: 06B11C:Campfire.esm
+EditorID: _Camp_InstinctsTreeTinderSearch
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_SearchQuest
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: alias1
+      Object: 06B11C:Campfire.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias10
+      Object: 06B11C:Campfire.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: alias2
+      Object: 06B11C:Campfire.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias3
+      Object: 06B11C:Campfire.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias4
+      Object: 06B11C:Campfire.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias5
+      Object: 06B11C:Campfire.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias6
+      Object: 06B11C:Campfire.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias7
+      Object: 06B11C:Campfire.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias8
+      Object: 06B11C:Campfire.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias9
+      Object: 06B11C:Campfire.esm
+      Alias: 2
+  - Name: _Camp_SearchQuestEventReceiver
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 0
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 9
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 8
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 7
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 6
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 5
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 4
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 3
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 2
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+  - Property:
+      Name: ''
+      Object: 06B11C:Campfire.esm
+      Alias: 1
+    Scripts:
+    - Name: _Camp_SearchAliasTinder
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_InstinctsGlowTinderFX
+        Object: 04AA28:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: _Camp_PerkRank_KeenSenses
+        Object: 04381A:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Conditions
+        Object: 022033:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+    - Name: _Camp_SearchAliasEventReceiver
+Name:
+  TargetLanguage: English
+  Value: Instincts Tinder Scent Search
+Flags:
+- AllowRepeatedStages
+- 0x1000
+NextAliasID: 16
+Aliases:
+- Name: TinderAlias1
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 9
+  Name: TinderAlias2
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 8
+  Name: TinderAlias3
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 7
+  Name: TinderAlias4
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 6
+  Name: TinderAlias5
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 5
+  Name: TinderAlias6
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: TinderAlias7
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: TinderAlias8
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: TinderAlias9
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: TinderAlias10
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDisabledConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInListConditionData
+      FormList: 06B684:Campfire.esm
+    ComparisonValue: 1
+  VoiceTypes: Null

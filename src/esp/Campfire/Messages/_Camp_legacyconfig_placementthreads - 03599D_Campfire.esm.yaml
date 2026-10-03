@@ -1,0 +1,28 @@
+FormKey: 03599D:Campfire.esm
+EditorID: _Camp_legacyconfig_placementthreads
+Description:
+  TargetLanguage: English
+  Value: >-
+    Max Placement Threads
+
+
+    When placing camping equipment, the system distributes the calculations across many "workers" (threads) in order to place the object faster. This especially speeds up placing multi-part objects, like tents. The system can use up to 30 threads.
+
+
+    If you are experiencing undesired behavior when placing tents or other objects, try reducing the maximum number of threads.
+
+
+    Current Setting: %.0f Threads
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Decrease (-1)
+- Text:
+    TargetLanguage: English
+    Value: Increase (+1)
+- Text:
+    TargetLanguage: English
+    Value: Back

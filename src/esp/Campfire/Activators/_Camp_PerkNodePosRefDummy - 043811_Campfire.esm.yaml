@@ -1,0 +1,13 @@
+FormKey: 043811:Campfire.esm
+EditorID: _Camp_PerkNodePosRefDummy
+ObjectBounds:
+  First: -10, -11, -5
+  Second: 11, 11, 5
+Name:
+  TargetLanguage: English
+  Value: Test Node
+Model:
+  File: campfire\_camp_intperkstars01.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

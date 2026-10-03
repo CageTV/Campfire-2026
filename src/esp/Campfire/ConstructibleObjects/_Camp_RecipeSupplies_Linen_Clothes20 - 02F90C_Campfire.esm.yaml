@@ -1,0 +1,21 @@
+FormKey: 02F90C:Campfire.esm
+EditorID: _Camp_RecipeSupplies_Linen_Clothes20
+Items:
+- Item:
+    Item: 0646A7:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0197:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 0646A7:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 034CD6:Skyrim.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 4

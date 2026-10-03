@@ -1,0 +1,54 @@
+FormKey: 033392:Campfire.esm
+EditorID: _Camp_CampfireType_Roaring_Deadwood
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_CampfireType_RoaringScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire
+      Object: 031DAF:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Campfire_Light_5
+      Object: 025BBD:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Roaring_DeadwoodLit
+      Object: 033E67:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Roaring_DeadwoodUnlit
+      Object: 033E68:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Roaring_FirewoodLit
+      Object: 033E69:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_Fuel_Roaring_FirewoodUnlit
+      Object: 033E6A:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireSize
+      Object: CC0E0C:Update.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: count_deadwood
+      Data: 6
+    - MutagenObjectType: ScriptBoolProperty
+      Name: isDeadwood
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 033392:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Roaring Campfire
+BookText:
+  TargetLanguage: English
+  Value: ''
+Keywords:
+- 01E717:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+InventoryArt: 03541D:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: A campfire that burns for 12 hours. Emits very strong heat. Can be used for cooking. Inspiring.

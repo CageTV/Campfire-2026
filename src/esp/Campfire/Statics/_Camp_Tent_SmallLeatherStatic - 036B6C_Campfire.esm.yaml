@@ -1,0 +1,12 @@
+FormKey: 036B6C:Campfire.esm
+MajorRecordFlagsRaw: 134217728
+EditorID: _Camp_Tent_SmallLeatherStatic
+SkyrimMajorRecordFlags:
+- 0x8000000
+Model:
+  File: campfire\_camp_smallleathertent_cutthroughinterior.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
+MajorFlags:
+- NavMeshGenerationBoundingBox

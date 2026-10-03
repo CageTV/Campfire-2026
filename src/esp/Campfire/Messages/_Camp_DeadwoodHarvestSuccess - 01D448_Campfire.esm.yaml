@@ -1,0 +1,7 @@
+FormKey: 01D448:Campfire.esm
+EditorID: _Camp_DeadwoodHarvestSuccess
+Description:
+  TargetLanguage: English
+  Value: You harvest %.0f pieces of deadwood.
+INAM: 0x00000000
+DisplayTime: 2

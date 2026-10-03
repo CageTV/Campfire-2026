@@ -1,0 +1,18 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.41
+ModKey: Campfire.esm
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Master
+  Stats:
+    Version: 1.7
+  Author: Chesko
+  Description: Adds a complete set of camping gear for the player.
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  INTV: 1

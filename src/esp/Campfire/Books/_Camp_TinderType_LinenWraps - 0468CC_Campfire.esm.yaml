@@ -1,0 +1,33 @@
+FormKey: 0468CC:Campfire.esm
+EditorID: _Camp_TinderType_LinenWraps
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_TinderTypeScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_LastUsedCampfireSize
+      Object: CC0E0C:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: quality_rank
+      Data: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: this_item
+      Object: 0468CC:Campfire.esm
+Name:
+  TargetLanguage: English
+  Value: Build Fire - Add Tinder (Linen Wraps)
+BookText:
+  TargetLanguage: English
+  Value: ''
+Keywords:
+- 01E717:Skyrim.esm
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+InventoryArt: 0468C9:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: Good quality tinder. Easy to light under current weather conditions.

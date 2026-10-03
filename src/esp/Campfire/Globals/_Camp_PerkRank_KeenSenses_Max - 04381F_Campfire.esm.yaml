@@ -1,0 +1,9 @@
+MutagenObjectType: GlobalShort
+FormKey: 04381F:Campfire.esm
+MajorRecordFlagsRaw: 64
+EditorID: _Camp_PerkRank_KeenSenses_Max
+SkyrimMajorRecordFlags:
+- 0x40
+MajorFlags:
+- Constant
+Data: 2

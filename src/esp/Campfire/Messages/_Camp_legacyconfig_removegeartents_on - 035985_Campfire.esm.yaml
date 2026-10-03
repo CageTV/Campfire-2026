@@ -1,0 +1,25 @@
+FormKey: 035985:Campfire.esm
+EditorID: _Camp_legacyconfig_removegeartents_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Remove Gear in Tents (Player)
+
+
+    If enabled (default), you will remove certain pieces of gear and place them in and around your tent when you sit or sleep on your bed roll. (Skyrim VR: Equipment appears when inside your tent.)
+
+
+    Which pieces of gear are removed and displayed can be configured under Tents.
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

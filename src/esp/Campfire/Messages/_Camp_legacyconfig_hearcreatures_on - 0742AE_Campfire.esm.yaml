@@ -1,0 +1,25 @@
+FormKey: 0742AE:Campfire.esm
+EditorID: _Camp_legacyconfig_hearcreatures_on
+Description:
+  TargetLanguage: English
+  Value: >-
+    Hear Creatures
+
+
+    If enabled, creatures that are moving or talking will emit sound waves that can be seen through walls when using Instincts. If close enough, you can detect creatures even when they aren't moving.
+
+
+    Note: Changes to this setting can take up to 15 seconds to apply!
+
+
+    Current Setting: Enabled
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Disable
+- Text:
+    TargetLanguage: English
+    Value: Back

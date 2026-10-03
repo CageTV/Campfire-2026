@@ -1,0 +1,90 @@
+FormKey: 0012D6:Campfire.esm
+EditorID: _Camp_TentMainMenu
+Description:
+  TargetLanguage: English
+  Value: What do you do?
+Name:
+  TargetLanguage: English
+  Value: Tent
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Sit
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsCurrentTentUsingFullBed_var
+- Text:
+    TargetLanguage: English
+    Value: Relax
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsCurrentTentUsingFullBed_var
+- Text:
+    TargetLanguage: English
+    Value: Lie Down
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSkyrimVR_var
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsCurrentTentUsingFullBed_var
+- Text:
+    TargetLanguage: English
+    Value: Sleep
+- Text:
+    TargetLanguage: English
+    Value: Use Light
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::CurrentTentHasLantern_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Pack Up
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+- Text:
+    TargetLanguage: English
+    Value: Dispel
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::IsSelectedObjectConjured_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Exit

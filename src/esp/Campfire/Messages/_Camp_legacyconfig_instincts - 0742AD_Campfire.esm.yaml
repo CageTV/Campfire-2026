@@ -1,0 +1,28 @@
+FormKey: 0742AD:Campfire.esm
+EditorID: _Camp_legacyconfig_instincts
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Config > Instincts
+
+
+    Select the feature you would like to configure below.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Hear Creatures
+- Text:
+    TargetLanguage: English
+    Value: Smell Dead
+- Text:
+    TargetLanguage: English
+    Value: Sense Objective
+- Text:
+    TargetLanguage: English
+    Value: More...
+- Text:
+    TargetLanguage: English
+    Value: Back

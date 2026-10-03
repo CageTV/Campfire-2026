@@ -1,0 +1,36 @@
+FormKey: 036F7A:Campfire.esm
+EditorID: _Camp_WoodHarvestConfirmMsg
+Description:
+  TargetLanguage: English
+  Value: >-
+    You can spend 30 minutes gathering resources from the nearby area.
+
+
+    What do you want to search for?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Chop Deadwood
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::TreesAreNearby_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Gather Branches
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetVMQuestVariableConditionData
+      Quest: 022033:Campfire.esm
+      VariableName: ::TreesAreNearby_var
+    ComparisonValue: 1
+- Text:
+    TargetLanguage: English
+    Value: Cancel

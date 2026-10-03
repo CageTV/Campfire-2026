@@ -1,0 +1,20 @@
+FormKey: 03F1BC:Campfire.esm
+EditorID: _Camp_RecipeSupplies_ArrowStoneFirewood
+Items:
+- Item:
+    Item: 06F993:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0150:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0218:Update.esm
+  ComparisonValue: 1
+CreatedObject: 0415D7:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 24

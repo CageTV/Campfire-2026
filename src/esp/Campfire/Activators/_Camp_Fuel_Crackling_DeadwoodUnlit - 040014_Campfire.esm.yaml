@@ -1,0 +1,10 @@
+FormKey: 040014:Campfire.esm
+EditorID: _Camp_Fuel_Crackling_DeadwoodUnlit
+ObjectBounds:
+  First: -35, -29, 1
+  Second: 30, 27, 38
+Model:
+  File: campfire\_Camp_Fuel_Crackling_DeadwoodUnlit.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

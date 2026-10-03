@@ -1,0 +1,22 @@
+FormKey: 02EE1B:Campfire.esm
+MajorRecordFlagsRaw: 512
+EditorID: _Camp_Indicator_TentFurSmall1BR
+SkyrimMajorRecordFlags:
+- 0x200
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CampPlacementIndicator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_activator_to_place
+      Object: 0365B0:Campfire.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Required_inventory_item
+      Object: 036B4E:Campfire.esm
+Model:
+  File: campfire\_Camp_Indicator_smallhidetent_1br.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []
+MajorFlags:
+- HiddenFromLocalMap

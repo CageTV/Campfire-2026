@@ -1,0 +1,25 @@
+FormKey: 0742B8:Campfire.esm
+EditorID: _Camp_legacyconfig_instincts2
+Description:
+  TargetLanguage: English
+  Value: >-
+    Campfire Config > Instincts
+
+
+    Select the feature you would like to configure below.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Sound Effect
+- Text:
+    TargetLanguage: English
+    Value: Visual Effect
+- Text:
+    TargetLanguage: English
+    Value: More...
+- Text:
+    TargetLanguage: English
+    Value: Back

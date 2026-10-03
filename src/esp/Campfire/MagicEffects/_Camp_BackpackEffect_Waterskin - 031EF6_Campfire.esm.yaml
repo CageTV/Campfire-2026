@@ -1,0 +1,18 @@
+FormKey: 031EF6:Campfire.esm
+EditorID: _Camp_BackpackEffect_Waterskin
+Name:
+  TargetLanguage: English
+  Value: Backpack Effect Waterskin
+Flags:
+- FXPersist
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Mood
+HitEffectArt: 031EF5:Campfire.esm
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

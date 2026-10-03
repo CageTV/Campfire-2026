@@ -1,0 +1,18 @@
+FormKey: 0359A7:Campfire.esm
+EditorID: _Camp_legacyconfig_help
+Description:
+  TargetLanguage: English
+  Value: Campfire Config > Help
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Troubleshooting
+- Text:
+    TargetLanguage: English
+    Value: Tutorials
+- Text:
+    TargetLanguage: English
+    Value: Back

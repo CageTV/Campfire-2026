@@ -1,0 +1,42 @@
+FormKey: 02C261:Campfire.esm
+EditorID: _Camp_Backpack_Black
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Camp_BackpackToggle
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Camp_BackpackDisplayReset
+      Object: 02D29F:Campfire.esm
+ObjectBounds:
+  First: -15, -23, -4
+  Second: 14, 13, 23
+Name:
+  TargetLanguage: English
+  Value: Backpack, Black Fur
+ObjectEffect: 02C7D7:Campfire.esm
+WorldModel:
+  Male:
+    Model:
+      File: campfire\_Camp_backpack_strapgnd.nif
+      Data: 0x020000000000000000000000
+      AlternateTextures:
+      - Name: BackpackMesh
+        NewTexture: 02C25E:Campfire.esm
+        Index: 1
+BodyTemplate:
+  FirstPersonFlags:
+  - 0x20000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 0C27BD:Skyrim.esm
+- 050A1D:Campfire.esm
+- AF0129:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 02BCFB:Campfire.esm
+Value: 50
+Weight: 5

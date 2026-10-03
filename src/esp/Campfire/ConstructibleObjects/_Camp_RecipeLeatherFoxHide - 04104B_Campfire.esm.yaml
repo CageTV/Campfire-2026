@@ -1,0 +1,20 @@
+FormKey: 04104B:Campfire.esm
+EditorID: _Camp_RecipeLeatherFoxHide
+Items:
+- Item:
+    Item: 0D4B35:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0151:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0299:Update.esm
+  ComparisonValue: 1
+CreatedObject: DA0BF1:Update.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

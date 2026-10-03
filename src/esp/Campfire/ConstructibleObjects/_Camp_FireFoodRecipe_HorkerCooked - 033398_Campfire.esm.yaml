@@ -1,0 +1,25 @@
+FormKey: 033398:Campfire.esm
+EditorID: _Camp_FireFoodRecipe_HorkerCooked
+Items:
+- Item:
+    Item: 065C9B:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CCA025:Update.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0C:Update.esm
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0E0D:Update.esm
+  ComparisonValue: 2
+CreatedObject: 07224E:Skyrim.esm
+WorkbenchKeyword: 031DB0:Campfire.esm
+CreatedObjectCount: 1

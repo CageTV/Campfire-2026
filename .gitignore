@@ -1,0 +1,10 @@
+build/
+plugin/build/
+plugin/build-log.txt
+work/
+esl-work/
+package/
+reference/
+*.log
+*.pdb
+*.zip

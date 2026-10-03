@@ -1,0 +1,6 @@
+FormKey: 053168:Campfire.esm
+EditorID: _Camp_ForceBlackVFX
+EffectArt: 053167:Campfire.esm
+Flags:
+- AttachToCamera
+- InheritRotation

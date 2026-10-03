@@ -1,0 +1,7 @@
+FormKey: 04671C:Campfire.esm
+EditorID: _Camp_WoodHarvestErrorTooCold
+Description:
+  TargetLanguage: English
+  Value: You are too cold to harvest wood.
+INAM: 0x00000000
+DisplayTime: 2

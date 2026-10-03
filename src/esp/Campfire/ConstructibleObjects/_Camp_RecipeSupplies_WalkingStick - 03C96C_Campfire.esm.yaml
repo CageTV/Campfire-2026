@@ -1,0 +1,20 @@
+FormKey: 03C96C:Campfire.esm
+EditorID: _Camp_RecipeSupplies_WalkingStick
+Items:
+- Item:
+    Item: 06F993:Skyrim.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0109:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0150:Update.esm
+  ComparisonValue: 1
+CreatedObject: 0250CA:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

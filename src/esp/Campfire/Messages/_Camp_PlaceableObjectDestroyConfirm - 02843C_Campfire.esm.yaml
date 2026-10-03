@@ -1,0 +1,15 @@
+FormKey: 02843C:Campfire.esm
+EditorID: _Camp_PlaceableObjectDestroyConfirm
+Description:
+  TargetLanguage: English
+  Value: Are you sure you want to destroy this?
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Confirm
+- Text:
+    TargetLanguage: English
+    Value: Back

@@ -1,0 +1,29 @@
+FormKey: 036F7F:Campfire.esm
+EditorID: _Camp_FollowerRegistrationSpell
+Name:
+  TargetLanguage: English
+  Value: Follower Registration Spell
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 036F7C:Campfire.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetPlayerTeammateConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 0BD738:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasLoaded3DConditionData
+    ComparisonValue: 1
