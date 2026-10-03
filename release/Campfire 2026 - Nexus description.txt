@@ -1,0 +1,72 @@
+[size=6][b]Campfire 2026[/b][/size]
+[i]Campfire's settings in SKSE Menu Framework, plus an optional ESL build, in one installer. A layer on top of Chesko's Campfire - Complete Camping System.[/i]
+
+[line]
+
+[size=5][b]What it does[/b][/size]
+Campfire 2026 does not replace Campfire. It sits on top of the original and carries only what changed. Campfire plays exactly as before; its plugin, its API (CampUtil and friends), its meshes, textures and sounds are Chesko's.
+
+[b]Settings in SKSE Menu Framework 3[/b]
+Campfire's options move out of the SkyUI Mod Configuration Menu into a "Campfire" section, with a logo and these pages:
+[list]
+[*][b]Overview[/b]: what is installed
+[*][b]Gameplay[/b]: campfire building mode, camping legality and flammability, the four hotkeys, what you and your followers take off in a tent
+[*][b]Instincts[/b]: what the Instincts power detects, and its visual and sound effects
+[*][b]Advanced[/b]: advanced object placement and max placement threads, follower tracking, Equipping Overhaul compatibility, and the Camping skill's respec and restore options
+[*][b]Profiles[/b]: the 10 settings profiles: pick, rename, reset, automatic save / load
+[/list]
+Every option, default, hover text and profile key is Campfire's own. Settings are saved to the same profile files (Data/SKSE/Plugins/CampfireData), so profiles you already have keep working. The SkyUI menu keeps only the Help page (troubleshooting wizards, tutorials, the guide).
+
+[b]Optional ESL build[/b]
+Campfire.esm as a light plugin, so Campfire takes no regular plugin slot. All 1566 records are renumbered into 000800-000E1D, and the 13 scripts that look records up by hard-coded FormID are rebuilt to match. The numbering is identical to the earlier "CAMPFIRE ESL UPDATED" on every record that mod renumbered, and also covers the 212 records it left out (placed references, cells). The same Campfire.dll serves both builds.
+
+[line]
+
+[size=5][b]Requirements[/b][/size]
+[list]
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/667]Campfire - Complete Camping System[/url] 1.12.1 SE/VR, [b]kept installed[/b]: it supplies Campfire.bsa, the meshes, textures and sounds
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/120352]SKSE Menu Framework 3[/url]: without it the settings pages do not exist
+[*]SKSE64, SkyUI, PapyrusUtil SE (profiles are saved with it, as the original does)
+[*]Skyrim AE 1.6.1170 and up
+[/list]
+
+[size=5][b]Installation[/b][/size]
+[list=1]
+[*]Install the original Campfire and keep it. If you use the old "CAMPFIRE ESL UPDATED" or "Campfire ESL Script Fixes", remove them first: this replaces both.
+[*]Install Campfire 2026 with your mod manager. The installer asks one question:
+[list]
+[*][b]Regular[/b]: the settings layer only. Works with an existing save.
+[*][b]ESL[/b]: the settings layer plus the light Campfire.esm and its rebuilt scripts. [b]New game only[/b]: an old save refers to Campfire's records by their old ids.
+[/list]
+[*]Place it after (below) the original Campfire in MO2's left pane so its files win. If you also use "Campfire - Script Optimization", put Campfire 2026 above it so the rebuilt scripts win.
+[*]If you chose ESL, also choose the ESL option in Frostfall 2026, Last Seed 2026 and the Campfire 2026 - Patches installer.
+[/list]
+
+[size=5][b]Compatibility patches[/b][/size]
+[b]Campfire 2026 - Patches[/b] (separate download) is one installer for both builds: it asks Regular or ESL, then which patches you want. Nine patches:
+[list]
+[*]Creation Club Fishing (cooked fish at the campfire; covers all 24 fish)
+[*]Dynamic Activation Key (fuel, tinder, light and warm hands; includes its scripts and warming-hands animation)
+[*]Simple Hunting Overhaul (campfire cooking)
+[*]Simple Food and Hunting Overhaul
+[*]Embers XD
+[*]Immersive Barrels
+[*]Lanterns of Skyrim II
+[*]Northern Roads
+[*]Use Those Blankets
+[/list]
+Pick only the patches for mods you have. The plugins are the original authors' work, included with their open permissions; the ESL copies differ only in their Campfire references being renumbered (checked record by record).
+
+[size=5][b]Known differences from the SkyUI menu[/b][/size]
+[list]
+[*]The hotkey rows do not warn about keys that other mods or the game already use; pick a free key.
+[*]The Help page is still the SkyUI one.
+[/list]
+
+[size=5][b]Uninstalling[/b][/size]
+Regular: remove the mod; the SkyUI menu works again (all pages come back after a load). ESL: do not remove mid-playthrough, the plugin's ids are in your save.
+
+[size=5][b]Credits and permissions[/b][/size]
+Campfire is by Chesko, MIT licensed; so are its plugin and scripts, which this builds on. Campfire.dll, the settings pages and the ESL tooling are by CageTV, MIT.
+Source: [url=https://github.com/CageTV/Campfire-2026]github.com/CageTV/Campfire-2026[/url]
+Also from the same family: Frostfall 2026 and Last Seed 2026.

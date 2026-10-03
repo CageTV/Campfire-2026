@@ -166,6 +166,6 @@ with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
     for dp, _, fs in os.walk(DEST):
         for fn in fs:
             p = os.path.join(dp, fn)
-            z.write(p, os.path.join("Campfire 2026 - Patches", os.path.relpath(p, DEST)))
+            z.write(p, os.path.relpath(p, DEST))
 files = [os.path.relpath(os.path.join(dp, f), DEST) for dp, _, fs in os.walk(DEST) for f in fs]
 print(f"{DEST}: {len(files)} files, zip {os.path.getsize(zpath)//1024} KB")
