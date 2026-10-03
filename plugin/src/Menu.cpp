@@ -13,7 +13,7 @@ namespace Menu
 
 		bool registered = false;
 
-		constexpr const char* kLogoPath = "Data\Interface\campfire\campfire_logo.png";
+		constexpr const char* kLogoPath = "Data\\Interface\\campfire\\campfire_logo.png";
 		constexpr float       kLogoAspect = 361.0f / 1479.0f;
 
 		void Logo()
