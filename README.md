@@ -39,4 +39,4 @@ Paths at the top of the tools assume the author's workspace; edit them for yours
 
 ## Credits
 
-Chesko, for Campfire and Frostfall (MIT). Settings, ESL build and patches installer by CageTV.
+Chesko, for Campfire and Frostfall (MIT). The combined work is released under the GPL-3.0-or-later (see LICENSE.txt). Settings, ESL build and patches installer by CageTV.
