@@ -8,3 +8,5 @@ reference/
 *.log
 *.pdb
 *.zip
+plugin-ng/build/
+plugin-ng/build.log

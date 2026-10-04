@@ -1,0 +1,6 @@
+{
+  "name": "campfire-native-ng",
+  "version-string": "0.1.0",
+  "dependencies": [ "spdlog", "fmt", "directxtk", "directxmath", "rapidcsv", "simpleini", "toml11", "xbyak", "nlohmann-json" ],
+  "builtin-baseline": "e03dc9b29710050cd1018bc5674688108658d327"
+}
