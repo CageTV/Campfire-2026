@@ -18,7 +18,8 @@ if os.path.exists(DEST):
     shutil.rmtree(DEST)
 os.makedirs(os.path.join(DEST, "scripts", "source"))
 
-shutil.copyfile(os.path.join(W, "esp", "Campfire.esm"), os.path.join(DEST, "Campfire.esm"))
+# the Spriggit-built ESL plugin staged and deployed after tools/salvage_build.py (work/stage/esl); esl-work/esp is its YAML round-trip scratch
+shutil.copyfile(os.path.join(HERE, "work", "stage", "esl", "Campfire.esm"), os.path.join(DEST, "Campfire.esm"))
 pex = sorted(n for n in os.listdir(os.path.join(W, "pex")) if n.lower().endswith(".pex"))
 for n in pex:
     shutil.copyfile(os.path.join(W, "pex", n), os.path.join(DEST, "scripts", n))

@@ -11,9 +11,11 @@ add_commonlibsse_plugin(${PROJECT_NAME} NAME "Campfire" AUTHOR "CageTV" SOURCES
     src/NativeMcm.cpp
     src/Hotkeys.cpp
     src/Ids.cpp
+    src/CutUp.cpp
 )
 
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23)
+target_compile_definitions(${PROJECT_NAME} PRIVATE CAMPFIRE_LEGACY_COMMONLIB)
 target_include_directories(${PROJECT_NAME} PRIVATE src include)
 target_precompile_headers(${PROJECT_NAME} PRIVATE src/PCH.h)
 target_compile_options(${PROJECT_NAME} PRIVATE $<$<CONFIG:Release>:/Z7>)

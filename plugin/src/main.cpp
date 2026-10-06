@@ -7,6 +7,7 @@
  * WARRANTY; see LICENSE.txt for the full text.
  */
 #include "PCH.h"
+#include "CutUp.h"
 #include "Menu.h"
 
 namespace
@@ -29,6 +30,8 @@ namespace
 	{
 		if (a_msg->type == SKSE::MessagingInterface::kPostLoad) {
 			Menu::Register();  // SKSE Menu Framework loads after us alphabetically, so register once everything is loaded
+		} else if (a_msg->type == SKSE::MessagingInterface::kDataLoaded) {
+			CutUp::Build();
 		}
 	}
 }

@@ -1,0 +1,12 @@
+FormKey: 07D001:Campfire.esm
+EditorID: _CampSalv_ClothScrap
+Name:
+  TargetLanguage: English
+  Value: Cloth Scrap
+Keywords:
+- 0BECD7:Skyrim.esm
+Model:
+  File: Clutter\Ruins\RuinsLinenWrap01.nif
+  Data: 0x020000000000000000000000
+Value: 1
+Weight: 0.1

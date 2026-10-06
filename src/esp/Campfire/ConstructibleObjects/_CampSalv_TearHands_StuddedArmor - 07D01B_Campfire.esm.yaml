@@ -1,0 +1,21 @@
+FormKey: 07D01B:Campfire.esm
+EditorID: _CampSalv_TearHands_StuddedArmor
+Items:
+- Item:
+    Item: 01B3A2:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 01B3A2:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 07D002:Campfire.esm
+  ComparisonValue: 0
+CreatedObject: 07D000:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 6

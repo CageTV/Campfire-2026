@@ -1,0 +1,21 @@
+FormKey: 07D00D:Campfire.esm
+EditorID: _CampSalv_TearHands_HideBoots
+Items:
+- Item:
+    Item: 013910:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 013910:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 07D002:Campfire.esm
+  ComparisonValue: 0
+CreatedObject: 07D000:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 3

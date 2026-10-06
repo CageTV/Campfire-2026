@@ -17,6 +17,7 @@ add_commonlibsse_plugin(${PROJECT_NAME} NAME "Campfire" AUTHOR "CageTV" SOURCES
     ${SRC}/src/NativeMcm.cpp
     ${SRC}/src/Hotkeys.cpp
     ${SRC}/src/Ids.cpp
+    ${SRC}/src/CutUp.cpp
 )
 
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23)
@@ -24,3 +25,6 @@ target_include_directories(${PROJECT_NAME} PRIVATE ${SRC}/src ${SRC}/include)
 target_precompile_headers(${PROJECT_NAME} PRIVATE ${SRC}/src/PCH.h)
 target_compile_options(${PROJECT_NAME} PRIVATE $<$<CONFIG:Release>:/Z7>)
 target_link_options(${PROJECT_NAME} PRIVATE $<$<CONFIG:Release>:/DEBUG /OPT:REF /OPT:ICF>)
+
+# local extra targets for the same library build (Frostfall, Last Seed); not part of this repository
+include("${CMAKE_CURRENT_SOURCE_DIR}/extras.cmake" OPTIONAL)

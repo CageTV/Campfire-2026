@@ -16,6 +16,12 @@ Conditions:
     MutagenObjectType: GetItemCountConditionData
     ItemOrList: 0E40DF:Skyrim.esm
   ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 07D002:Campfire.esm
+  ComparisonValue: 1
 CreatedObject: 034CD6:Skyrim.esm
 WorkbenchKeyword: 019831:Campfire.esm
 CreatedObjectCount: 6

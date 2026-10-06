@@ -8,6 +8,7 @@
  */
 #include "PCH.h"
 #include "Ids.h"
+#include "CutUp.h"
 #include "Menu.h"
 #include "NativeMcm.h"
 
@@ -46,7 +47,7 @@ namespace Menu
 			}
 			TextColored(ImVec4(0.65f, 0.9f, 0.5f, 1.0f), "Campfire 2026 is active.");
 			Spacing();
-			TextWrapped("Campfire's settings are on the pages in this section: Gameplay, Instincts, Advanced and Profiles. "
+			TextWrapped("Campfire's settings are on the pages in this section: Gameplay, Instincts, Advanced, Salvage and Profiles. "
 						"The Help page (troubleshooting wizards, tutorials and the guide) is still in the SkyUI Mod Configuration Menu.");
 			Spacing();
 			TextDisabled("Campfire by Chesko (MIT). Campfire 2026 settings by CageTV.");
@@ -61,6 +62,7 @@ namespace Menu
 			NativeMcm::DrawSkill();
 		}
 
+		void __stdcall RenderSalvage() { CutUp::DrawPage(); }
 		void __stdcall RenderProfiles() { NativeMcm::DrawProfiles(); }
 
 		// Drawn every frame whether or not the menu is open: flushes profile writes a moment after the last change.
@@ -83,6 +85,7 @@ namespace Menu
 		SKSEMenuFramework::AddSectionItem("Gameplay", RenderGameplay);
 		SKSEMenuFramework::AddSectionItem("Instincts", RenderInstincts);
 		SKSEMenuFramework::AddSectionItem("Advanced", RenderAdvanced);
+		SKSEMenuFramework::AddSectionItem("Salvage", RenderSalvage);
 		SKSEMenuFramework::AddSectionItem("Profiles", RenderProfiles);
 		SKSEMenuFramework::AddHudElement(Frame);
 		registered = true;

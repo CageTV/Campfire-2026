@@ -3,8 +3,8 @@ Based on Campfire 1.12.1 SE/VR (Nexus 667) by Chesko, MIT-licensed source.
 
 WHAT IT DOES
 ------------
-Makes Campfire.esm a light (ESL) plugin so Campfire takes no regular plugin slot. All 1566 of its records are renumbered into
-000800-000E1D (482 slots to spare), and the 13 Campfire scripts that look records up by hard-coded FormID are rebuilt with the new ids
+Makes Campfire.esm a light (ESL) plugin so Campfire takes no regular plugin slot. All 1650 of its records (Campfire's own 1566 plus the 84 Salvage records
+described in the Campfire 2026 README) are renumbered into 000800-000E71 (398 slots to spare), and the 13 Campfire scripts that look records up by hard-coded FormID are rebuilt with the new ids
 (the source is in scripts/source, MIT). Nothing else about Campfire changes: every record keeps its EditorID, name and values, and the
 Campfire API (CampUtil and friends) is unchanged.
 

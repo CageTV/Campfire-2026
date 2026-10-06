@@ -1,0 +1,21 @@
+FormKey: 07D015:Campfire.esm
+EditorID: _CampSalv_TearHands_ImperialLightBoots
+Items:
+- Item:
+    Item: 013ED7:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 013ED7:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 07D002:Campfire.esm
+  ComparisonValue: 0
+CreatedObject: 07D000:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 3

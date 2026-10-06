@@ -1,0 +1,12 @@
+FormKey: 07D000:Campfire.esm
+EditorID: _CampSalv_LeatherScrap
+Name:
+  TargetLanguage: English
+  Value: Leather Scrap
+Keywords:
+- 0BECD7:Skyrim.esm
+Model:
+  File: Clutter\Common\LeatherStrips01.nif
+  Data: 0x020000000000000000000000
+Value: 1
+Weight: 0.1

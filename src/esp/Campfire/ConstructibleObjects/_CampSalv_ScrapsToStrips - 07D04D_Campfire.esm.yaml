@@ -1,0 +1,16 @@
+FormKey: 07D04D:Campfire.esm
+EditorID: _CampSalv_ScrapsToStrips
+Items:
+- Item:
+    Item: 07D000:Campfire.esm
+    Count: 3
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 07D000:Campfire.esm
+  ComparisonValue: 1
+CreatedObject: 0800E4:Skyrim.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 1

@@ -1,0 +1,21 @@
+FormKey: 07D050:Campfire.esm
+EditorID: _CampSalv_LeatherScrapsToKindling
+Items:
+- Item:
+    Item: 07D000:Campfire.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 07D000:Campfire.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 075842:Campfire.esm
+  ComparisonValue: 1
+CreatedObject: 02E68F:Campfire.esm
+WorkbenchKeyword: 031DB0:Campfire.esm
+CreatedObjectCount: 2
