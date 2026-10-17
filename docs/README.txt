@@ -20,6 +20,11 @@ Every option, default, hover text and profile key is Campfire's own. Settings ar
 Nothing about how Campfire plays changes. The Campfire plugin and its API (CampUtil and friends) are untouched; only the menu script is
 rebuilt (its settings pages are gone and three helper functions were added for the new pages), and Campfire.dll draws the pages.
 
+CHANGES IN 1.1.1
+----------------
+The four hotkeys no longer fire while a menu added by another mod is open. The menu script used to check a fixed list of 16 vanilla
+menus; it now asks the game whether any menu is open (Utility.IsInMenuMode). Suggested by a user.
+
 SALVAGE RECIPES (new in 1.1.0)
 ------------------------------
 Open Campfire's Survival crafting menu ("Create") with the item in your bag; recipes are listed by what they make.

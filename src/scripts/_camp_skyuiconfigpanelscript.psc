@@ -991,22 +991,8 @@ bool function RemapHotkey(int option, int keyCode, string conflictControl, strin
 endFunction
 
 Event OnKeyDown(int KeyCode)
-	if UI.IsMenuOpen("Console") || \
-		UI.IsMenuOpen("Book Menu") || \
-		UI.IsMenuOpen("BarterMenu") || \
-		UI.IsMenuOpen("ContainerMenu") || \
-		UI.IsMenuOpen("Crafting Menu") || \
-		UI.IsMenuOpen("Dialogue Menu") || \
-		UI.IsMenuOpen("FavoritesMenu") || \
-		UI.IsMenuOpen("InventoryMenu") || \
-		UI.IsMenuOpen("Journal Menu") || \
-		UI.IsMenuOpen("Lockpicking Menu") || \
-		UI.IsMenuOpen("MagicMenu") || \
-		UI.IsMenuOpen("MapMenu") || \
-		UI.IsMenuOpen("MessageBoxMenu") || \
-		UI.IsMenuOpen("Sleep/Wait Menu") || \
-		UI.IsMenuOpen("StatsMenu") || \
-		UI.IsMenuOpen("UITextEntryMenu")
+	; IsInMenuMode also covers menus added by other mods, which the old fixed list of vanilla menus missed
+	if Utility.IsInMenuMode()
 		return
 	endif
 	if KeyCode == _Camp_HotkeyCreateItem.GetValueInt()
