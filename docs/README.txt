@@ -20,6 +20,14 @@ Every option, default, hover text and profile key is Campfire's own. Settings ar
 Nothing about how Campfire plays changes. The Campfire plugin and its API (CampUtil and friends) are untouched; only the menu script is
 rebuilt (its settings pages are gone and three helper functions were added for the new pages), and Campfire.dll draws the pages.
 
+CHANGES IN 1.1.2
+----------------
+A perk can no longer be bought without a point to spend. The perk menu checked the points only when a node was clicked, not when the
+purchase was confirmed, so clicks queued while the screen was blocked (for example by the warm-hands idle at a fire) could each pass the check
+and push a tree's points below zero. The check is repeated at the moment of purchase, and a perk at its top rank is not raised again.
+This applies to Campfire's own Camping skill and to the trees other mods add on Campfire's perk menu. The fixed script (CampPerkNodeControllerBehavior)
+is in both builds.
+
 CHANGES IN 1.1.1
 ----------------
 The four hotkeys no longer fire while a menu added by another mod is open. The menu script used to check a fixed list of 16 vanilla

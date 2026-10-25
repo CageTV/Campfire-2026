@@ -48,6 +48,12 @@ REG = os.path.join(HERE, "work", "stage", "regular", "Campfire.esm")
 assert os.path.isfile(REG), f"missing regular plugin: {REG}"
 os.makedirs(os.path.join(DEST, "regular"))
 shutil.copyfile(REG, os.path.join(DEST, "regular", "Campfire.esm"))
+# 1.1.2: the perk menu script with the purchase check, in the original numbering (the ESL layer carries its own renumbered copy)
+os.makedirs(os.path.join(DEST, "regular", "scripts", "source"))
+shutil.copyfile(os.path.join(HERE, "build", "scripts", "campperknodecontrollerbehavior.pex"), os.path.join(DEST, "regular", "scripts", "campperknodecontrollerbehavior.pex"))
+_proper = {n.lower(): n for n in os.listdir(os.path.join(HERE, "src", "scripts"))}
+shutil.copyfile(os.path.join(HERE, "src", "scripts", _proper["campperknodecontrollerbehavior.psc"]),
+                os.path.join(DEST, "regular", "scripts", "source", _proper["campperknodecontrollerbehavior.psc"]))
 os.makedirs(os.path.join(DEST, "fomod"))
 
 config = f"""<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
