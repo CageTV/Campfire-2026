@@ -118,9 +118,13 @@ function ShowPerkDescription(CampPerkNode akPerkNode, bool abEligibleForIncrease
         int j = _Camp_PerkGeneral_UpgradeVerify.Show()    
         ; Are you sure you want this perk? Ok / Cancel    
         if j == 0        
-            akPerkNode.IncreasePerkRank()
-            required_perk_points_available.SetValueInt(required_perk_points_available.GetValueInt() - 1)
-            SendEvent_CampfirePerkPurchased()
+            ; Checked again here: the points may have been spent since this node was clicked (clicks queued while the screen was blocked each
+            ; passed the first check), and a perk at its top rank cannot be raised.
+            if required_perk_points_available.GetValueInt() > 0 && akPerkNode.required_perk_rank_global.GetValueInt() < akPerkNode.required_perk_rank_global_max.GetValueInt()
+                akPerkNode.IncreasePerkRank()
+                required_perk_points_available.SetValueInt(required_perk_points_available.GetValueInt() - 1)
+                SendEvent_CampfirePerkPurchased()
+            endif
         endif
     elseif i == 1
         akPerkNode.required_skill_description.Show(required_perk_points_available.GetValueInt(), \
