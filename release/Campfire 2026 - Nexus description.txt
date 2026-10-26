@@ -1,10 +1,10 @@
 [size=6][b]Campfire 2026[/b][/size]
-[i]Campfire's settings in SKSE Menu Framework, plus an optional ESL build, in one installer. A layer on top of Chesko's Campfire - Complete Camping System.[/i]
+[i]Campfire's settings in SKSE Menu Framework, tear recipes for gear (including gear from your other mods), and an optional ESL build, in one installer. A layer on top of Chesko's Campfire - Complete Camping System.[/i]
 
 [line]
 
 [size=5][b]What it does[/b][/size]
-Campfire 2026 does not replace Campfire. It sits on top of the original and carries only what changed. Campfire plays exactly as before; its plugin, its API (CampUtil and friends), its meshes, textures and sounds are Chesko's.
+Campfire 2026 does not replace Campfire. It sits on top of the original and carries only what changed. Campfire plays as before; its API (CampUtil and friends), its meshes, textures and sounds are Chesko's. What is new: a settings menu in SKSE Menu Framework, and Salvage, which lets you tear leather and cloth gear down at the Survival bench.
 
 [b]Settings in SKSE Menu Framework 3[/b]
 Campfire's options move out of the SkyUI Mod Configuration Menu into a "Campfire" section, with a logo and these pages:
@@ -13,12 +13,35 @@ Campfire's options move out of the SkyUI Mod Configuration Menu into a "Campfire
 [*][b]Gameplay[/b]: campfire building mode, camping legality and flammability, the four hotkeys, what you and your followers take off in a tent
 [*][b]Instincts[/b]: what the Instincts power detects, and its visual and sound effects
 [*][b]Advanced[/b]: advanced object placement and max placement threads, follower tracking, Equipping Overhaul compatibility, and the Camping skill's respec and restore options
+[*][b]Salvage[/b]: the tear recipes for gear from your other mods: switches, an exclusion filter, and a list of every piece found
 [*][b]Profiles[/b]: the 10 settings profiles: pick, rename, reset, automatic save / load
 [/list]
 Every option, default, hover text and profile key is Campfire's own. Settings are saved to the same profile files (Data/SKSE/Plugins/CampfireData), so profiles you already have keep working. The SkyUI menu keeps only the Help page (troubleshooting wizards, tutorials, the guide).
 
+[b]Salvage: tear gear into scraps (new in 1.1.0)[/b]
+Open Campfire's Survival crafting menu (the "Create" menu at your camp) with the piece in your bag. Recipes are listed by what they make.
+[list]
+[*][b]Leather gear[/b] (Leather, Hide, Imperial Light and Studded armor, boots, bracers, helmets): with [b]no dagger[/b] in your bag it tears into [b]Leather Scraps[/b] (6 from armor, 3 from the rest). With [b]any dagger[/b] (Iron to Daedric) you cut it into [b]Leather[/b] (2 from armor, 1 from the rest).
+[*][b]Cloth clothing[/b]: Campfire's own tear recipes now want a dagger and still give Linen Wraps. By hand you get Cloth Scraps, twice the wraps.
+[*][b]Scraps combine[/b]: 3 Leather Scraps make Leather Strips, 8 make Leather, 3 Cloth Scraps make a Linen Wrap; at a campfire, 2 scraps make 2 Kindling.
+[*][b]Patchwork leather tents[/b] (small and large) at the tanning rack: half the Leather is replaced by Leather Scraps.
+[/list]
+The scraps use vanilla meshes, and show like firewood in inventory icon mods. Nothing of Chesko's or Skyrim's assets is packed.
+
+[b]Gear from your other mods (new in 1.1.0)[/b]
+Each time the game starts, Campfire.dll scans every armor in your load order and adds the same two recipes for the pieces Campfire does not already cover: leather, hide, studded, fur, Stormcloak and Imperial light gear; clothing, robes, and cloaks, capes and mantles (including Campfire's own travel cloaks). Shields, jewelry, circlets, enchanted and unplayable items are left alone. The list is built on the fly, so it never goes out of date when you add or remove a mod. On the Salvage page you can switch it off, split leather from cloth, skip every piece whose name or plugin contains a word you type, and untick single pieces in a searchable list of everything it found. Changes apply from the next launch.
+[i]Needs Campfire.dll. The older DLL has it on Skyrim SE/AE 1.6.1130 and older, but not on Skyrim VR (the vanilla Salvage recipes above still work on VR).[/i]
+
 [b]Optional ESL build[/b]
-Campfire.esm as a light plugin, so Campfire takes no regular plugin slot. All 1566 records are renumbered into 000800-000E1D, and the 13 scripts that look records up by hard-coded FormID are rebuilt to match. The numbering is identical to the earlier "CAMPFIRE ESL UPDATED" on every record that mod renumbered, and also covers the 212 records it left out (placed references, cells). The same Campfire.dll serves both builds.
+Campfire.esm as a light plugin, so Campfire takes no regular plugin slot. All 1650 records (Campfire's own plus the Salvage ones) are renumbered into 000800-000E71, and the 13 scripts that look records up by hard-coded FormID are rebuilt to match. The numbering is identical to the earlier "CAMPFIRE ESL UPDATED" on every record that mod renumbered, and also covers the 212 records it left out (placed references, cells). The same Campfire.dll serves both builds.
+
+[b]Which Campfire.dll?[/b]
+The installer asks which [b]Campfire.dll[/b] to use, and pre-selects the right one for your game version:
+[list]
+[*][b]Skyrim 1.6.1170 and newer (SE / AE):[/b] the new build, for 1.6.1170 and every later version, 1.7.x included.
+[*][b]Skyrim VR, or 1.6.1130 and older:[/b] the older build.
+[/list]
+On 1.6.1170 either works.
 
 [line]
 
@@ -27,19 +50,20 @@ Campfire.esm as a light plugin, so Campfire takes no regular plugin slot. All 15
 [*][url=https://www.nexusmods.com/skyrimspecialedition/mods/667]Campfire - Complete Camping System[/url] 1.12.1 SE/VR, [b]kept installed[/b]: it supplies Campfire.bsa, the meshes, textures and sounds
 [*][url=https://www.nexusmods.com/skyrimspecialedition/mods/120352]SKSE Menu Framework 3[/url]: without it the settings pages do not exist
 [*]SKSE64 and [url=https://www.nexusmods.com/skyrimspecialedition/mods/32444]Address Library for SKSE Plugins[/url] [b]for your game version[/b] (Skyrim 1.7.104 needs Address Library v13 or newer)
-[*]SkyUI, PapyrusUtil SE (profiles are saved with it, as the original does)
-[*]Skyrim AE 1.6.1170 and up, including 1.7.x as long as SKSE and the Address Library support it
+[*]SkyUI
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/13048]PapyrusUtil SE[/url] (profiles are saved with it, as the original does). [b]Install it after (below) the original Campfire[/b] in MO2's left pane: the original bundles an outdated PapyrusUtil, and the newer one has to win
+[*]Skyrim SE / AE (the installer picks the matching Campfire.dll), including 1.7.x as long as SKSE and the Address Library support it
 [/list]
 
 [size=5][b]Installation[/b][/size]
 [list=1]
 [*]Install the original Campfire and keep it. If you use the old "CAMPFIRE ESL UPDATED" or "Campfire ESL Script Fixes", remove them first: this replaces both.
-[*]Install Campfire 2026 with your mod manager. The installer asks one question:
+[*]Install Campfire 2026 with your mod manager. The installer asks which build you want, then which Campfire.dll:
 [list]
-[*][b]Regular[/b]: the settings layer only. Works with an existing save.
-[*][b]ESL[/b]: the settings layer plus the light Campfire.esm and its rebuilt scripts. [b]New game only[/b]: an old save refers to Campfire's records by their old ids.
+[*][b]Regular[/b]: the settings layer plus a Campfire.esm that overrides Chesko's. It has every record and id of the original plus 84 new ones (the Salvage recipes), so it works with an existing save and with Frostfall and Last Seed. Masters are unchanged (Skyrim.esm, Update.esm only).
+[*][b]ESL[/b]: the settings layer plus the light Campfire.esm and its rebuilt scripts. [b]New game only[/b] when you switch from the regular build: an old save refers to Campfire's records by their old ids. An existing save from Campfire 2026 1.0.x ESL keeps working: its 1566 ids did not change, the Salvage records use free slots after them.
 [/list]
-[*]Place it after (below) the original Campfire in MO2's left pane so its files win. If you also use "Campfire - Script Optimization", put Campfire 2026 above it so the rebuilt scripts win.
+[*]Place it after (below) the original Campfire in MO2's left pane so its files, Campfire.esm included, win. If you also use "Campfire - Script Optimization", put Campfire 2026 above it so the rebuilt scripts win.
 [*]If you chose ESL, also choose the ESL option in Frostfall 2026, Last Seed 2026 and the Campfire 2026 - Patches installer.
 [/list]
 
@@ -59,7 +83,11 @@ Campfire.esm as a light plugin, so Campfire takes no regular plugin slot. All 15
 Pick only the patches for mods you have. The plugins are the original authors' work, included with their open permissions; the ESL copies differ only in their Campfire references being renumbered (checked record by record).
 
 [size=5][b]Troubleshooting[/b][/size]
-"Campfire.dll: failed to open address library file" at startup: the Address Library for SKSE Plugins is missing or is for an older game version. Install the current one for your game version (any mod manager; it has nothing to do with load order).
+[list]
+[*]"Campfire.dll: failed to open address library file" at startup: the Address Library for SKSE Plugins is missing or is for an older game version. Install the current one for your game version (any mod manager; it has nothing to do with load order).
+[*]No tear recipes for gear from other mods: check Campfire.log in the SKSE log folder for the "CutUp:" lines. They say how many pieces were found and added, or that the Salvage records are missing (then Campfire 2026's Campfire.esm is not the one winning: move it below the original Campfire in MO2). The same page of the settings shows the totals.
+[*]The Survival menu feels slow with a very large load order: use the exclusion words on the Salvage page to leave out whole mods.
+[/list]
 
 [size=5][b]Known differences from the SkyUI menu[/b][/size]
 [list]
@@ -68,9 +96,9 @@ Pick only the patches for mods you have. The plugins are the original authors' w
 [/list]
 
 [size=5][b]Uninstalling[/b][/size]
-Regular: remove the mod; the SkyUI menu works again (all pages come back after a load). ESL: do not remove mid-playthrough, the plugin's ids are in your save.
+Regular: remove the mod; the SkyUI menu works again (all pages come back after a load). Scraps you still carry stay in the save as unknown items; use or drop them first. ESL: do not remove mid-playthrough, the plugin's ids are in your save.
 
 [size=5][b]Credits and permissions[/b][/size]
-Campfire is by Chesko, MIT licensed; so are its plugin and scripts, which this builds on. Campfire.dll, the settings pages and the ESL tooling are by CageTV, MIT.
+Campfire is by Chesko, MIT licensed; so are its plugin and scripts, which this builds on. Campfire.dll, the settings pages and the ESL tooling are by Julio005, My permission you can translate, port to console and DO NOT SELL!
 Source: [url=https://github.com/CageTV/Campfire-2026]github.com/CageTV/Campfire-2026[/url]
 Also from the same family: Frostfall 2026 and Last Seed 2026.
