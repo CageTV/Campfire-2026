@@ -19,7 +19,7 @@ VERSION = sys.argv[1] if len(sys.argv) > 1 else "1.0.0"
 DEST = os.path.join(HERE, "package", "Campfire 2026 - Installer")
 MAIN = os.path.join(HERE, "package", "Campfire 2026")
 ESL = os.path.join(HERE, "package", "Campfire 2026 ESL")
-DLLS = {"new": os.path.join(HERE, "plugin-ng", "build", "release", "Campfire.dll"),
+DLLS = {"new": os.path.join(HERE, "..", "ng-build", "build", "release", "out", "Campfire", "Campfire.dll"),
         "older": os.path.join(HERE, "plugin", "build", "release", "Campfire.dll")}
 for _k, _d in DLLS.items():
     assert os.path.isfile(_d), f"missing {_k} DLL: {_d}"

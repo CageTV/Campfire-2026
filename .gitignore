@@ -10,3 +10,4 @@ reference/
 *.zip
 plugin-ng/build/
 plugin-ng/build.log
+backups/

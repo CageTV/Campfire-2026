@@ -71,6 +71,38 @@ namespace RecipeGuard
 			return c;
 		}
 
+		// Adds "size >= 2 AND stage == 2" to a recipe. Conditions are evaluated as OR groups of ANDs ("A OR B AND C" is "A OR (B AND C)"), so the two
+		// conditions go at the end of every group: after each condition that carries an OR link (it hands the link on to the second new one) and at
+		// the very end.
+		void AddGuard(RE::BGSConstructibleObject* a_cobj, RE::TESGlobal* a_size, RE::TESGlobal* a_stage)
+		{
+			auto make = [&](bool a_or) {
+				auto* first = GlobalCondition(a_size, RE::CONDITION_ITEM_DATA::OpCode::kGreaterThanOrEqualTo, 2.0f);
+				auto* second = GlobalCondition(a_stage, RE::CONDITION_ITEM_DATA::OpCode::kEqualTo, 2.0f);
+				second->data.flags.isOR = a_or;
+				first->next = second;
+				return std::pair{ first, second };
+			};
+			RE::TESConditionItem* last = nullptr;
+			for (auto* c = a_cobj->conditions.head; c; c = c->next) {
+				if (c->data.flags.isOR) {
+					auto [first, second] = make(true);
+					c->data.flags.isOR = false;
+					second->next = c->next;
+					c->next = first;
+					c = second;
+				}
+				last = c;
+			}
+			auto [first, second] = make(false);
+			if (!last) {
+				a_cobj->conditions.head = first;
+			} else {
+				last->data.flags.isOR = false;
+				last->next = first;
+			}
+		}
+
 		// A recipe is already guarded when one of its conditions reads the last used fire's stage.
 		bool ReadsGlobal(const RE::BGSConstructibleObject* a_cobj, const RE::TESGlobal* a_global, bool& a_hasOr)
 		{
@@ -107,7 +139,7 @@ namespace RecipeGuard
 			return;
 		}
 
-		std::size_t seen = 0, guarded = 0, already = 0, skippedOr = 0;
+		std::size_t seen = 0, guarded = 0, already = 0, orRecipes = 0;
 		std::set<std::string> sources;
 		for (auto* cobj : dh->GetFormArray<RE::BGSConstructibleObject>()) {
 			if (!cobj || !cobj->benchKeyword) {
@@ -128,30 +160,17 @@ namespace RecipeGuard
 				++already;
 				continue;
 			}
-			if (hasOr) {
-				// "A OR B AND C" is "A OR (B AND C)": appending an AND would not guard the A branch, so leave these alone.
-				++skippedOr;
-				continue;
-			}
-			auto* tail = cobj->conditions.head;
-			auto* sizeCond = GlobalCondition(size, RE::CONDITION_ITEM_DATA::OpCode::kGreaterThanOrEqualTo, 2.0f);
-			auto* stageCond = GlobalCondition(stage, RE::CONDITION_ITEM_DATA::OpCode::kEqualTo, 2.0f);
-			sizeCond->next = stageCond;
-			if (!tail) {
-				cobj->conditions.head = sizeCond;
-			} else {
-				while (tail->next) {
-					tail = tail->next;
-				}
-				tail->next = sizeCond;
-			}
+			AddGuard(cobj, size, stage);
 			++guarded;
+			if (hasOr) {
+				++orRecipes;
+			}
 			if (const auto* file = cobj->GetFile(0)) {
 				sources.emplace(file->GetFilename());
 			}
 		}
-		SKSE::log::info("RecipeGuard: {} food recipes on Campfire's keywords: {} already need a burning fire, {} now do, {} skipped (they use OR conditions)", seen, already, guarded,
-			skippedOr);
+		SKSE::log::info("RecipeGuard: {} food recipes on Campfire's keywords: {} already need a burning fire, {} now do ({} of them with OR conditions)", seen, already, guarded,
+			orRecipes);
 		for (const auto& s : sources) {
 			SKSE::log::info("RecipeGuard: guarded recipes from {}", s);
 		}

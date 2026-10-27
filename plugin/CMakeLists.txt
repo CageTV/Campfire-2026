@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 
 # Campfire.dll - the SKSE plugin behind Campfire 2026's SKSE Menu Framework settings pages.
-project(Campfire VERSION 1.0.0 LANGUAGES CXX)
+project(Campfire VERSION 1.2.0 LANGUAGES CXX)
 
 find_package(CommonLibSSE CONFIG REQUIRED)
 
