@@ -18,6 +18,7 @@ add_commonlibsse_plugin(${PROJECT_NAME} NAME "Campfire" AUTHOR "CageTV" SOURCES
     ${SRC}/src/Hotkeys.cpp
     ${SRC}/src/Ids.cpp
     ${SRC}/src/CutUp.cpp
+    ${SRC}/src/RecipeGuard.cpp
 )
 
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23)

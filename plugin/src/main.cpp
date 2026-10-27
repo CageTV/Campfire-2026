@@ -7,6 +7,7 @@
 #include "PCH.h"
 #include "CutUp.h"
 #include "Menu.h"
+#include "RecipeGuard.h"
 
 namespace
 {
@@ -30,6 +31,7 @@ namespace
 			Menu::Register();  // SKSE Menu Framework loads after us alphabetically, so register once everything is loaded
 		} else if (a_msg->type == SKSE::MessagingInterface::kDataLoaded) {
 			CutUp::Build();
+			RecipeGuard::Apply();
 		}
 	}
 }
