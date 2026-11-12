@@ -37,6 +37,16 @@ PATCHES = [
      "Makes Campfire's supply barrels and containers match the Immersive Barrels models.", "Immersive Barrels", ""),
     ("los", "LoS II - Campfire addon.esp", "Lanterns Of Skyrim II", "Lanterns of Skyrim II",
      "Gives Campfire's lanterns and lights the Lanterns of Skyrim II lighting.", "Lanterns of Skyrim II", ""),
+    ("embershl", "Embers XD - Patch - Campfire.esp", "Embers XD", "Embers XD - heat sources",
+     "Adds Embers XD's fires to Campfire's heat source lists, so Frostfall treats them as warm.", "Embers XD",
+     "This is the plugin Embers XD ships itself, renumbered for the ESL Campfire. Frostfall 2026 already covers Embers XD through its own Frostfall_Embers_FLM.ini, so you only need this one for the Embers XD heat-source lists without Frostfall 2026. Keep only one copy of this file active."),
+    ("hunterborn", "Hunterborn - Campfire Patch.esp", "Hunterborn", "Hunterborn",
+     "Makes Hunterborn's campfire cooking work with Campfire's cooking pot and campfire.", "Hunterborn (the Nexus mod)",
+     "Not needed with Hunterborn 2026, whose own ESL edition already carries this patch."),
+    ("sotw", "SkillsOfTheWild.esp", "Skills of the Wild - New Campfire Survival Skill Trees", "Skills of the Wild (ESL build only)",
+     "The Skills of the Wild plugin with its Campfire references renumbered for the ESL Campfire. Install it over the original Skills of the Wild.",
+     "Skills of the Wild (Nexus 37693)",
+     "ESL build only: with the regular build nothing is installed, the original plugin is already right. It is the same file that ships in Skills of the Wild 2026, so skip it if you use that."),
     ("roads", "Northern Concept - Northern Roads - Campfire patch.esp", "Northern Concept - Northern Roads", "Northern Roads",
      "Fixes how Campfire's placed objects sit on the Northern Roads road meshes.", "Northern Roads", ""),
     ("sfho", "Simple Food and Hunting Overhaul - Campfire.esp", "Simple Food Hunting and Cooking Overhaul", "Simple Food and Hunting Overhaul",
@@ -44,6 +54,10 @@ PATCHES = [
     ("blankets", "Use Those Blankets - Campfire Patch.esp", "Use Those Blankets Campfire Patch", "Use Those Blankets",
      "Lets Use Those Blankets treat Campfire's bedrolls and tents as sleeping spots.", "Use Those Blankets", ""),
 ]
+HLIST = r"H:\Modlists\Tabula\mods"
+ROOT = {"embershl": HLIST, "hunterborn": HLIST, "sotw": HLIST}  # source mod folders that are not in the old E: instance
+ESL_DIR = {k: os.path.join(HERE, "esl-work", "patches_embers") for k in ("embershl", "hunterborn", "sotw")}
+ESL_ONLY = {"sotw"}  # nothing to install for the regular build
 # the shared (build-independent) files of a patch: everything in its mod folder except the plugin and MO2's meta.ini
 EXTRA_DIRS = {"dak": "Campfire - Dynamic Activation Key"}
 
@@ -52,7 +66,14 @@ if os.path.exists(DEST):
 os.makedirs(os.path.join(DEST, "fomod"))
 
 
+# The old E: instance folders the original nine patches came from are gone; the previous release's package holds their plugins
+# (the regular ones are the authors' originals) and the DAK extras. Fallback root: the extracted "Campfire 2026 - Patches 1.0.0" zip.
+OLD = os.environ.get("PATCHES_OLD_PKG", "")
+
+
 def put(src, rel):
+    if not os.path.exists(src) and OLD:
+        src = os.path.join(OLD, rel)
     dst = os.path.join(DEST, rel)
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     shutil.copyfile(src, dst)
@@ -60,13 +81,25 @@ def put(src, rel):
 
 nexus = {}
 for key, plugin, mod, title, what, req, note in PATCHES:
-    put(os.path.join(MODS, mod, plugin), f"regular/{plugin}")
-    put(os.path.join(ESL, plugin), f"esl/{plugin}")
+    root = ROOT.get(key, MODS)
+    if key not in ESL_ONLY:
+        put(os.path.join(root, mod, plugin), f"regular/{plugin}")
+    put(os.path.join(ESL_DIR.get(key, ESL), plugin), f"esl/{plugin}")
     ini = configparser.ConfigParser()
-    ini.read(os.path.join(MODS, mod, "meta.ini"), encoding="utf-8")
+    ini.read(os.path.join(root, mod, "meta.ini"), encoding="utf-8")
     nexus[key] = ini.get("General", "modid", fallback="?")
+    if nexus[key] == "?" and OLD and os.path.exists(os.path.join(OLD, "README.txt")):
+        for line in open(os.path.join(OLD, "README.txt"), encoding="utf-8"):
+            if line.strip().startswith(title + ":"):
+                nexus[key] = line.strip().rsplit("/", 1)[-1]
 for key, mod in EXTRA_DIRS.items():
     root = os.path.join(MODS, mod)
+    if not os.path.isdir(root) and OLD:
+        for dp, _, fs in os.walk(os.path.join(OLD, "common", key)):
+            for fn in fs:
+                p = os.path.join(dp, fn)
+                put(p, f"common/{key}/{os.path.relpath(p, os.path.join(OLD, 'common', key))}")
+        continue
     for dp, _, fs in os.walk(root):
         for fn in fs:
             p = os.path.join(dp, fn)
@@ -113,6 +146,8 @@ def conditional():
     out = ["  <conditionalFileInstalls>", "    <patterns>"]
     for key, plugin, *_ in PATCHES:
         for build in ("regular", "esl"):
+            if build == "regular" and key in ESL_ONLY:
+                continue
             out += ["      <pattern>", "        <dependencies operator=\"And\">", f'          <flagDependency flag="build" value="{build}"/>',
                     f'          <flagDependency flag="p_{key}" value="on"/>', "        </dependencies>",
                     f'        <files><file source="{build}\\{escape(plugin)}" destination="{escape(plugin)}"/></files>', "      </pattern>"]
