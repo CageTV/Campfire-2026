@@ -53,13 +53,18 @@ PATCHES = [
      "Brings Simple Food and Hunting Overhaul's food and recipes to Campfire's cooking pot and campfire.", "Simple Food and Hunting Overhaul", ""),
     ("blankets", "Use Those Blankets - Campfire Patch.esp", "Use Those Blankets Campfire Patch", "Use Those Blankets",
      "Lets Use Those Blankets treat Campfire's bedrolls and tents as sleeping spots.", "Use Those Blankets", ""),
+    ("woodcutting", "Woodcutting Tweaks - Campfire Patch.esp", "Woodcutting Tweaks - Campfire Patch", "Woodcutting Tweaks",
+     "Lets you craft a portable woodchopping block from Campfire's Create Item menu (4 firewood and 1 treelog) and place it in the world like any Campfire item. Using it needs a woodcutter's axe in your inventory. Includes the four scripts that make that work.",
+     "Woodcutting Tweaks (Nexus 53538); Open Animation Replacer for its own animation patch",
+     "The regular plugin is the author's original. The ESL copy has its two Campfire references renumbered (the workbench keyword and one furniture keyword): the original resolves them to the wrong records with the ESL Campfire, so the portable block recipe cannot work. Install after Campfire 2026, and keep only one copy of this plugin active."),
 ]
 HLIST = r"H:\Modlists\Tabula\mods"
-ROOT = {"embershl": HLIST, "hunterborn": HLIST, "sotw": HLIST}  # source mod folders that are not in the old E: instance
+ROOT = {"embershl": HLIST, "hunterborn": HLIST, "sotw": HLIST, "woodcutting": HLIST}  # source mod folders that are not in the old E: instance
 ESL_DIR = {k: os.path.join(HERE, "esl-work", "patches_embers") for k in ("embershl", "hunterborn", "sotw")}
+ESL_DIR["woodcutting"] = os.path.join(HERE, "esl-work", "patches_woodcutting")
 ESL_ONLY = {"sotw"}  # nothing to install for the regular build
 # the shared (build-independent) files of a patch: everything in its mod folder except the plugin and MO2's meta.ini
-EXTRA_DIRS = {"dak": "Campfire - Dynamic Activation Key"}
+EXTRA_DIRS = {"dak": "Campfire - Dynamic Activation Key", "woodcutting": "Woodcutting Tweaks - Campfire Patch"}
 
 if os.path.exists(DEST):
     shutil.rmtree(DEST)
@@ -93,7 +98,7 @@ for key, plugin, mod, title, what, req, note in PATCHES:
             if line.strip().startswith(title + ":"):
                 nexus[key] = line.strip().rsplit("/", 1)[-1]
 for key, mod in EXTRA_DIRS.items():
-    root = os.path.join(MODS, mod)
+    root = os.path.join(ROOT.get(key, MODS), mod)
     if not os.path.isdir(root) and OLD:
         for dp, _, fs in os.walk(os.path.join(OLD, "common", key)):
             for fn in fs:
