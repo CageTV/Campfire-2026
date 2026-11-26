@@ -58,7 +58,7 @@ PATCHES = [
      "Woodcutting Tweaks (Nexus 53538); Open Animation Replacer for its own animation patch",
      "The regular plugin is the author's original. The ESL copy has its two Campfire references renumbered (the workbench keyword and one furniture keyword): the original resolves them to the wrong records with the ESL Campfire, so the portable block recipe cannot work. Install after Campfire 2026, and keep only one copy of this plugin active."),
     ("utenlands", "Utenlands Nordic Tents - Campfire Addon.esp", "Utenlands Nordic Tents - Replacer and Campfire Addon", "Utenlands Nordic Tents (ESL build only)",
-     "The Utenlands Nordic Tents Campfire addon (craftable Nordic tents) with its Campfire references renumbered for the ESL Campfire. Install it over the original plugin. Selected for you when the ESL build is chosen and the Utenlands addon plugin is active.",
+     "The Utenlands Nordic Tents Campfire addon (craftable Nordic tents) with its Campfire references renumbered for the ESL Campfire. Install it over the original plugin.",
      "Utenlands Nordic Tents - Replacer and Campfire Addon (Nexus 121203)",
      "ESL build only: with the regular build nothing is installed, the original plugin is already right. The original links all 37 Campfire records it uses (keywords, tent markers, their cell) by the regular FormIDs, which point at other records or at nothing in the ESL Campfire, so its tents cannot be pitched properly. Give this mod a higher priority than the Utenlands mod in MO2 so this copy wins."),
 ]
@@ -69,8 +69,25 @@ ESL_DIR = {k: os.path.join(HERE, "esl-work", "patches_embers") for k in ("embers
 ESL_DIR["woodcutting"] = os.path.join(HERE, "esl-work", "patches_woodcutting")
 ESL_DIR["utenlands"] = os.path.join(HERE, "esl-work", "patches_utenlands")
 ESL_ONLY = {"sotw", "utenlands"}  # nothing to install for the regular build
-# auto-select: these options are Recommended (pre-ticked) when the ESL build is chosen and the named plugin is active, else Optional
-AUTO_ESL = {"utenlands": "Utenlands Nordic Tents - Campfire Addon.esp"}
+# auto-select: an option is Recommended (pre-ticked) when any of its plugins is active, else Optional. The plugins are the mod the patch is
+# for (the patch's own masters), or for a patch with no such master the plugin its parent mod ships. ESL-only: the patch normally comes
+# inside the mod it patches (same file name), so with the regular build the user already has it; pre-tick it only for the ESL build.
+AUTO = {  # key: (plugins that mean "this mod is installed", pre-tick only with the ESL build)
+    "fish": (["ccBGSSSE001-Fish.esm"], False),
+    "dak": (["Dynamic Activation Key.esp"], False),
+    "meat": (["Simple Hunting Overhaul.esp"], False),
+    "embers": (["Embers XD.esp"], False),
+    "barrels": (["Immersive Barrels - Base Object Swapper.esp", "Immersive Barrels - Campfire.esp"], True),
+    "los": (["Lanterns Of Skyrim II.esm"], True),
+    "embershl": (["Embers XD.esp"], True),
+    "hunterborn": (["Hunterborn.esp"], True),
+    "sotw": (["SkillsOfTheWild.esp"], True),
+    "roads": (["Northern Roads.esp"], False),
+    "sfho": (["Simple Food and Hunting Overhaul - Campfire.esp"], True),
+    "blankets": (["Use Those Blankets.esp"], False),
+    "woodcutting": (["Woodcutting Tweaks.esp"], False),
+    "utenlands": (["Utenlands Nordic Tents - Campfire Addon.esp"], True),
+}
 # the shared (build-independent) files of a patch: everything in its mod folder except the plugin and MO2's meta.ini
 EXTRA_DIRS = {"dak": "Campfire - Dynamic Activation Key", "woodcutting": "Woodcutting Tweaks - Campfire Patch"}
 
@@ -148,14 +165,14 @@ def patches_step():
     out = ['    <installStep name="Patches">', "      <optionalFileGroups>", '        <group name="Pick the patches for the mods you use" type="SelectAny">', '          <plugins order="Explicit">']
     for key, plugin, mod, title, what, req, note in PATCHES:
         desc = f"{what}\n\nRequires: {req}." + (f"\n\n{note}" if note else "")
-        if key in AUTO_ESL:
-            td = ["              <typeDescriptor>", "                <dependencyType>", '                  <defaultType name="Optional"/>', "                  <patterns>",
-                  "                    <pattern>", '                      <dependencies operator="And">', '                        <flagDependency flag="build" value="esl"/>',
-                  f'                        <fileDependency file="{escape(AUTO_ESL[key])}" state="Active"/>', "                      </dependencies>",
-                  '                      <type name="Recommended"/>', "                    </pattern>", "                  </patterns>", "                </dependencyType>",
-                  "              </typeDescriptor>"]
-        else:
-            td = ['              <typeDescriptor><type name="Optional"/></typeDescriptor>']
+        files, esl_only = AUTO[key]  # every patch has an entry: a KeyError here means a new patch without its auto-select rule
+        deps = [f'                          <fileDependency file="{escape(f)}" state="Active"/>' for f in files]
+        any_of = ['                        <dependencies operator="Or">', *deps, "                        </dependencies>"]
+        build = ['                        <flagDependency flag="build" value="esl"/>'] if esl_only else []
+        td = ["              <typeDescriptor>", "                <dependencyType>", '                  <defaultType name="Optional"/>', "                  <patterns>",
+              "                    <pattern>", '                      <dependencies operator="And">', *build, *any_of, "                      </dependencies>",
+              '                      <type name="Recommended"/>', "                    </pattern>", "                  </patterns>", "                </dependencyType>",
+              "              </typeDescriptor>"]
         out += [f'            <plugin name="{escape(title)}">', f"              <description>{escape(desc)}</description>",
                 f'              <conditionFlags><flag name="p_{key}">on</flag></conditionFlags>', *td, "            </plugin>"]
     out += ["          </plugins>", "        </group>", "      </optionalFileGroups>", "    </installStep>"]
