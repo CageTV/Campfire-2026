@@ -57,12 +57,20 @@ PATCHES = [
      "Lets you craft a portable woodchopping block from Campfire's Create Item menu (4 firewood and 1 treelog) and place it in the world like any Campfire item. Using it needs a woodcutter's axe in your inventory. Includes the four scripts that make that work.",
      "Woodcutting Tweaks (Nexus 53538); Open Animation Replacer for its own animation patch",
      "The regular plugin is the author's original. The ESL copy has its two Campfire references renumbered (the workbench keyword and one furniture keyword): the original resolves them to the wrong records with the ESL Campfire, so the portable block recipe cannot work. Install after Campfire 2026, and keep only one copy of this plugin active."),
+    ("utenlands", "Utenlands Nordic Tents - Campfire Addon.esp", "Utenlands Nordic Tents - Replacer and Campfire Addon", "Utenlands Nordic Tents (ESL build only)",
+     "The Utenlands Nordic Tents Campfire addon (craftable Nordic tents) with its Campfire references renumbered for the ESL Campfire. Install it over the original plugin. Selected for you when the ESL build is chosen and the Utenlands addon plugin is active.",
+     "Utenlands Nordic Tents - Replacer and Campfire Addon (Nexus 121203)",
+     "ESL build only: with the regular build nothing is installed, the original plugin is already right. The original links all 37 Campfire records it uses (keywords, tent markers, their cell) by the regular FormIDs, which point at other records or at nothing in the ESL Campfire, so its tents cannot be pitched properly. Give this mod a higher priority than the Utenlands mod in MO2 so this copy wins."),
 ]
 HLIST = r"H:\Modlists\Tabula\mods"
-ROOT = {"embershl": HLIST, "hunterborn": HLIST, "sotw": HLIST, "woodcutting": HLIST}  # source mod folders that are not in the old E: instance
+CLIST = r"C:\Modlists\Tabula\mods"
+ROOT = {"embershl": HLIST, "hunterborn": HLIST, "sotw": HLIST, "woodcutting": HLIST, "utenlands": CLIST}  # source mod folders that are not in the old E: instance
 ESL_DIR = {k: os.path.join(HERE, "esl-work", "patches_embers") for k in ("embershl", "hunterborn", "sotw")}
 ESL_DIR["woodcutting"] = os.path.join(HERE, "esl-work", "patches_woodcutting")
-ESL_ONLY = {"sotw"}  # nothing to install for the regular build
+ESL_DIR["utenlands"] = os.path.join(HERE, "esl-work", "patches_utenlands")
+ESL_ONLY = {"sotw", "utenlands"}  # nothing to install for the regular build
+# auto-select: these options are Recommended (pre-ticked) when the ESL build is chosen and the named plugin is active, else Optional
+AUTO_ESL = {"utenlands": "Utenlands Nordic Tents - Campfire Addon.esp"}
 # the shared (build-independent) files of a patch: everything in its mod folder except the plugin and MO2's meta.ini
 EXTRA_DIRS = {"dak": "Campfire - Dynamic Activation Key", "woodcutting": "Woodcutting Tweaks - Campfire Patch"}
 
@@ -140,9 +148,16 @@ def patches_step():
     out = ['    <installStep name="Patches">', "      <optionalFileGroups>", '        <group name="Pick the patches for the mods you use" type="SelectAny">', '          <plugins order="Explicit">']
     for key, plugin, mod, title, what, req, note in PATCHES:
         desc = f"{what}\n\nRequires: {req}." + (f"\n\n{note}" if note else "")
+        if key in AUTO_ESL:
+            td = ["              <typeDescriptor>", "                <dependencyType>", '                  <defaultType name="Optional"/>', "                  <patterns>",
+                  "                    <pattern>", '                      <dependencies operator="And">', '                        <flagDependency flag="build" value="esl"/>',
+                  f'                        <fileDependency file="{escape(AUTO_ESL[key])}" state="Active"/>', "                      </dependencies>",
+                  '                      <type name="Recommended"/>', "                    </pattern>", "                  </patterns>", "                </dependencyType>",
+                  "              </typeDescriptor>"]
+        else:
+            td = ['              <typeDescriptor><type name="Optional"/></typeDescriptor>']
         out += [f'            <plugin name="{escape(title)}">', f"              <description>{escape(desc)}</description>",
-                f'              <conditionFlags><flag name="p_{key}">on</flag></conditionFlags>',
-                '              <typeDescriptor><type name="Optional"/></typeDescriptor>', "            </plugin>"]
+                f'              <conditionFlags><flag name="p_{key}">on</flag></conditionFlags>', *td, "            </plugin>"]
     out += ["          </plugins>", "        </group>", "      </optionalFileGroups>", "    </installStep>"]
     return "\n".join(out) + "\n"
 
@@ -190,6 +205,8 @@ USE
 Install after Campfire 2026 (or Campfire 2026 ESL). Do not combine the regular and ESL patches, and do not use these together with the
 patch's own download or with "CAMPFIRE ESL UPDATED" / "Campfire ESL - Patch Remaps".
 If the patch's mod already ships the same plugin file name (several are bundled inside their parent mod), keep only one copy active.
+In Mod Organizer 2 give this mod a HIGHER priority (lower in the left pane) than those mods, or their original copy wins and the ESL
+patches do nothing.
 
 The "Fishing" patch replaces the older "Campfire - Fishing Patch": use one of them, not both.
 
